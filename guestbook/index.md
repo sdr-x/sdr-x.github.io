@@ -7,11 +7,11 @@ thread: 616
 
 Leave comments to me by:
 
-1. putaoshu@gmail.com (Linkedin also)
+1. [putaoshu@gmail.com](putaoshu@gmail.com) (Linkedin also)
 
-2. create issues to https://github.com/JiaoXianjun
+2. create issues to [https://github.com/JiaoXianjun](https://github.com/JiaoXianjun)
 
-3. Chinese twitter: http://www.weibo.com/reentry
+3. Chinese twitter: [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
 
 4. QQ: 19004528
 
