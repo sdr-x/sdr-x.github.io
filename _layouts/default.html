@@ -17,13 +17,13 @@
         <h1>{{ page.title }}</h1>
         </header>
         <nav>
-        <span><a title="网站首页" class="" href="/">首页</a></span>
-        <span><a title="文章分类" class="" href="/categories/">分类</a></span>
-        <span><a title="标签索引" class="" href="/tags/">标签</a></span>
-        <!--<span><a title="友情链接" class="" href="/links/">链接</a></span>-->
-        <span><a title="留言交流" class="" href="/guestbook/">留言</a></span>
-        <span><a title="关于站长" class="" href="/about/">关于</a></span>
-        <span><a title="种子订阅" class="" href="/feed/" target="_blank">订阅</a></span>
+        <span><a title="Dashboard" class="" href="/">Dashboard</a></span>
+        <span><a title="Categories" class="" href="/categories/">Categories</a></span>
+        <span><a title="Tags" class="" href="/tags/">Tags</a></span>
+        <!--<span><a title="Links" class="" href="/links/">Links</a></span>-->
+        <span><a title="Comments" class="" href="/guestbook/">Comments</a></span>
+        <span><a title="About" class="" href="/about/">About</a></span>
+        <span><a title="RSS" class="" href="/feed/" target="_blank">RSS</a></span>
         </nav>
         <article class="content">
         {{ content }}
@@ -32,8 +32,8 @@
 
     <footer>
         <p><small>
-            <a href="http://github.com/{{ site.github }}/NET/new/gh-pages/_posts" target="_blank" title="撰写文章">Po</a>wer<a href="http://github.com/{{ site.github }}/NET/edit/gh-pages/{{ page.path }}" target="_blank" title="编辑页面">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/NET" target="_blank" title="项目主页">GitHub</a>
-             | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="许可协议">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
+            <a href="http://github.com/{{ site.github }}/NET/new/gh-pages/_posts" target="_blank" title="Write-New-Blog">Po</a>wer<a href="http://github.com/{{ site.github }}/NET/edit/gh-pages/{{ page.path }}" target="_blank" title="Edit-Page">ed</a> by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a href="http://github.com/{{ site.github }}/NET" target="_blank" title="Project-Homepage">GitHub</a>
+             | <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/cn/" target="_blank" title="License">©</a> 2004 - {{site.time | date:"%Y"}} <a href="/about/">{{ site.author }}</a>
 {% if site.beian %}
              | <a href="http://www.miibeian.gov.cn" target="_blank">{{ site.beian }}</a>
 {% endif %}
