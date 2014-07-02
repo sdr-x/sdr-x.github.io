@@ -19,6 +19,12 @@ Email：[{{ site.email }}](mailto:{{ site.email }})
 
 GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
 
+Chinese twitter: http://www.weibo.com/reentry
+
+Wechat: spaceshuttle
+
+
+
 ----
 
 
