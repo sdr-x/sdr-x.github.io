@@ -7,7 +7,7 @@ thread: 616
 
 Leave comments to me by:
 
-1. putaoshu@gmail.com
+1. putaoshu@gmail.com (Linkedin also)
 
 2. create issues to https://github.com/JiaoXianjun
 
