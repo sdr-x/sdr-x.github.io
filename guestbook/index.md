@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 留言
+title: Discussion
 comments: yes
 thread: 616
 ---
 
-来了，就留下你的足迹吧。
+Please leave comments here.
