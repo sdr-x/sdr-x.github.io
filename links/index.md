@@ -1,8 +1,8 @@
 ---
-title: 链接
+title: links
 layout: page
 comments: yes
 ---
 
-暂无
+Coming soon.
 
