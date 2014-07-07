@@ -11,7 +11,7 @@ tags:  asn1c ASN1 LTE SIB decoding RRC
 
 This method's main reference is: http://blog.csdn.net/peng_yw/article/details/22437251
 
-This doc is used to explain how parse_SIB() works: https://github.com/JiaoXianjun/LTE-Cell-Scanner/Matlab/LTE_DL_receiver.m
+This doc is used to explain how parse_SIB() of Matlab/LTE_DL_receiver.m works: https://github.com/JiaoXianjun/LTE-Cell-Scanner
 
 -------------------------------------------------------------------------------------
 
