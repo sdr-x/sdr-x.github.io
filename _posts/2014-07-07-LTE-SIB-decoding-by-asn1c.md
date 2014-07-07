@@ -92,4 +92,4 @@ where recv_bits.per is a binary file which contains received RRC message bits (c
 
 # 4. Some SIBs I decoded
 
-## 4.1 [2360MHz at Beijing, China](../about/index.md)
+## 4.1 [2360MHz at Beijing, China](../_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
