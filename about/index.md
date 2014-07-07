@@ -21,7 +21,7 @@ Website：[{{ site.name }}]({{ site.url }})
 
 Email：[{{ site.email }}](mailto:{{ site.email }})
 
-GitHub : [http://github.com/{{ site.github }}](https://github.com/{{ site.github }})
+GitHub : [https://github.com/{{ site.github }}](https://github.com/{{ site.github }})
 
 Chinese twitter: [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
 
