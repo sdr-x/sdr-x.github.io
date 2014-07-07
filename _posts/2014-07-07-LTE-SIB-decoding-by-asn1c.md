@@ -51,7 +51,7 @@ copy 36331-ac0.asn here, and
 
 		asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn
 
-# 2.1 modify converter-sample.c:
+## 2.1 modify converter-sample.c:
 
 add 
 
@@ -63,7 +63,7 @@ after
 
 		#include <asn_internal.h>
 
-# 2.2 modify per_opentype.c:
+## 2.2 modify per_opentype.c:
 
 add 
 
@@ -77,7 +77,7 @@ and comment out following:
 
 		_ASN_DECODE_FAILED;
 
-# 2.3 compile the decoding program
+## 2.3 compile the decoding program
 
 		make -f Makefile.am.sample
 
@@ -90,4 +90,65 @@ here we get LTE RRC ASN1 decoding program: progname
 where recv_bits.per is a binary file which contains received RRC message bits (can be gotten by HACKRF and https://github.com/JiaoXianjun/LTE-Cell-Scanner ) . "-p" specify message type. For example, SIB is carried on PDSCH, and its type is BCCH-DL-SCH-Message.
 
 
+# 4. Some SIBs I decoded
+
+## 4.1 2360MHz at Beijing, China
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformationBlockType1>
+                <cellAccessRelatedInfo>
+                    <plmn-IdentityList>
+                        <PLMN-IdentityInfo>
+                            <plmn-Identity>
+                                <mcc>
+                                    <MCC-MNC-Digit>4</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>6</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                </mcc>
+                                <mnc>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                </mnc>
+                            </plmn-Identity>
+                            <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+                        </PLMN-IdentityInfo>
+                    </plmn-IdentityList>
+                    <trackingAreaCode>
+                        0001000100100111
+                    </trackingAreaCode>
+                    <cellIdentity>
+                        0001010010000110110000000001
+                    </cellIdentity>
+                    <cellBarred><notBarred/></cellBarred>
+                    <intraFreqReselection><allowed/></intraFreqReselection>
+                    <csg-Indication><false/></csg-Indication>
+                </cellAccessRelatedInfo>
+                <cellSelectionInfo>
+                    <q-RxLevMin>-62</q-RxLevMin>
+                </cellSelectionInfo>
+                <p-Max>23</p-Max>
+                <freqBandIndicator>40</freqBandIndicator>
+                <schedulingInfoList>
+                    <SchedulingInfo>
+                        <si-Periodicity><rf16/></si-Periodicity>
+                        <sib-MappingInfo><sibType3/>
+                        </sib-MappingInfo>
+                    </SchedulingInfo>
+                    <SchedulingInfo>
+                        <si-Periodicity><rf32/></si-Periodicity>
+                        <sib-MappingInfo><sibType5/>
+                        </sib-MappingInfo>
+                    </SchedulingInfo>
+                </schedulingInfoList>
+                <tdd-Config>
+                    <subframeAssignment><sa2/></subframeAssignment>
+                    <specialSubframePatterns><ssp7/></specialSubframePatterns>
+                </tdd-Config>
+                <si-WindowLength><ms40/></si-WindowLength>
+                <systemInfoValueTag>25</systemInfoValueTag>
+            </systemInformationBlockType1>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
 
