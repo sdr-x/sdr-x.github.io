@@ -27,11 +27,11 @@ get lameditor from http://sourceforge.net/projects/lameditor/
 
 compile and install lameditor.
 
-cd lameditor-1.0/src/getasn/
+		cd lameditor-1.0/src/getasn/
 
 copy 36331-ac0.txt here, and 
 
-./getasn 36331-ac0.txt
+		./getasn 36331-ac0.txt
 
 now we have 36331-ac0.asn
 
@@ -41,17 +41,17 @@ get asn1c from https://github.com/vlm/asn1c
 
 compile and install asn1c.
 
-cd asn1c/examples/
+		cd asn1c/examples/
 
-mkdir sample.source.LTERRC
+		mkdir sample.source.LTERRC
 
-cd sample.source.LTERRC
+		cd sample.source.LTERRC
 
 copy 36331-ac0.asn here, and
 
-asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn
+		asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn
 
-modify converter-sample.c:
+# 2.1 modify converter-sample.c:
 
 add 
 
@@ -63,7 +63,7 @@ after
 
 		#include <asn_internal.h>
 
-modify per_opentype.c:
+# 2.2 modify per_opentype.c:
 
 add 
 
@@ -77,15 +77,17 @@ and comment out following:
 
 		_ASN_DECODE_FAILED;
 
-make -f Makefile.am.sample
+# 2.3 compile the decoding program
+
+		make -f Makefile.am.sample
 
 here we get LTE RRC ASN1 decoding program: progname
 
 # 3. usage of LTE RRC ASN1 decoding program: progname
 
-./progname recv_bits.per -p BCCH-DL-SCH-Message
+		./progname recv_bits.per -p BCCH-DL-SCH-Message
 
-where recv_bits.per is a binary file which contains received RRC message bits. "-p" specify message type. For example, SIB is carried on PDSCH, its type is BCCH-DL-SCH-Message.
+where recv_bits.per is a binary file which contains received RRC message bits (can be gotten by HACKRF and https://github.com/JiaoXianjun/LTE-Cell-Scanner ) . "-p" specify message type. For example, SIB is carried on PDSCH, and its type is BCCH-DL-SCH-Message.
 
 
 
