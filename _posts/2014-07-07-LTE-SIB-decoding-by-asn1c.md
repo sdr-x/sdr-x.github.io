@@ -7,11 +7,15 @@ categories: lte
 tags:  asn1c ASN1 LTE SIB decoding RRC
 ---
 
+-----------------------------------------------------------------------------------
+
 This method's main reference is: http://blog.csdn.net/peng_yw/article/details/22437251
 
-This doc is used to explain how p
+This doc is used to explain how parse_SIB() works [github.com/JiaoXianjun/LTE-Cell-Scanner/Matlab/ LTE_DL_receiver.m](github.com/JiaoXianjun/LTE-Cell-Scanner/Matlab/ LTE_DL_receiver.m)
 
-1. generate LTE RRC spec's ASN1 description
+-------------------------------------------------------------------------------------
+
+# 1. generate LTE RRC spec's ASN1 description
 
 download 36.331 spec from http://www.3gpp.org/ftp/Specs/archive/36_series/36.331/
 
@@ -31,7 +35,7 @@ copy 36331-ac0.txt here, and
 
 now we have 36331-ac0.asn
 
-2. generate ASN1 decoding program for LTE RRC message
+# 2. generate ASN1 decoding program for LTE RRC message
 
 get asn1c from https://github.com/vlm/asn1c
 
@@ -77,7 +81,7 @@ make -f Makefile.am.sample
 
 here we get LTE RRC ASN1 decoding program: progname
 
-3. usage of LTE RRC ASN1 decoding program: progname
+# 3. usage of LTE RRC ASN1 decoding program: progname
 
 ./progname recv_bits.per -p BCCH-DL-SCH-Message
 
