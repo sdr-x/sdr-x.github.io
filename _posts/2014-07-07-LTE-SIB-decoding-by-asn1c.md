@@ -51,25 +51,27 @@ modify converter-sample.c:
 
 add 
 
-#define PDU BCCH_DL_SCH_Message
+		#define PDU BCCH_DL_SCH_Message
 
-#define ASN_PDU_COLLECTION
+		#define ASN_PDU_COLLECTION
 
 after 
 
-#include <asn_internal.h>
+		#include <asn_internal.h>
 
 modify per_opentype.c:
 
 add 
 
-padding = padding % 8;
+		padding = padding % 8;
 
-after ASN_DEBUG("Too large padding %d in open type", (int)padding);
+after 
+
+		ASN_DEBUG("Too large padding %d in open type", (int)padding);
 
 and comment out following:
 
-_ASN_DECODE_FAILED;
+		_ASN_DECODE_FAILED;
 
 make -f Makefile.am.sample
 
