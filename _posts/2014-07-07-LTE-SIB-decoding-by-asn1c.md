@@ -1,8 +1,8 @@
 ---
 date: 2014-07-07 17:23:00
 layout: post
-title: How to decode LTE RRC/SIB/ASN1 messages by asn1c
-thread: 166
+title: How to decode LTE RRC/SIB/ASN1 messages by lameditor and asn1c
+thread: 24
 categories: lte
 tags:  asn1c ASN1 LTE SIB decoding RRC
 ---
