@@ -11,7 +11,7 @@ tags:  asn1c ASN1 LTE SIB decoding RRC
 
 This method's main reference is: <http://blog.csdn.net/peng_yw/article/details/22437251>
 
-This doc is used to explain how parse_SIB() of Matlab/LTE_DL_receiver.m works ( .m file is in <https://github.com/JiaoXianjun/LTE-Cell-Scanner> , which is an open source OpenCL accelerated TDD/FDD LTE Cell Scanner -- from A/D samples to RRC messages (PDSCH) out for 20MHz LTE. )
+This doc is used to explain how *parse_SIB()* of *Matlab/LTE_DL_receiver.m* works ( .m file is in <https://github.com/JiaoXianjun/LTE-Cell-Scanner> , which is an open source OpenCL accelerated TDD/FDD LTE Cell Scanner -- from A/D samples to RRC messages (PDSCH) out for 20MHz LTE. )
 
 -------------------------------------------------------------------------------------
 
@@ -19,9 +19,9 @@ This doc is used to explain how parse_SIB() of Matlab/LTE_DL_receiver.m works ( 
 
 download 36.331 spec from <http://www.3gpp.org/ftp/Specs/archive/36_series/36.331/>
 
-unzip: 36331-ac0.zip --> 36331-ac0.doc
+unzip: *36331-ac0.zip* --> *36331-ac0.doc*
 
-save 36331-ac0.doc as 36331-ac0.txt.
+save *36331-ac0.doc* as *36331-ac0.txt*.
 
 get lameditor from <http://sourceforge.net/projects/lameditor/>
 
@@ -33,13 +33,13 @@ copy 36331-ac0.txt here, and
 
 		./getasn 36331-ac0.txt
 
-now we have 36331-ac0.asn
+now we have *36331-ac0.asn*
 
 # 2. generate ASN1 decoding program for LTE RRC message
 
 get asn1c from <https://github.com/vlm/asn1c>
 
-compile and install asn1c.
+compile and install *asn1c*.
 
 		cd asn1c/examples/
 
@@ -47,7 +47,7 @@ compile and install asn1c.
 
 		cd sample.source.LTERRC
 
-copy 36331-ac0.asn here, and
+copy *36331-ac0.asn* here, and
 
 		asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn
 
@@ -81,13 +81,13 @@ and comment out following:
 
 		make -f Makefile.am.sample
 
-here we get LTE RRC ASN1 decoding program: progname
+here we get LTE RRC ASN1 decoding program: *progname*
 
-# 3. usage of LTE RRC ASN1 decoding program: progname
+# 3. usage of LTE RRC ASN1 decoding program: *progname*
 
 		./progname recv_bits.per -p BCCH-DL-SCH-Message
 
-where recv_bits.per is a binary file which contains received RRC message bits (can be gotten by HACKRF and <https://github.com/JiaoXianjun/LTE-Cell-Scanner> ) . "-p" specify message type. For example, SIB is carried on PDSCH, and its type is BCCH-DL-SCH-Message.
+where *recv_bits.per* is a binary file which contains received RRC message bits (can be gotten by HACKRF and <https://github.com/JiaoXianjun/LTE-Cell-Scanner> ) . "-p" specify message type. For example, SIB is carried on PDSCH, and its type is *BCCH-DL-SCH-Message*.
 
 
 # 4. Some SIBs I decoded
