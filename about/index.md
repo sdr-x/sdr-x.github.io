@@ -23,7 +23,7 @@ Email：[{{ site.email }}](mailto:{{ site.email }})
 
 GitHub : [https://github.com/{{ site.github }}](https://github.com/{{ site.github }})
 
-Chinese twitter: [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
+Chinese twitter (sina weibo): [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
 
 Wechat: spaceshuttle
 
