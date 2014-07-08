@@ -1,7 +1,7 @@
 ---
 date: 2014-07-08 13:29:00
 layout: post
-title: test if Chinese words can be shown normally
+title: test if 中文 words can be shown normally
 thread: 26
 categories: test
 tags:  test
