@@ -10,7 +10,9 @@ tags:  LTE Cell-Search Beijing China TD-LTE
 -----------------------------------------------------------------------------------
 
 New deteced:
+
 1865MHz; FDD; 100RB; Cell ID 86, 48; 2 ANT ports;
+
 1871.75MHz; FDD; 25RB; Cell ID 271, 272; 2 ANT ports;
 
 Former result:
