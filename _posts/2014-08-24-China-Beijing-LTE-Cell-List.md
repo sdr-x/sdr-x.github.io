@@ -10,19 +10,8 @@ tags:  LTE Cell-Search Beijing China TD-LTE
 -----------------------------------------------------------------------------------
 
 New deteced:
-1865MHz
-Detected the following cells:
-DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
-DPX CID A      fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
-FDD  86 2   1865M         26.1k -21.2 N 100 N one 1.0000140009338869262
-FDD  48 2   1865M         26.1k -25.5 N 100 N one 1.0000139996549028965
-
-1871.75MHz
-Detected the following cells:
-DPX:TDD/FDD; A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type
-DPX CID A       fc   freq-offset RXPWR C nRB P  PR CrystalCorrectionFactor
-FDD 271 2 1871.75M                     N  25 N one
-FDD 272 2 1871.75M                     N  25 N one
+1865MHz; FDD; 100RB; Cell ID 86, 48; 2 ANT ports;
+1871.75MHz; FDD; 25RB; Cell ID 271, 272; 2 ANT ports;
 
 Former result:
 
