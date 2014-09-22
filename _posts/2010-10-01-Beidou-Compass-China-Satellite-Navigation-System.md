@@ -2,7 +2,7 @@
 date: 2010-10-01 12:00:00
 layout: post
 title: 北斗卫星导航系统介绍(Introduction of Beidou/Compass China Satellite Navigation System)
-thread: 12
+thread: 123
 categories: satellite
 tags:  GPS Compass Beidou China
 ---
