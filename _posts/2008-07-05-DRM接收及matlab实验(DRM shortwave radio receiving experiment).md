@@ -1,4 +1,16 @@
 ---
+date: 2010-10-01 12:00:00
+layout: post
+title: 北斗卫星导航系统介绍(Introduction of Beidou/Compass China Satellite Navigation System)
+thread: 123
+categories: satellite
+tags:  GPS Compass Beidou China
+---
+
+# 1 概述
+
+
+---
 date: 2008-07-05 12:00:00
 layout: post
 title: DRM接收及matlab实验(DRM shortwave radio receiving experiment)
