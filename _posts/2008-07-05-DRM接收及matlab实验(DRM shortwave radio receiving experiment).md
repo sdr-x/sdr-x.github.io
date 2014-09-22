@@ -7,7 +7,7 @@ categories: radio
 tags:  DRM shortwave radio Matlab SDR
 ---
 
-(原文刊于我被关闭的sina博客)
+(原文刊于被sina关闭的我的sina博客)
 
 先给出一些跟本文有点关系的一些网站链接： 
 
