@@ -15,26 +15,9 @@ tags:  GPS Compass Beidou China
 
 北斗一代：
 
-|卫星代号|发射日期|
-|--------|--------|
-|BeiDou-1A(又称北斗一号01星)|2000年10月31日|
-
-<table>
-    <tbody>
-        <tr>
-            <td>key</td>
-            <td>key</td>
-            <td>key</td>
-            <td>key</td>
-        </tr>
-        <tr>
-            <td>value</td>
-            <td>value</td>
-            <td>value</td>
-            <td>value</td>
-        </tr>
-    </tbody>
-</table>
+|卫星代号|发射日期|运载工具|发射场|卫星轨道|性质
+|--------|--------|--------|------|--------|----
+|BeiDou-1A(又称北斗一号01星)|2000年10月31日|长征3号甲|西昌|地球静止轨道（轨道高度36000km），东经140度|工作
 
 
 ![](../old中文article/搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描小区MIB_files/image050.jpg)
