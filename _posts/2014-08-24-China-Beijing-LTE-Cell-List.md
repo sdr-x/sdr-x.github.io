@@ -2,7 +2,7 @@
 date: 2014-08-24 12:00:00
 layout: post
 title: LTE Cell detected in Beijing China
-thread: 12
+thread: 11
 categories: lte
 tags:  LTE Cell-Search Beijing China TD-LTE
 ---
