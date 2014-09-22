@@ -7,16 +7,23 @@ categories: radio
 tags:  DRM shortwave radio Matlab SDR
 ---
 
-先给出一些跟本文有点关系的一些网站链接： 
+(原文刊于我被关闭的sina博客)
 
 先给出一些跟本文有点关系的一些网站链接： 
+
 http://drm.sourceforge.net/    drm的ofdm一直到声音解码源程序,编译后可以在windows下执行,也有drm真实声卡采集信号,可以用于测试自己的程序,也有许多收音机的drm改装指导 
+
 http://www.amqrp.org/kits/softrock40/ 一种基于计算机声卡的软件化接收机软硬件 
+
 http://www.sat-schneider.de/DRM/DRM.htm    一个DRM设备制造商,我的DRM变频器就是按他们的方案作的. 
+
 http://www.hellocq.net/web/index.php    hellocq当然不能少,国内ham高水平技术社区,大量的diy作品活跃地 
+
 http://gnuradio.org/trac        无线通信技术也可以开源,我期望着通信自由解放的那一天,打倒一切盈利性运营商! 
+
 http://oscar.dcarr.org/ssrp/    一个GNU radio的低成本硬件实现方案; 
-  
+
+
 DRM是Digital Radio Mondiale的简称,说白了就是30MHz以下的数字广播技术(现在也被扩展到了传统的调频广播88~108MHz频段).中波广播是525~1605kHz,短波广播一般是3MHz~30MHz,又叫HF频段,高频频段.总之30MHz以下存在许多的广播电台在播发调幅广播信号,也有业余无线电爱好者使用单边带方式进行通信，例如LSB或者USB方式，也有SSTV慢扫描电视，卫星云图播发，CW方式即等幅报摩尔斯电码什么的。 
   
 不好意思又给人科普上了。 
@@ -40,6 +47,7 @@ DRM梦想是美好的，一个问题是，传统的收音机只能解调模拟�
 ![](../media/drm2.png)
 
 图中的阻容值以及芯片型号已经给出，只是那个150uH的振荡线圈（电感）比较难搞，我是用收音机中周自己改绕其中线圈实现的，具体电感量的调整使用电感表测量辅助进行。 
+
 DRM变频器（用洞洞板做的，那些几千p的CBB电容个头真不小，瓷片的会好一些）最后做出来的样子如下： 
 
 ![](../media/drm3.png)
@@ -59,7 +67,9 @@ DRM变频器（用洞洞板做的，那些几千p的CBB电容个头真不小，�
 可以看到变频后的中心频率在12kHz左右。在北京将收音机调谐在中波639kHz后，就可以从电脑里听到清晰的dream软件解调出的声音了。 
   
 感兴趣的还可以用matlab实现非实时离线解调,具体方法如下: 
+
 y  = wavrecord(10*44100, 44100, 1);%用44.1kHz采样率采集10秒钟声卡信号 
+
 P=pwelch(y); semilogy((0:(length(P)-1)).*(44.1/2)./(length(P)-1),P);grid on;xlabel('kHz');%看看采集信号的功率谱 
 
 ![](../media/drm7.png)
@@ -67,9 +77,13 @@ P=pwelch(y); semilogy((0:(length(P)-1)).*(44.1/2)./(length(P)-1),P);grid on;xlab
 中间的尖即12kHz载波频率，不断放大发现我的变频器输出的精确频率是11.9038kHz 
   
 接下来就可以对y进行离线解调了，matlab提供了现成的解调函数，也可以自己编写。首先给解调设计一个16阶带宽为4kHz的巴特沃兹低通滤波器： 
+
 [num,den] = butter(16,4000/(44100/2)); 
+
 对y进行解调并回放声音： 
+
 z = amdemod(y,11903.8,44100,0,0.0,num,den);wavplay(z, 44100); 
+
 此时一般你会听到10秒钟的解调出的广播声音。 
   
 既然已经可以编程序了，那么可作的工作就很多了，改变滤波器设计，设计AGC算法，进行同步检波等等，单边带解调（这个matlab也有现成函数）、SSTV等解调。以上是离线方式。以上内嵌功能其实在simulink中都有对应模块，按道理simulink是可能实现实时解调的，但我的IBM x61笔记本运行simulink也无法实现实时解调，看来得搞一块dsp板，直接让simulink在上面跑才有可能？总觉得现在的计算机硬件应该是能够让simulink实时解调的，毕竟dream软件进行OFDM实时解调也才有很低的cpu占用率，只能怪matlab的simulink的运行效率太低了。 
