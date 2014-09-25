@@ -1,5 +1,5 @@
 ---
-date: 2008-07-05 12:00:00
+date: 2014-08-09 12:00:00
 layout: post
 title: 使用lameditor和asn1c开源工具解析北京LTE现网 RRC SIB ASN1消息
 thread: 153
