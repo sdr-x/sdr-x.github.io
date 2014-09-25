@@ -73,9 +73,9 @@ asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu
 
 在#include <asn_internal.h>后面，加入： 
 
-#define PDU BCCH_DL_SCH_Message 
+\#define PDU BCCH_DL_SCH_Message 
 
-#define ASN_PDU_COLLECTION 
+\#define ASN_PDU_COLLECTION 
   
 文件per_opentype.c: 
 
