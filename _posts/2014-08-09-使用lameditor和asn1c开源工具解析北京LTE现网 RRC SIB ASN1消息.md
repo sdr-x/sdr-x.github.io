@@ -3,7 +3,7 @@ date: 2008-07-05 12:00:00
 layout: post
 title: 使用lameditor和asn1c开源工具解析北京LTE现网 RRC SIB ASN1消息
 thread: 153
-categories: radio
+categories: lte
 tags:  asn1c lameditor LTE RRC SIB ASN1 Beijing 4G
 ---
 
