@@ -13,7 +13,8 @@ tags:  DRM shortwave radio SDR mixer
 
 翻了一下自己之前的帖子"DRM接收及matlab实验"
 
-http://sdr-x.github.io/DRM%E6%8E%A5%E6%94%B6%E5%8F%8Amatlab%E5%AE%9E%E9%AA%8C(DRM%20shortwave%20radio%20receiving%20experiment) 
+[](http://sdr-x.github.io/DRM%E6%8E%A5%E6%94%B6%E5%8F%8Amatlab%E5%AE%9E%E9%AA%8C(DRM%20shortwave%20radio%20receiving%20experiment\)/)
+
 发现竟然是2年前了。 
 
 今天终于听到稳定的DRM广播信号了。短波频段传来了稳定清晰地广播音，真的很强大！DRM可能真有能力救活“几乎已经没人听”的短波广播。 
