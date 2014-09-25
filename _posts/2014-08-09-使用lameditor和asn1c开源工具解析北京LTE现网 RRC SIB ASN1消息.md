@@ -102,8 +102,8 @@ recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p�
 运行命令之后，会打印出解析出来的SIB消息各个字段的名称、内容。 
   
   
-附件(2.5KB) [f2360_s19.2_bw20_1s_hackrf_SIB.txt](../_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
+附件(2.5KB) [f2360_s19.2_bw20_1s_hackrf_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
 
-附件(4.5KB) [f2585_s19.2_bw20_1s_hackrf_1_SIB.txt](../_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
+附件(4.5KB) [f2585_s19.2_bw20_1s_hackrf_1_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_s19.2_bw20_1s_hackrf_SIB.txt)
 
-附件(11.3KB) [f2585_s19.2_bw20_1s_hackrf_SIB.txt](../_resource/f2585_s19.2_bw20_1s_hackrf_SIB.txt)
+附件(11.3KB) [f2585_s19.2_bw20_1s_hackrf_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_s19.2_bw20_1s_hackrf_1_SIB.txt)
