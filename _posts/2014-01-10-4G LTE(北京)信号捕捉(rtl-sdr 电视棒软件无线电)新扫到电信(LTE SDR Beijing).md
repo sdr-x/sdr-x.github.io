@@ -80,8 +80,53 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 奇怪的是除了中心频率1860，居然在1860.9也检测到一个下行信道，不知道是虚假的还是真的远方小区信号窜过来的。
 
 CID|A |fc     |foff  |RXPWR|C |nRB|P |PR |CrystalCorrectionFactor
----|--|-------|------|-----|--|---|--|---|------------------------
+-----|-----|-------|------|-----|------|------|------|-----|------------------------
 22 |2 |1860M  |-39.5k|-12.2|N |100|N |one|0.99997877433266058045
-245|2 |1860.9M|-57.3k|-30.6|N |25 |N |1\/6|0.99996918467920425933
+245|2 |1860.9M|-57.3k|-30.6|N |25 |N |1/6|0.99996918467920425933
 
+上面第一列是小区ID，第二列是基站下行天线端口数量，第三列载波频率，第四列为频偏（和我用的破电视棒有关系，不表示信号质量），接下来一列为接收功 率，再接下来表示循环前缀CP类型为normal而不是extended，接下来是RB数量第一个小区100RB（即20MHz带宽LTE配置），第二个 小区25RB（是一个5MHz小区），再接下来是PHICH 信道duration为normal类型而不是extended类型，再接下来是PHICH信道的REs组的数量有关的一个参数，20MHz小区为 1,25MHz小区为1/6，这些都是运营商可配的参数。最后是一个用于本地硬件时钟校准的估计值，即依靠LTE信号校准这个破USB电视棒。
+这个软件还能动态监视天线端口0、1的信噪比以及PSS/SSS信道的信噪比、信道的幅度、相位响应。
 
+最新发现，在立水桥同样的频率，可以得到除了Cell ID之外都很像的两个小区信息，不过信号比雍和宫要弱。 
+
+  Found Elonics E4000 tuner 
+  
+  Waiting for AGC to converge... 
+  
+  Examining center frequency 1860 MHz ... 
+  
+  Capturing live data 
+  
+    Calculating PSS correlations 
+    
+    Searching for and examining correlation peaks... 
+    
+    Detected a cell! 
+    
+      cell ID: 86 
+      
+      RX power level: -36.1527 dB 
+      
+      residual frequency offset: -39689.7 Hz 
+      
+    Detected a cell! 
+    
+      cell ID: 142 
+      
+      RX power level: -40.2478 dB 
+      
+      residual frequency offset: -39696.3 Hz 
+      
+  Detected the following cells: 
+  
+  A: #antenna ports C: CP type ; P: PHICH duration ; PR: PHICH resource type 
+  
+  CID|A|fc|foff|RXPWR|C|nRB|P|PR|CrystalCorrectionFactor
+  ----|----|----|----|----|----|----|----|----|-------
+  86 |2 |  1860M |-39.7k| -36.2| N |100| N |one| 0.99997866189535433712 
+  142| 2 |  1860M |-39.7k| -40.2| N |100| N| one| 0.99997865837659749566 
+
+地点39.951908,116.420465，近雍和宫，3层北向室内。
+联通2145-2170MHz，看起来像2个并行的5MHz信号，中心频率分别为2147.5MHz和2152.5MHz。由于工具的原因，未能解调，调试中。
+
+![](../media/yonghegong_auto_gain_2145_2170.png)
