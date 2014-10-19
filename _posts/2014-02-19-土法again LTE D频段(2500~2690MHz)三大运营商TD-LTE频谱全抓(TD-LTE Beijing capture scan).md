@@ -11,7 +11,7 @@ tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scan
 
 继续折腾rtl-sdr电视棒。
 
-在这篇 [4G LTE(北京)信号捕捉(rtl-sdr 电视棒软件无线电)新扫到电信(LTE SDR Beijing)](http://sdr-x.github.io/4G%20LTE%28%E5%8C%97%E4%BA%AC%29%E4%BF%A1%E5%8F%B7%E6%8D%95%E6%8D%89%28rtl-sdr%20%E7%94%B5%E8%A7%86%E6%A3%92%E8%BD%AF%E4%BB%B6%E6%97%A0%E7%BA%BF%E7%94%B5%29%E6%96%B0%E6%89%AB%E5%88%B0%E7%94%B5%E4%BF%A1%28LTE%20SDR%20Beijing%29/) 里，利用电视棒自身的扫频能力尝试扫描LTE频谱，而这篇播客里，借鉴了别人的一种电视棒频带扩展方法成功的扫描到D频段的LTE信号! 方法很简单，给电视棒加装一个变频器，且看细细道来。
+在这篇 [4G LTE(北京)信号捕捉(rtl-sdr 电视棒软件无线电)新扫到电信(LTE SDR Beijing)](http://sdr-x.github.io/4G%20LTE%28%E5%8C%97%E4%BA%AC%29%E4%BF%A1%E5%8F%B7%E6%8D%95%E6%8D%89%28rtl-sdr%20%E7%94%B5%E8%A7%86%E6%A3%92%E8%BD%AF%E4%BB%B6%E6%97%A0%E7%BA%BF%E7%94%B5%29%E6%96%B0%E6%89%AB%E5%88%B0%E7%94%B5%E4%BF%A1%28LTE%20SDR%20Beijing%29/) 里，利用电视棒自身的扫频能力尝试扫描LTE频谱，而在本篇博客里，借鉴了别人的一种电视棒频带扩展方法成功的扫描到D频段的LTE信号! 方法很简单，给电视棒加装一个变频器，且看细细道来。
 
 先来频带扩展之后扫到的D频段真相吧。
 
