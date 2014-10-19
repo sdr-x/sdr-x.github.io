@@ -62,12 +62,19 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 使用LTE-Cell-Scanner （ https://github.com/Evrytania/LTE-Cell-Scanner ）成功解调如下信息：
 
   Detected a cell!
+  
     cell ID: 22
+    
     RX power level: -12.1782 dB
+    
     residual frequency offset: -39480.6 Hz
+    
   Detected a cell!
+  
     cell ID: 245
+    
     RX power level: -30.5947 dB
+    
     residual frequency offset: -57346 Hz
 
 奇怪的是除了中心频率1860，居然在1860.9也检测到一个下行信道，不知道是虚假的还是真的远方小区信号窜过来的。
