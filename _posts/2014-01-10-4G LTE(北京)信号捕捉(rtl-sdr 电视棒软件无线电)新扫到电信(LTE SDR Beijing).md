@@ -60,6 +60,7 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 ![](../media/yonghegong_auto_gain_1850_1880.png)
 
 使用LTE-Cell-Scanner （ https://github.com/Evrytania/LTE-Cell-Scanner ）成功解调如下信息：
+
   Detected a cell!
     cell ID: 22
     RX power level: -12.1782 dB
@@ -74,3 +75,4 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
   CID A      fc   foff RXPWR C nRB P  PR CrystalCorrectionFactor
    22 2   1860M -39.5k -12.2 N 100 N one 0.99997877433266058045
   245 2 1860.9M -57.3k -30.6 N  25 N 1/6 0.99996918467920425933
+  
