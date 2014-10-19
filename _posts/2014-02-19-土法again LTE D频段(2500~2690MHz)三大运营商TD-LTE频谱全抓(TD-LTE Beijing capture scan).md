@@ -1,11 +1,11 @@
----------------------------
+---
 date: 2014-02-19 12:00:00
 layout: post
 title: 土法again LTE D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓(TD-LTE Beijing capture scan)
-thread: 332
-categories: radio
-tags:  LTE SDR 4G Beijing
------------------------------
+thread: 193
+categories: LTE
+tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scan
+---
 
 (原文刊于被sina关闭的我的sina博客)
 
