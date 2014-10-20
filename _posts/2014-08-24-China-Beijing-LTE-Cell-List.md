@@ -23,4 +23,4 @@ China Telecomm:
 
 Former result:
 
-![](../old中文article/搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描小区MIB_files/image050.jpg)
+![](../media/initial-cells-get-in-beijing.png)
