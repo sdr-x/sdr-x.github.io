@@ -46,7 +46,7 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 
 [土法again LTE D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓(TD-LTE Beijing capture scan)](http://sdr-x.github.io/%E5%9C%9F%E6%B3%95again%20LTE%20D%E9%A2%91%E6%AE%B5%282500~2690MHz%29%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86TD-LTE%E9%A2%91%E8%B0%B1%E5%85%A8%E6%8A%93%28TD-LTE%20Beijing%20capture%20scan%29/)
 
-[搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描小区MIB](link)
+[搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描LTE MIB (rtl sdr LTE Cell Scanner)](http://sdr-x.github.io/%E6%90%9E%E5%AE%9ALTE%20Scanner%E7%9A%84TDD%E4%BB%A5%E5%8F%8ALNB%E6%A8%A1%E5%BC%8F,rtl-sdr%E7%94%B5%E8%A7%86%E6%A3%92%E6%89%AB%E6%8F%8FLTE%20MIB%20%28rtl%20sdr%20LTE%20Cell%20Scanner%29/)
 
 [OpenCL加速LTE小区搜索(rtl-sdr电视棒)半秒扫一个频点!](link)
 
@@ -81,7 +81,7 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 
 ![](../media/yonghegong_auto_gain_1850_1880.png)
 
-使用LTE-Cell-Scanner （ https://github.com/Evrytania/LTE-Cell-Scanner ）成功解调如下信息：
+使用LTE-Cell-Scanner [https://github.com/Evrytania/LTE-Cell-Scanner](https://github.com/Evrytania/LTE-Cell-Scanner)成功解调如下信息：
 
   Detected a cell!
   
