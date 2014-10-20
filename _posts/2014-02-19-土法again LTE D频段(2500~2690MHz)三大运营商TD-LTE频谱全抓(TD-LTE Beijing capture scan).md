@@ -4,7 +4,7 @@ layout: post
 title: 土法again LTE D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓(TD-LTE Beijing capture scan)
 thread: 193
 categories: LTE
-tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner MMDS-LNB LNB
+tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner MMDS-LNB LNB rtl-sdr
 ---
 
 (原文刊于被sina关闭的我的sina博客)
@@ -21,7 +21,7 @@ tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner MMDS-LNB LNB
 
 根据这里
 
-http://it.sohu.com/20131120/n390446437.shtml
+[http://it.sohu.com/20131120/n390446437.shtml](http://it.sohu.com/20131120/n390446437.shtml)
 
 的说法，2500～2690为TD-LTE频段，具体为：
 
