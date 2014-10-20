@@ -41,7 +41,6 @@ tags:  LTE rtl-sdr SDR 4G Cell-Search Cell-Scanner Beijing MMDS-LNB LNB
 
 前段时间这个[4G LTE(北京)信号捕捉(rtl-sdr 电视棒软件无线电)新扫到电信(LTE SDR Beijing)](http://sdr-x.github.io/4G%20LTE%28%E5%8C%97%E4%BA%AC%29%E4%BF%A1%E5%8F%B7%E6%8D%95%E6%8D%89%28rtl-sdr%20%E7%94%B5%E8%A7%86%E6%A3%92%E8%BD%AF%E4%BB%B6%E6%97%A0%E7%BA%BF%E7%94%B5%29%E6%96%B0%E6%89%AB%E5%88%B0%E7%94%B5%E4%BF%A1%28LTE%20SDR%20Beijing%29/)
  和 [土法again LTE D频段(2500~2690MHz)三大运营商TD-LTE频谱全抓(TD-LTE Beijing capture scan)](http://sdr-x.github.io/%E5%9C%9F%E6%B3%95again%20LTE%20D%E9%A2%91%E6%AE%B5%282500~2690MHz%29%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86TD-LTE%E9%A2%91%E8%B0%B1%E5%85%A8%E6%8A%93%28TD-LTE%20Beijing%20capture%20scan%29/)
-
 主要是频谱扫描，扫描到1860,1880，2565, 2585, 2605, 2645MHz中心频率有疑似20MHz带宽LTE频谱，但仅成功解调1860的电信FDD-LTE的小区MIB信息。
 
 原因是这个LTE-Cell-Scanner仅支持FDD模式：
@@ -61,8 +60,8 @@ https://github.com/JiaoXianjun/LTE-Cell-Scanner
 于是我写了一个前置的采样频偏补偿模块，先于原来的LTE-Cell-Scanner程序调用，并且简单的把原来的程序改为仅对付载波频偏（使它认为无采样频偏，因为前面补偿过了），于是也能检测2500~2700MHz里的LTE信号了。代码在此：
 
 https://github.com/JiaoXianjun/LTE-Cell-Scanner
-    
-做了一个简单的视频：
+
+做了一个简单的demo记录视频：
 
 youku： http://v.youku.com/v_show/id_XNjc1MjIzMDEy.html
 
