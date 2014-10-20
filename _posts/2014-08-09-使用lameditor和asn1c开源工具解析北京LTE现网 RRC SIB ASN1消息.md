@@ -39,11 +39,11 @@ English version： [http://sdr-x.github.io/LTE-SIB-decoding-by-asn1c/](http://sd
   
 然后执行： 
   
-cd lameditor-1.0/src/getasn/ 
+  cd lameditor-1.0/src/getasn/ 
   
 把36331-ac0.txt拷贝到上述目录，然后运行： 
 
-./getasn 36331-ac0.txt 
+  ./getasn 36331-ac0.txt 
   
 至此，得到LTE协议的ASN1描述文件36331-ac0.asn 
   
@@ -57,15 +57,15 @@ cd lameditor-1.0/src/getasn/
   
 然后执行： 
   
-cd asn1c/examples/ 
-
-mkdir sample.source.LTERRC 
-
-cd sample.source.LTERRC 
+  cd asn1c/examples/ 
+  
+  mkdir sample.source.LTERRC 
+  
+  cd sample.source.LTERRC 
   
 把第一步里得到的36331-ac0.asn拷贝到目录sample.source.LTERRC，然后执行： 
   
-asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn 
+  asn1c  -S /usr/local/share/asn1c -fcompound-names -fskeletons-copy -gen-PER -pdu=auto 36331-ac0.asn 
   
 得到编译工具所需的源文件。在正式编译我们所需的工具之前，需要对源文件做如下修改： 
   
@@ -87,7 +87,7 @@ padding = padding % 8;
   
 现在编译解码工具，执行： 
   
-make -f Makefile.am.sample 
+  make -f Makefile.am.sample 
   
 得到解码工具progname 
   
@@ -95,7 +95,7 @@ make -f Makefile.am.sample
   
 执行： 
   
-./progname recv_bits.per -p BCCH-DL-SCH-Message 
+  ./progname recv_bits.per -p BCCH-DL-SCH-Message 
   
 recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p用来指定消息类型，PDSCH上的SIB的消息类型为：BCCH-DL-SCH-Message 
   
