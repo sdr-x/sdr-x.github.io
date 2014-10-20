@@ -9,7 +9,7 @@ tags:  LTE rtl-sdr SDR 4G Cell-Search Cell-Scanner Beijing MMDS-LNB LNB
 
 (原文刊于被sina关闭的我的sina博客)
 
-首先关于LTE频率，网上都有，比如这里： [http://labs.chinamobile.com/news/101634_p2]()
+首先关于LTE频率，网上都有，比如这里： [http://labs.chinamobile.com/news/101634_p2](http://labs.chinamobile.com/news/101634_p2)
 
 简单总结就是：
 
@@ -45,11 +45,11 @@ tags:  LTE rtl-sdr SDR 4G Cell-Search Cell-Scanner Beijing MMDS-LNB LNB
 
 原因是这个LTE-Cell-Scanner仅支持FDD模式：
 
-https://github.com/Evrytania/LTE-Cell-Scanner
+[https://github.com/Evrytania/LTE-Cell-Scanner](https://github.com/Evrytania/LTE-Cell-Scanner)
 
 鉴于TD-LTE和FDD的LTE差别有限，于是我给上面的软件加入了TDD支持，链接如下：
 
-https://github.com/JiaoXianjun/LTE-Cell-Scanner
+[https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
 （因为里面有大量空中抓取的信号样本，所以初次clone较慢，之后增量pull就会比较快了。） 
 
@@ -59,12 +59,12 @@ https://github.com/JiaoXianjun/LTE-Cell-Scanner
 
 于是我写了一个前置的采样频偏补偿模块，先于原来的LTE-Cell-Scanner程序调用，并且简单的把原来的程序改为仅对付载波频偏（使它认为无采样频偏，因为前面补偿过了），于是也能检测2500~2700MHz里的LTE信号了。代码在此：
 
-https://github.com/JiaoXianjun/LTE-Cell-Scanner
+[https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
 做了一个简单的demo记录视频：
 
-youku： http://v.youku.com/v_show/id_XNjc1MjIzMDEy.html
+youku： [http://v.youku.com/v_show/id_XNjc1MjIzMDEy.html](http://v.youku.com/v_show/id_XNjc1MjIzMDEy.html)
 
-youtube：http://www.youtube.com/watch?v=4zRLgxzn4Pc
+youtube：[http://www.youtube.com/watch?v=4zRLgxzn4Pc](http://www.youtube.com/watch?v=4zRLgxzn4Pc)
 
 新浪视频直接给我审核不通过。。。。
