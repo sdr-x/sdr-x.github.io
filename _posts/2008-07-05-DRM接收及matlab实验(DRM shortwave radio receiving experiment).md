@@ -11,17 +11,17 @@ tags:  DRM shortwave radio Matlab SDR
 
 先给出一些跟本文有点关系的一些网站链接： 
 
-http://drm.sourceforge.net/    drm的ofdm一直到声音解码源程序,编译后可以在windows下执行,也有drm真实声卡采集信号,可以用于测试自己的程序,也有许多收音机的drm改装指导 
+[http://drm.sourceforge.net/](http://drm.sourceforge.net/)    drm的ofdm一直到声音解码源程序,编译后可以在windows下执行,也有drm真实声卡采集信号,可以用于测试自己的程序,也有许多收音机的drm改装指导 
 
-http://www.amqrp.org/kits/softrock40/ 一种基于计算机声卡的软件化接收机软硬件 
+[http://www.amqrp.org/kits/softrock40/](http://www.amqrp.org/kits/softrock40/) 一种基于计算机声卡的软件化接收机软硬件 
 
-http://www.sat-schneider.de/DRM/DRM.htm    一个DRM设备制造商,我的DRM变频器就是按他们的方案作的. 
+[http://www.sat-schneider.de/DRM/DRM.htm](http://www.sat-schneider.de/DRM/DRM.htm)    一个DRM设备制造商,我的DRM变频器就是按他们的方案作的. 
 
-http://www.hellocq.net/web/index.php    hellocq当然不能少,国内ham高水平技术社区,大量的diy作品活跃地 
+[http://www.hellocq.net/web/index.php](http://www.hellocq.net/web/index.php)    hellocq当然不能少,国内ham高水平技术社区,大量的diy作品活跃地 
 
-http://gnuradio.org/trac        无线通信技术也可以开源,我期望着通信自由解放的那一天,打倒一切盈利性运营商! 
+[http://gnuradio.org/trac](http://gnuradio.org/trac)        无线通信技术也可以开源,我期望着通信自由解放的那一天,打倒一切盈利性运营商! 
 
-http://oscar.dcarr.org/ssrp/    一个GNU radio的低成本硬件实现方案; 
+[http://oscar.dcarr.org/ssrp/](http://oscar.dcarr.org/ssrp/)    一个GNU radio的低成本硬件实现方案; 
 
 
 DRM是Digital Radio Mondiale的简称,说白了就是30MHz以下的数字广播技术(现在也被扩展到了传统的调频广播88~108MHz频段).中波广播是525~1605kHz,短波广播一般是3MHz~30MHz,又叫HF频段,高频频段.总之30MHz以下存在许多的广播电台在播发调幅广播信号,也有业余无线电爱好者使用单边带方式进行通信，例如LSB或者USB方式，也有SSTV慢扫描电视，卫星云图播发，CW方式即等幅报摩尔斯电码什么的。 
@@ -42,7 +42,7 @@ DRM梦想是美好的，一个问题是，传统的收音机只能解调模拟�
 
 收音机我选用了国内的乐信的RP2100,它自带455kHz的中频输出接口,省去了我拆收音机焊线引出455kHz信号的麻烦.455kHz至12kHz的变频器是自己DIY的,计算机就遍地都是了,测试软件可以从网络上下载.值得一提的是,按照上面的方案不光可以接收DRM信号,也可以接受其他信号,因为软件实现各种解调方式是十分容易的,比如RP2100不具备单边带、CW、SSTV等接收功能，使用上面的方案之后，利用计算机软件就能实现接收以上信号的功能了。 
   
-变频器的电路原理图如下，引自：http://www.sat-schneider.de/DRM/DRM.htm 
+变频器的电路原理图如下，引自：[http://www.sat-schneider.de/DRM/DRM.htm ](http://www.sat-schneider.de/DRM/DRM.htm)
 
 ![](../media/drm2.png)
 
@@ -68,9 +68,9 @@ DRM变频器（用洞洞板做的，那些几千p的CBB电容个头真不小，�
   
 感兴趣的还可以用matlab实现非实时离线解调,具体方法如下: 
 
-y  = wavrecord(10*44100, 44100, 1);%用44.1kHz采样率采集10秒钟声卡信号 
+  y  = wavrecord(10*44100, 44100, 1);%用44.1kHz采样率采集10秒钟声卡信号 
 
-P=pwelch(y); semilogy((0:(length(P)-1)).*(44.1/2)./(length(P)-1),P);grid on;xlabel('kHz');%看看采集信号的功率谱 
+  P=pwelch(y); semilogy((0:(length(P)-1)).*(44.1/2)./(length(P)-1),P);grid on;xlabel('kHz');%看看采集信号的功率谱 
 
 ![](../media/drm7.png)
 
@@ -78,11 +78,11 @@ P=pwelch(y); semilogy((0:(length(P)-1)).*(44.1/2)./(length(P)-1),P);grid on;xlab
   
 接下来就可以对y进行离线解调了，matlab提供了现成的解调函数，也可以自己编写。首先给解调设计一个16阶带宽为4kHz的巴特沃兹低通滤波器： 
 
-[num,den] = butter(16,4000/(44100/2)); 
+  [num,den] = butter(16,4000/(44100/2)); 
 
 对y进行解调并回放声音： 
 
-z = amdemod(y,11903.8,44100,0,0.0,num,den);wavplay(z, 44100); 
+  z = amdemod(y,11903.8,44100,0,0.0,num,den);wavplay(z, 44100); 
 
 此时一般你会听到10秒钟的解调出的广播声音。 
   
