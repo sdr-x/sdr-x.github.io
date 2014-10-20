@@ -40,7 +40,7 @@ DRM广播信号不是24小时都有的，我整理了一下网上关于DRM播出
   
 # 3. 连接线
 
-我是参照"DRM – Miniature Mixer Unit with crystal option"做的混频器（http://www.sat-schneider.de）。 （那个NE602本振所需要的电感做出来真是够费劲。）。发现它的音频输出线不能太长。我之前一直用了一根大概2米的音频延长线，偶然发现这个延长线不同的收纳和摆放方式对接收影响很大，后来干脆弄了短线，效果变好明显。 
+我是参照"DRM – Miniature Mixer Unit with crystal option"做的混频器（[http://www.sat-schneider.de](http://www.sat-schneider.de)）。 （那个NE602本振所需要的电感做出来真是够费劲。）。发现它的音频输出线不能太长。我之前一直用了一根大概2米的音频延长线，偶然发现这个延长线不同的收纳和摆放方式对接收影响很大，后来干脆弄了短线，效果变好明显。 
   
 # 4. 干扰
 
