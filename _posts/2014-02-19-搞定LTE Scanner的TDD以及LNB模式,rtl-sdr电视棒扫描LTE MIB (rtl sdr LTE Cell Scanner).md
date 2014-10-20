@@ -9,7 +9,7 @@ tags:  LTE rtl-sdr SDR 4G Cell-Search Cell-Scanner Beijing MMDS-LNB LNB
 
 (原文刊于被sina关闭的我的sina博客)
 
-首先关于LTE频率，网上都有，比如这里： http://labs.chinamobile.com/news/101634_p2
+首先关于LTE频率，网上都有，比如这里： [http://labs.chinamobile.com/news/101634_p2]()
 
 简单总结就是：
 
