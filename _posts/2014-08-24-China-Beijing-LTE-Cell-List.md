@@ -9,7 +9,7 @@ tags:  LTE Cell-Search Beijing China TD-LTE
 
 -----------------------------------------------------------------------------------
 
-(find field samples in regression_test_signal_file directory at [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
+(find field samples in **regression_test_signal_file directory** at [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
 New deteced:
 
