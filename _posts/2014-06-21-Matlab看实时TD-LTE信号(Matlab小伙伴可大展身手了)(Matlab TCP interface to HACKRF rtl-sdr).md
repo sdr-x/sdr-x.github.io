@@ -7,8 +7,6 @@ categories: LTE
 tags:  LTE rtl-sdr SDR Matlab TCP real-time spectrum time-domain interface
 ---
 
-(原文刊于被sina关闭的我的sina博客)
-
 本文介绍如何用MATLAB通过TCP接口实时读取HACKRF接收到的信号(电视棒或者其他SDR设备可如法炮制)。其实并不复杂，可以说相当简单。
   
 首先用gnuradio-companion建立如下grc：（图1）
