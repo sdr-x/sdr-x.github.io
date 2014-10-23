@@ -103,8 +103,14 @@ recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p�
 
 这里 **regression_test_signal_file** 目录（[https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)）下有一些抓取的per二进制文件（而非文本文件，因为解码程序需要二进制文件作为输入），可以用以测试你的程序是否正确
 
-[f2360_sib1.per](https://github.com/JiaoXianjun/LTE-Cell-Scanner/blob/master/regression_test_signal_file/f2360_sib1.per)
+一些per文件：
+[f2360_sib1.per](../media/f2360_sib1.per)
+[f2585_sib1-10.per](../media/f2585_sib1-10.per)
+[f2585_sib2-3.per](../media/f2585_sib2-3.per)
+[f2585_sib3-1.per](../media/f2585_sib3-1.per)
+[f2585_sib5-10.per](../media/f2585_sib5-10.per)
 
+一些解析出来的SIB消息（并非与per文件对应）：
 附件(2.5KB) [f2360_s19.2_bw20_1s_hackrf_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
 
 附件(4.5KB) [f2585_s19.2_bw20_1s_hackrf_1_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_s19.2_bw20_1s_hackrf_SIB.txt)
