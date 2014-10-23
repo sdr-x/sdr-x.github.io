@@ -3,7 +3,7 @@ date: 2014-08-09 12:00:00
 layout: post
 title: 使用lameditor和asn1c开源工具解析北京LTE现网 RRC SIB ASN1消息
 thread: 153
-categories: lte
+categories: LTE
 tags:  asn1c lameditor LTE RRC SIB ASN1 Beijing 4G
 ---
 
@@ -100,8 +100,17 @@ padding = padding % 8;
 recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p用来指定消息类型，PDSCH上的SIB的消息类型为：BCCH-DL-SCH-Message 
   
 运行命令之后，会打印出解析出来的SIB消息各个字段的名称、内容。 
-  
-  
+
+这里 **regression_test_signal_file** 目录（[https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)）下有一些抓取的per二进制文件（而非文本文件，因为解码程序需要二进制文件作为输入），可以用以测试你的程序是否正确
+
+一些per文件：
+[f2360_sib1.per](../media/f2360_sib1.per)
+[f2585_sib1-10.per](../media/f2585_sib1-10.per)
+[f2585_sib2-3.per](../media/f2585_sib2-3.per)
+[f2585_sib3-1.per](../media/f2585_sib3-1.per)
+[f2585_sib5-10.per](../media/f2585_sib5-10.per)
+
+一些解析出来的SIB消息（并非与per文件对应）：
 附件(2.5KB) [f2360_s19.2_bw20_1s_hackrf_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2360_s19.2_bw20_1s_hackrf_SIB.txt)
 
 附件(4.5KB) [f2585_s19.2_bw20_1s_hackrf_1_SIB.txt](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_s19.2_bw20_1s_hackrf_SIB.txt)

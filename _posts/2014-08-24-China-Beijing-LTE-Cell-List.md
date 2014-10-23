@@ -3,11 +3,13 @@ date: 2014-08-24 12:00:00
 layout: post
 title: LTE Cell detected in Beijing China
 thread: 11
-categories: lte
+categories: LTE
 tags:  LTE Cell-Search Beijing China TD-LTE
 ---
 
 -----------------------------------------------------------------------------------
+
+(find field samples in **regression_test_signal_file directory** at [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
 New deteced:
 
