@@ -106,9 +106,13 @@ recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p�
 一些per文件：
 
 [f2360_sib1.per](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2360_sib1.per)
+
 [f2585_sib1-10.per](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_sib1-10.per)
+
 [f2585_sib2-3.per](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_sib2-3.per)
+
 [f2585_sib3-1.per](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_sib3-1.per)
+
 [f2585_sib5-10.per](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/f2585_sib5-10.per)
 
 一些解析出来的SIB消息（并非与per文件对应）：
