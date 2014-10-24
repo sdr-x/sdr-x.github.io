@@ -2,9 +2,9 @@
 date: 2010-10-02 12:00:00
 layout: post
 title: 关于清华留美学生高杏欣破解北斗扩频码事件(About Gao Xingxin crack compass codes)
-thread: 22
+thread: 8420
 categories: satellite
-tags:  GPS Compass Beidou China Crack
+tags:  GPS Compass Beidou China Crack Grace-Gao
 ---
 
 (原文刊于被sina关闭的我的sina博客)
@@ -25,3 +25,4 @@ tags:  GPS Compass Beidou China Crack
 
 因此总的说来公开的论文部分就是一项针对北斗系统的普通的学术界研究工作。（如果没有更多的未公开的工作的话）
 
+关于北斗导航系统的介绍，参见我的这篇[北斗卫星导航系统介绍(Introduction of Beidou/Compass China Satellite Navigation System)](http://sdr-x.github.io/Beidou-Compass-China-Satellite-Navigation-System/).
