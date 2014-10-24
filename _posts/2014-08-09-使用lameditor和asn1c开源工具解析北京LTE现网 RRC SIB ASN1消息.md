@@ -4,7 +4,7 @@ layout: post
 title: 使用lameditor和asn1c开源工具解析北京LTE现网 RRC SIB ASN1消息
 thread: 153
 categories: LTE
-tags:  asn1c lameditor LTE RRC SIB ASN1 Beijing 4G
+tags:  asn1c lameditor LTE RRC SIB ASN1 Beijing 4G HACKRF rtl-sdr LTE-Cell-Scanner
 ---
 
 (原文刊于被sina关闭的我的sina博客)
