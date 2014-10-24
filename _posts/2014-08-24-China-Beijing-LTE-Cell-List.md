@@ -14,6 +14,7 @@ tags:  LTE Cell-Search Beijing China TD-LTE
 New deteced:
 
 China Telecomm:
+
 frequency  | mode  |  #RB  |   CID   |   #ANT Ports
 -----------|-------|-------|---------|--------------
 1852.5MHz; |  FDD;  | 25RB;   | Cell ID 271;      | 2 ANT ports;
