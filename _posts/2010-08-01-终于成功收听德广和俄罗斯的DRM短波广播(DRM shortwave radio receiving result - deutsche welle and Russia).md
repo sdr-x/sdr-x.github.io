@@ -2,22 +2,23 @@
 date: 2010-08-01 12:00:00
 layout: post
 title: 终于成功收听德广和俄罗斯的DRM短波广播(DRM shortwave radio receiving result - deutsche welle and Russia)
-thread: 233
+thread: 257
 categories: radio
-tags:  DRM shortwave radio SDR mixer 
+tags:  DRM shortwave radio SDR mixer 455kHz-12kHz Mixer SWL Shortwave-Listener
 ---
 
 (原文刊于被sina关闭的我的sina博客)
 
 终于成功收听德广和俄罗斯的DRM短波广播! 
 
-翻了一下自己之前的帖子["DRM接收及matlab实验"](http://sdr-x.github.io/DRM%E6%8E%A5%E6%94%B6%E5%8F%8Amatlab%E5%AE%9E%E9%AA%8C(DRM%20shortwave%20radio%20receiving%20experiment\)/)，发现竟然是2年前了。 
+翻了一下自己之前的博客[DRM接收及matlab实验(DRM shortwave radio receiving experiment)](http://sdr-x.github.io/DRM%E6%8E%A5%E6%94%B6%E5%8F%8Amatlab%E5%AE%9E%E9%AA%8C(DRM%20shortwave%20radio%20receiving%20experiment\)/)，发现竟然是2年前了。 
 
 今天终于听到稳定的DRM广播信号了。短波频段传来了稳定清晰地广播音，真的很强大！DRM可能真有能力救活“几乎已经没人听”的短波广播。 
 
 2年前尝试自己做455kHz-->12kHz的变频器，把乐信RP2100的中频输出变频到12kHz音频范围输进笔记本mic口，软件解调收听DRM广播。当时是啥也没听到。2年里一直惦记，这两天又拿出来当时做的变频器折腾，竟然折腾出来了。成功收听到了俄罗斯在阿穆尔河畔共青城（Komsomolsk Amur）发射的俄语/英语DRM广播（15735kHz），以及德国广播电台(deutsche welle)在斯里兰卡的亭可马里（Trincomalee）发射的DRM信号（17525kHz）。一些经验与大家分享一下： 
 
 # 1. 广播时间
+
 DRM广播信号不是24小时都有的，我整理了一下网上关于DRM播出的时间表，如下： 
 
 北京时间|频率|发射台|目标|语言 
@@ -40,7 +41,7 @@ DRM广播信号不是24小时都有的，我整理了一下网上关于DRM播出
   
 # 3. 连接线
 
-我是参照"DRM – Miniature Mixer Unit with crystal option"做的混频器（[http://www.sat-schneider.de](http://www.sat-schneider.de)）。 （那个NE602本振所需要的电感做出来真是够费劲。）。发现它的音频输出线不能太长。我之前一直用了一根大概2米的音频延长线，偶然发现这个延长线不同的收纳和摆放方式对接收影响很大，后来干脆弄了短线，效果变好明显。 
+我是参照"DRM – Miniature Mixer Unit with crystal option"做的混频器（[http://www.sat-schneider.de](http://www.sat-schneider.de)）。 （那个NE602本振所需要的电感做出来真是够费劲。）。发现它的音频输出线不能太长。我之前一直用了一根大概2米的音频延长线，偶然发现这个延长线不同的收纳和摆放方式对接收影响很大，后来干脆弄了短线，效果变好明显。 不知道是不是602驱动能力不足。
   
 # 4. 干扰
 
