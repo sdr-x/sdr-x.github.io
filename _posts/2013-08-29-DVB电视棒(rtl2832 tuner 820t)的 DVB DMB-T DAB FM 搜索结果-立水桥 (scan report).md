@@ -33,13 +33,13 @@ tags:  rtl-sdr rtl2832 scan-report DVB DMB-T DAB FM 1090MHz ADS-B Lishuiqiao Bei
 
 标示    |内容
 ----------|-----------
-DT| 北广传媒
+DT | 北广传媒
 
-GJ| 北广传媒移动电视
+GJ | 北广传媒移动电视
 
-CITY| 城市电视
+CITY | 城市电视
 
-CCTV1| 中央1
+CCTV1 | 中央1
   
 **2. 设置为DAB，区域选择china**
 
