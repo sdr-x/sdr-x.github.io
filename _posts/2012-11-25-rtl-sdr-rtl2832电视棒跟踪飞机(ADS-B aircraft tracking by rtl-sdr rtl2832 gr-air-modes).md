@@ -2,7 +2,7 @@
 date: 2012-11-25 12:00:00
 layout: post
 title: rtl-sdr-rtl2832电视棒跟踪飞机(ADS-B aircraft tracking by rtl-sdr rtl2832 gr-air-modes)
-thread: 316
+thread: 31602
 categories: ADS-B
 tags:  rtl-sdr rtl2832 SDR ADS-B plane-track aircraft-track gr-air-modes
 ---
