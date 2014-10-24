@@ -25,7 +25,7 @@ OpenCL加速的 TDD/FDD LTE小区搜索与跟踪源代码：[https://github.com/
 
 ----------更新------------
 
-这里给出如何用C/C++直接编程调用hackrf： http://blog.sina.com.cn/s/blog_67cdafe20101eesw.html
+这里给出如何用C/C++直接编程调用hackrf： [使用C和C++直接调用HACKRF来支持LTE小区搜索(LTE Cell Scanner by HACKRF(C, C++))](http://sdr-x.github.io/%E4%BD%BF%E7%94%A8C%E5%92%8CC++%E7%9B%B4%E6%8E%A5%E8%B0%83%E7%94%A8HACKRF%E6%9D%A5%E6%94%AF%E6%8C%81LTE%E5%B0%8F%E5%8C%BA%E6%90%9C%E7%B4%A2(LTE%20Cell%20Scanner%20by%20HACKRF(C,%20C++))/)
 
 小区扫描结果：
 
