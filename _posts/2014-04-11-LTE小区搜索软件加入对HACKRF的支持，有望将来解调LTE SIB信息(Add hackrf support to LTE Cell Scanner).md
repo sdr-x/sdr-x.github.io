@@ -20,7 +20,9 @@ OpenCL加速的 TDD/FDD LTE小区搜索与跟踪源代码：[https://github.com/
 (发现SDR棒子现在有点像树莓派一样热闹，这里有一个覆盖HF的FPGA直采棒子： [http://sdrstick.com/](http://sdrstick.com/)  )
 
 视频演示：
+
 （国内） [http://v.youku.com/v_show/id_XNjk3Mjc1MTUy.html](http://v.youku.com/v_show/id_XNjk3Mjc1MTUy.html)
+
 （国外） [http://www.youtube.com/watch?v=3hnlrYtjI-4](http://www.youtube.com/watch?v=3hnlrYtjI-4)
 
 ----------更新------------
@@ -30,6 +32,7 @@ OpenCL加速的 TDD/FDD LTE小区搜索与跟踪源代码：[https://github.com/
 小区扫描结果：
 
 新增 2360MHz频点，亦庄：
+
       Detected a TDD cell! At freqeuncy 2360MHz, try 0
         cell ID: 30
          PSS ID: 0
