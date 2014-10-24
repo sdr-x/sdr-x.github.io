@@ -15,10 +15,10 @@ tags:  rtl-sdr rtl2832 SDR ADS-B plane-track aircraft-track gr-air-modes dump109
 
 ** Windows下 **
 
-windows下实际上需要安装驱动等多个步骤，但是这里 [http://rtl1090.web99.de/homepage/index.php?USER=rtl1090&XURL=web99.de&goto=1](http://rtl1090.web99.de/homepage/index.php?USER=rtl1090&XURL=web99.de&goto=1)
+windows下玩电视棒跟踪飞机实际上需要安装驱动等多个步骤，但是这里 [http://rtl1090.web99.de/homepage/index.php?USER=rtl1090&XURL=web99.de&goto=1](http://rtl1090.web99.de/homepage/index.php?USER=rtl1090&XURL=web99.de&goto=1)
 老外给出了一个一揽子解决方案。
 
-具体的： 从这里下载 [http://globe-s.eu/download/rtl1090imu.exe](http://globe-s.eu/download/rtl1090imu.exe) 安装，这个程序会完成一系列步骤（需要人参与），并进入可用状态。
+具体的： 从这里下载 [http://globe-s.eu/download/rtl1090imu.exe](http://globe-s.eu/download/rtl1090imu.exe) 安装，这个程序会完成一系列步骤（中间可能需要人点击几下），并进入可用状态。
 
 这样你在windows下插上电视棒就能方便的“看飞机”了。
 
@@ -36,7 +36,7 @@ windows下实际上需要安装驱动等多个步骤，但是这里 [http://rtl1
 
 **1. 下载和安装dump1090**. (可以参见那篇[step by step](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BAstep-by-step%E6%95%99%E7%A8%8B%28tutorial%20ADS-B%20aircraft%20tracking%20by%20rtl-sdr%20rtl2832%20gr-air-modes%29/)里对gr-air-modes下载安装方法)
 
-软件是开源的: [https://github.com/antirez/dump1090](https://github.com/antirez/dump1090)
+软件是开源的，下载链接（用版本管理软件git下载，而不是直接下载，见我的那篇[step by step](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BAstep-by-step%E6%95%99%E7%A8%8B%28tutorial%20ADS-B%20aircraft%20tracking%20by%20rtl-sdr%20rtl2832%20gr-air-modes%29/) ）: [https://github.com/antirez/dump1090](https://github.com/antirez/dump1090)
 
 **2. 运行命令:**
 
@@ -52,6 +52,6 @@ google map会自动打开, 右侧栏会看到目前地图上飞机的数量和�
 
 地图上看不到?不要急,你需要手工把地图平移缩放到你所在地点周围,你就能看到箭头样子的飞机了.
 
-下图是在室内抓到的一架飞机: 南五环外一个朝南的箭头. 
+下图是在室内抓到的一架飞机: 南五环外一架往南飞的飞机 -- 图中那个朝南的箭头. 
 
 ![](../media/rtl-sdr-dump1090.jpg)
