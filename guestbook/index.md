@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Guestbook
+title: Guestbook/留言
 comments: yes
-thread: 616
+thread: 3216
 ---
 
 Leave comments to me by:
