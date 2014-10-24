@@ -4,14 +4,14 @@ layout: post
 title: 4G LTE(北京)信号捕捉(rtl-sdr 电视棒软件无线电)新扫到电信(LTE SDR Beijing)
 thread: 1356
 categories: LTE
-tags:  LTE SDR 4G Cell-Search Cell-Scanner Beijing rtl-sdr
+tags:  LTE TD-LTE SDR 4G Cell-Search Cell-Scanner Beijing rtl-sdr
 ---
 
 (原文刊于被sina关闭的我的sina博客)
 
 用一个几十块钱的USB电视棒来扫描运营商的LTE信号频谱，以及解调一些小区信息。
 
-关于电视棒软件无线电，rtl-sdr有兴趣的请参见这篇：["rtl-sdr, RTL2832电视棒追踪飞机教程(ADS-B)"](link)
+关于电视棒软件无线电，rtl-sdr有兴趣的请参见这篇：["rtl-sdr-rtl2832电视棒跟踪飞机step-by-step教程(tutorial ADS-B aircraft tracking by rtl-sdr rtl2832 gr-air-modes)"](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BAstep-by-step%E6%95%99%E7%A8%8B(tutorial%20ADS-B%20aircraft%20tracking%20by%20rtl-sdr%20rtl2832%20gr-air-modes)/)
 
 这里只说说我用电视棒扫描LTE信号的的一些结果。
 
@@ -48,7 +48,7 @@ E4k tuner的电视棒，能调到1880～1900MHz（据网上说移动lte是这个
 
 [搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描LTE MIB (rtl sdr LTE Cell Scanner)](http://sdr-x.github.io/%E6%90%9E%E5%AE%9ALTE%20Scanner%E7%9A%84TDD%E4%BB%A5%E5%8F%8ALNB%E6%A8%A1%E5%BC%8F,rtl-sdr%E7%94%B5%E8%A7%86%E6%A3%92%E6%89%AB%E6%8F%8FLTE%20MIB%20%28rtl%20sdr%20LTE%20Cell%20Scanner%29/)
 
-[OpenCL加速LTE小区搜索(rtl-sdr电视棒)半秒扫一个频点!](link)
+[OpenCL加速LTE小区搜索(rtl-sdr电视棒)半秒扫一个频点!](http://sdr-x.github.io/OpenCL%E5%8A%A0%E9%80%9FLTE%E5%B0%8F%E5%8C%BA%E6%90%9C%E7%B4%A2(rtl-sdr%E7%94%B5%E8%A7%86%E6%A3%92),%20%E5%8D%8A%E7%A7%92%E6%89%AB%E4%B8%80%E4%B8%AA%E9%A2%91%E7%82%B9(OpenCL%20accelerated%20LTE%20Cell%20Scanner)/)
 
 ---------最新进展分割线结束---------------------------------
 
