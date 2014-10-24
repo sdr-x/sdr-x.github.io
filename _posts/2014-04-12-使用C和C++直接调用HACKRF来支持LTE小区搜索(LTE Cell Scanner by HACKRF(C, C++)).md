@@ -18,7 +18,9 @@ tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ HACKRF
 # 一、背景介绍
 
 世界各地的SDR玩家们肯定不会放过前面提到的LTE。比如这个LTE小区搜索和跟踪程序（[https://github.com/Evrytania/LTE-Cell-Scanner](https://github.com/Evrytania/LTE-Cell-Scanner)），它可以用前述的廉价电视棒扫描并解调LTE基站下行PBCH（物理广播信道）信号，获取一些基本的小区信息。
+
 后来中国也宣布上4G了，我想那就git clone下来试一下吧，从而一发而不可收了。先后为这个程序加入了TD-LTE支持（原来只支持FDD模式，居然无视我泱泱大国自主知识产权4G标准！），外部LNB/变频器算法支持，OpenCL加速（单频点扫描速度提高约20倍，缩减到半秒左右）等。以上改进的整个历程和程序在此： [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner) 。折腾历程参见系列博文。
+
 电视棒便宜又好玩，但局限性也很明显：
 
 1. 频率覆盖范围有限。E4K版本覆盖到约2.2GHz（但高端频率接收性能已严重下降），820t版本覆盖到约1.76GHz。国内目前开通的LTE信号最低也在1.8GHz以上，超出820t版的覆盖范围。虽然部分在E4K电视棒覆盖范围内，但E4K版的电视棒早已停产，奇货可居，手里有E4K电视棒的各位且用且珍惜吧！显然，电视棒也玩不了最热闹的2.4GHz频段，除非外接MMDS-LNB或者其他变频器进行频率扩展。
@@ -59,7 +61,7 @@ GNURadio，开源SDR领域最大的生态系统。图形界面，脚本语言，
 
 说说如何用纯C/C++程序直接调用HACKRF（或者rtl-sdr电视棒以及其他基于USB的SDR硬件，都应该是类似的）。这样你就可以在别人用鼠标搭框图对各种采样率变换焦头烂额的时候，飞快的敲键盘用VI编写C/C++程序来使用HACKRF，不经意流露鄙视的眼神，深藏功与名。逼格顿时提升几个档次。好（dan）牛（teng）！
 
-以下介绍的都是在Linux下的一些工作。这里假设你对Linux比较熟悉（不太熟悉的，可以看这篇blog中的一些基础操作介绍：link！link！link！link！link！link！ ）。
+以下介绍的都是在Linux下的一些工作。这里假设你对Linux比较熟悉（不太熟悉的，可以看这篇blog中的一些基础操作介绍： [rtl-sdr-rtl2832电视棒跟踪飞机step-by-step教程(tutorial ADS-B aircraft tracking by rtl-sdr rtl2832 gr-air-modes)](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BAstep-by-step%E6%95%99%E7%A8%8B(tutorial%20ADS-B%20aircraft%20tracking%20by%20rtl-sdr%20rtl2832%20gr-air-modes)/) ）。
 
 （前方“野程序员”预警！本人不是计算机专业科班出身，本文关于程序方面的内容都是照猫画虎或者频繁试错的结果，未必最优或者最正确，仅供参考，欢迎指正。大言不惭的说本人其实是通信专业科班出身，咳咳。）
 
