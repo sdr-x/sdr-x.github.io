@@ -7,6 +7,9 @@ categories: lte
 tags:  asn1c ASN1 LTE SIB decoding RRC HACKRF rtl-sdr LTE-Cell-Scanner
 ---
 
+This is an further explanation on SIB parsing of my blog: 
+[Whole 20MHz config LTE signal is decoded by HACKRF 19.2Msps with ASN1 SIB parsed](http://sdr-x.github.io/Whole%2020MHz%20config%20LTE%20signal%20is%20decoded%20by%20HACKRF%2019.2Msps%20with%20ASN1%20SIB%20parsed/)
+
 -----------------------------------------------------------------------------------
 
 This method's main reference is: [http://blog.csdn.net/peng_yw/article/details/22437251](http://blog.csdn.net/peng_yw/article/details/22437251)
