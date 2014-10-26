@@ -4,7 +4,7 @@ layout: post
 title: 使用HACKRF巡视钓鱼岛(HACKRF ADS-B out)
 thread: 676
 categories: ADS-B
-tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC
+tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC rtl-sdr dump1090
 ---
 
 (原文刊于被sina关闭的我的sina博客)
