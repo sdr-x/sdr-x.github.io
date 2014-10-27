@@ -1,5 +1,5 @@
 ---
-date: 2014-05-29 12:00:00
+date: 2014-05-28 12:00:00
 layout: post
 title: Some efforts and tools on GPS signal replay (GPS重放模拟)
 thread: 10245
