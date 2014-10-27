@@ -9,6 +9,8 @@ tags:  HACKRF GPS replay CA-code L5 L1 SDR Software-Defined-Radio hackrf_transfe
 
 Some efforts were put on replaying GPS signal, but it is only partially successful, not fully successful. Some tools/scripts, as side products, are useful. Learn many things from here: [http://www.aholme.co.uk/GPS/Main.htm](http://www.aholme.co.uk/GPS/Main.htm)
 
+**WARNING：DO NOT SEND ANY REAL GPS SIGNAL. USE CHAMBER AND CLOSE-LOOP CABLE! MAKE SURE ALL YOUR OPERATIONS ARE LEGAL!**
+
 Get codes, program and sample GPS signals here: [https://github.com/JiaoXianjun/GNSS-GPS-SDR](https://github.com/JiaoXianjun/GNSS-GPS-SDR)
 
 To build the C program "gps_test" (front part of software GPS receiver) after you get the whole repo:
