@@ -61,7 +61,7 @@ c. use rtl-sdr to capture signal:
 
         rtl_sdr -g 60 -f 1575.42e6 -s 2.8e6 -n 19.2e6 rtl_2.8Msps_1575.42MHz.bin
 
-d. run proc_rtl_bin_for_gps('rtl_2.8Msps_1575.42MHz.bin') in Matlab to convert 8bit file to 1bit file which is needed by gps_test program
+d. run proc_rtl_bin_for_gps('rtl_2.8Msps_1575.42MHz.bin') in Matlab to convert 8bit file to 1bit file which is needed by gps_test program：rtl_2.8Msps_1575.42MHz_1bit.bin
 
 e. see C/A codes initial capture result by running gps_test program:
 
@@ -77,7 +77,7 @@ b. capture air GPS signal by:
 
         rtl_sdr -g 60 -f 1574.8e6 -s 2.8e6 -n 19.2e6 rtl_2.8Msps_1574.8MHz.bin
 
-c. convert captured 8bit file to 1bit bin file which is needed by gps_test:
+c. convert captured 8bit file to 1bit bin file which is needed by gps_test: rtl_2.8Msps_1574.8MHz_1bit.bin
 
         proc_rtl_bin_for_gps('rtl_2.8Msps_1574.8MHz.bin'); (MATLAB)
 
@@ -91,7 +91,7 @@ e. you can also capture air GPS signal with different intermediate frequency by:
 
         rtl_sdr -g 60 -f 1575.42e6 -s 2.8e6 -n 19.2e6 rtl_2.8Msps_1575.42MHz.bin
 
-f. convert captured 8bit file to 1bit bin file which is needed by gps_test:
+f. convert captured 8bit file to 1bit bin file which is needed by gps_test: rtl_2.8Msps_1575.42MHz_1bit.bin
 
         proc_rtl_bin_for_gps('rtl_2.8Msps_1575.42MHz.bin'); (MATLAB)
 
