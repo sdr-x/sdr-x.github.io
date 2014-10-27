@@ -9,6 +9,8 @@ tags:  rtl-sdr rtl2832 SDR ADS-B plane-track aircraft-track gr-air-modes step-by
 
 (原文刊于被sina关闭的我的sina博客)
 
+(本博客包含大量Linux基础知识和操作，想偷懒或者用Windows的参见这篇[“rtl-sdr-rtl2832电视棒跟踪飞机-更简单的方法在Windows和Linux下(simpler way to track plane by rtl-sdr)”](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BA-%E6%9B%B4%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%E5%9C%A8Windows%E5%92%8CLinux%E4%B8%8B%28simpler%20way%20to%20track%20plane%20by%20rtl-sdr%29/))
+
 # 背景1:
 
 前段日子用电视棒成功跟踪到了飞机(见这篇跟踪结果的博文:[rtl-sdr-rtl2832电视棒跟踪飞机(ADS-B aircraft tracking by rtl-sdr rtl2832 gr-air-modes)](http://sdr-x.github.io/rtl-sdr-rtl2832%E7%94%B5%E8%A7%86%E6%A3%92%E8%B7%9F%E8%B8%AA%E9%A3%9E%E6%9C%BA%28ADS-B%20aircraft%20tracking%20by%20rtl-sdr%20rtl2832%20gr-air-modes%29/)).不少人问有没有windows下的软件.
