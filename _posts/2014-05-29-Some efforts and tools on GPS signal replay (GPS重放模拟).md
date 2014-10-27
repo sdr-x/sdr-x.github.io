@@ -1,7 +1,7 @@
 ---
 date: 2014-05-29 12:00:00
 layout: post
-title: Some efforts and tools on GPS signal replay (GPS重放)
+title: Some efforts and tools on GPS signal replay (GPS重放模拟)
 thread: 10245
 categories: GPS
 tags:  HACKRF GPS replay CA-code L5 L1 SDR Software-Defined-Radio hackrf_transfer rtl-sdr rtl2832
