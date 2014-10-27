@@ -23,6 +23,8 @@ a. generate GPS signal file by running gps_sig_gen.m in Matlab
 
         gps_sig_gen.m
 
+to get file gps_sig_tmp.bin
+
 b. use "gps_test" program to do some initial demodulation and check C/A codes:
 
         gps_test gps_sig_tmp.bin 2.046e6 8.184e6 5000
