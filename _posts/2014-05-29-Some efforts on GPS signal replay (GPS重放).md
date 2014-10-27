@@ -9,7 +9,7 @@ tags:  HACKRF GPS replay CA-code L5 L1 SDR Software-Defined-Radio hackrf_transfe
 
 Some efforts were put on replaying GPS signal, but it is only partial successful, not fully successful. Some tools/scripts are useful.
 
-See codes here: [https://github.com/JiaoXianjun/GNSS-GPS-SDR/blob/master/README.md](https://github.com/JiaoXianjun/GNSS-GPS-SDR/blob/master/README.md)
+See codes here: [https://github.com/JiaoXianjun/GNSS-GPS-SDR](https://github.com/JiaoXianjun/GNSS-GPS-SDR)
 
 To build the C program "gps_test" after you get the whole repo:
 
