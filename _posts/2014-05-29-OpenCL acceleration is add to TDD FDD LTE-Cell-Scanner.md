@@ -7,6 +7,8 @@ categories: LTE
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner OpenCL POCL Portable-OpenCL Intel AMD Nvidia GeForce
 ---
 
+(And see also latest progress: [Whole 20MHz config LTE signal is decoded by HACKRF 19.2Msps with ASN1 SIB parsed](http://sdr-x.github.io/Whole%2020MHz%20config%20LTE%20signal%20is%20decoded%20by%20HACKRF%2019.2Msps%20with%20ASN1%20SIB%20parsed/))
+
 Hello there,
 
 New features comes to [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
