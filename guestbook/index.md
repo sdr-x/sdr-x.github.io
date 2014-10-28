@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jiao Xianjun(BH1RXH)'s tech blog: Guestbook/留言
+title: Jiao Xianjun (BH1RXH)'s tech blog - Guestbook/留言
 comments: yes
 thread: 3216
 ---
