@@ -7,9 +7,9 @@ categories: Radio
 tags:  China-HAM HAM-Radio Radio HAM UV-5R Baofeng  Class-A Class-B Class-C
 ---
 
-Took the class B exam at Oct. 18th, and today I got noticed passing the exam: [http://www.bjwxdxh.org.cn/news/html/?428.html ](http://www.bjwxdxh.org.cn/news/html/?428.html )
+Took the class B exam at Oct. 18th, and today I got noticed passing the exam: [http://www.bjwxdxh.org.cn/news/html/?428.html ](http://www.bjwxdxh.org.cn/news/html/?428.html ) . 
 
-That means my HAM Radio ability has been improved from class A to class B in China.
+That means my HAM Radio ability has been improved from class A to class B in China, and can use shortwave besides UV band now!
 
 Some milestones:
 
