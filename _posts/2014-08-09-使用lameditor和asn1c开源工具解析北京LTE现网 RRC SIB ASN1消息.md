@@ -15,7 +15,9 @@ English version： [http://sdr-x.github.io/LTE-SIB-decoding-by-asn1c/](http://sd
 
 [http://blog.csdn.net/peng_yw/article/details/22437251](http://blog.csdn.net/peng_yw/article/details/22437251)
   
-本工作是这个LTE小区搜索项目的一部分： [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)解析RRC SIB ASN1消息的程序已经封装为一个matlab函数parse_SIB()，并用在这个Matlab/LTE_DL_receiver.m 脚本中，用来将PDSCH信道解调出来的SIB原始比特正确解析为SIB消息。成功解析的北京4G现网的三个SIB消息，见三个附件。 
+本工作是这个LTE小区搜索项目的一部分： [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner). [这篇博文](http://sdr-x.github.io/%E5%AE%8C%E6%95%B420MHz%E5%B8%A6%E5%AE%BD%E9%85%8D%E7%BD%AELTE%E4%BF%A1%E5%8F%B7%E8%A2%ABHACKRF-19.2M%E9%87%87%E6%A0%B7%E7%8E%87%E6%88%90%E5%8A%9F%E8%A7%A3%E6%9E%90/)是最新进展
+
+解析RRC SIB ASN1消息的程序已经封装为一个matlab函数parse_SIB()，并用在这个Matlab/LTE_DL_receiver.m 脚本中，用来将PDSCH信道解调出来的SIB原始比特正确解析为SIB消息。成功解析的北京4G现网的三个SIB消息，见三个附件。 
   
 具体方法： 
   
