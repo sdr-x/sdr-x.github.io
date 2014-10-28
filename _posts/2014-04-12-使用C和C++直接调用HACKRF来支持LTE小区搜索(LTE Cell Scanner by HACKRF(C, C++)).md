@@ -7,7 +7,7 @@ categories: LTE
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ HACKRF
 ---
 
-(原文刊于被sina关闭的我的sina博客)
+(原文刊于被sina关闭的我的sina博客) (最新进展参见[完整20MHz带宽配置LTE信号被HACKRF-19.2M采样率成功解析](http://sdr-x.github.io/%E5%AE%8C%E6%95%B420MHz%E5%B8%A6%E5%AE%BD%E9%85%8D%E7%BD%AELTE%E4%BF%A1%E5%8F%B7%E8%A2%ABHACKRF-19.2M%E9%87%87%E6%A0%B7%E7%8E%87%E6%88%90%E5%8A%9F%E8%A7%A3%E6%9E%90/))
 
 软件无线电（Software Defined Radio）以前往往以高（zhuang）大（bi）上（fan）的面目示人，是大公司或学校实验室的高级玩具，一套系统动辄几万甚至几十万，从来都是一个2B（2B = to business）的模式。自从一个芬兰黑客（考证癖出来考证一下）破解了rtl2832芯片的电视棒之后（http://sdr.osmocom.org/trac/wiki/rtl-sdr），SDR终于像树莓派一样普及了。你可以淘宝一个50或60RMB的电视棒，然后给妹子show off跟踪飞机，偷听空管说话，扫描GSM信号，再然后在妹子崇拜的眼神里严辞拒绝出去吃饭的提议，潜心钻研下一个可玩的无线电信号--LTE。
 
