@@ -1,5 +1,5 @@
 ---
-date: 2014-05-29 2:00:00
+date: 2014-05-29 12:00:00
 layout: post
 title: OpenCL acceleration is add to TDD FDD LTE-Cell-Scanner
 thread: 64653
