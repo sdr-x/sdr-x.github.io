@@ -9,6 +9,8 @@ tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC rtl-sdr du
 
 (原文刊于被sina关闭的我的sina博客)
 
+(这里还有一篇[GPS回放](http://sdr-x.github.io/%E4%B8%80%E4%BA%9B%E5%85%B3%E4%BA%8EGPS%E9%87%8D%E6%94%BE%E6%A8%A1%E6%8B%9F%E7%9A%84%E5%8A%AA%E5%8A%9B%E4%BB%A5%E5%8F%8A%E5%B0%8F%E5%B7%A5%E5%85%B7%E8%84%9A%E6%9C%AC/)的工作，若感兴趣可以看看)
+
 好吧，承认我是标题党。其实就是用HACKRF发射ADS-B信号，因为技术含量偏低，只好标题博眼球了。。。
   
 做了这么个简单的实验，原理如下图。
