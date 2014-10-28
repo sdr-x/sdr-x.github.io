@@ -17,6 +17,8 @@ I did a simple experiment on ADS-B. See attached picture for principle.
 
 And video here: [http://youtu.be/xpLDqBkUiKc](http://youtu.be/xpLDqBkUiKc)
 
+In China, see here: [http://v.youku.com/v_show/id_XNzE4NzIzNDIw.html](http://v.youku.com/v_show/id_XNzE4NzIzNDIw.html)
+
 You can get GRC for replay here: [https://github.com/JiaoXianjun/GNSS-GPS-SDR/tree/master/adsb](https://github.com/JiaoXianjun/GNSS-GPS-SDR/tree/master/adsb)
 
 **But I need your attention!!! if you want do some experiments.**
