@@ -15,7 +15,7 @@ Some milestones:
 
 2013-12-01: took class A exam
 
-2014-04-25: got my first eyeball QSL from my Nokia colleague Frank LA90SA. Hope he is good now. (Microsoft lay off many former Nokians in 2014-07! Don't know if he was affected. I was laid off!)
+2014-04-28: got my first eyeball QSL from my Nokia colleague Frank LA90SA. Hope he is good now. (Microsoft lay off many former Nokians in 2014-07! Don't know if he was affected. I was laid off!)
 
 ![](../media/eyeball-la90sa.jpg)
 
