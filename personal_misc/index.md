@@ -1,5 +1,5 @@
 ---
-title: Misc/个人
+title: Jiao Xianjun(BH1RXH)'s tech blog: Misc/个人
 layout: page
 comments: no
 ---
