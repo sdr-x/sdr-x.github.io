@@ -19,6 +19,8 @@ tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC rtl-sdr du
 
 实验视频在此：[http://v.youku.com/v_show/id_XNzE4NzIzNDIw.html](http://v.youku.com/v_show/id_XNzE4NzIzNDIw.html) ）。
 
+国外请访问：[http://youtu.be/xpLDqBkUiKc](http://youtu.be/xpLDqBkUiKc)
+
 实现的功能是：
 
 matlab按照ads-b协议生成信号，因为自己生成可以填入任意经纬度等信息，经HACKRF和天线发射，然后由rtl-sdr电视棒配合dump1090或者gr-air-modes接收。
