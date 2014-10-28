@@ -6,6 +6,9 @@ thread: 564371
 categories: ADS-B
 tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC rtl-sdr dump1090
 ---
+
+(And, see also some works on [GPS relplay](http://sdr-x.github.io/Some%20efforts%20and%20tools%20on%20GPS%20signal%20replay%20%28GPS%E9%87%8D%E6%94%BE%E6%A8%A1%E6%8B%9F%29/))
+
 Hi,
 
 I did a simple experiment on ADS-B. See attached picture for principle. 
