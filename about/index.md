@@ -1,5 +1,5 @@
 ---
-title: About/关于
+title: Jiao Xianjun(BH1RXH)'s tech blog: About/关于
 layout: page
 comments: no
 ---
