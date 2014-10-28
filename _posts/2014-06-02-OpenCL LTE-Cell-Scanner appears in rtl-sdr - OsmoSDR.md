@@ -9,6 +9,8 @@ tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner rtl2832 rtl-sdr OsmoSD
 
 (Now you can find ["LTE-Cell-Scanner OpenCL accelerated (new)"](https://github.com/JiaoXianjun/LTE-Cell-Scanner) in this page: [http://sdr.osmocom.org/trac/wiki/rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr)
 
+And see latest progress: [Whole 20MHz config LTE signal is decoded by HACKRF 19.2Msps with ASN1 SIB parsed](http://sdr-x.github.io/Whole%2020MHz%20config%20LTE%20signal%20is%20decoded%20by%20HACKRF%2019.2Msps%20with%20ASN1%20SIB%20parsed/)
+
 Here is my application.
 
 Hi Administrator,
