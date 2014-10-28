@@ -14,6 +14,7 @@ That means my HAM Radio ability has been improved from class A to class B in Chi
 Some milestones:
 
 2013-12-01: took class A exam
+
 2014-04-25: got my first eyeball QSO from my Nokia colleague Frank LA90SA. Hope he is good now. (Microsoft layoff many former Nokians in 2014-07!)
 
 ![](../media/eyeball-la90sa.jpg)
