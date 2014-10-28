@@ -10,8 +10,11 @@ tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ HACKRF 20MHz 100
 Hi,
 
 I have decode the whole 20MHz LTE signal by HACKRF board with 19.2Msps sampling rate!
+
 See all Matlab codes and captured signal here: [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
-(Thanks again to hackrf.net for lending me a board to do experiment!)
+Thanks again to [http://hackrf.net](http://hackrf.net) for lending me a board to do experiment!
+
+For detailed info on parsing RRC SIB in DL-SCH, see this: [How to decode LTE RRC/SIB/ASN1 messages by lameditor and asn1c](http://sdr-x.github.io/LTE-SIB-decoding-by-asn1c/)
 
 Maximum sampling rate of HACKRF is about 20Msps, but 20MHz LTE needs 30.72Msps rate according to LTE spec. 
 A sampling rate converter is designed to get 30.72Msps signal from 19.2Msps HACKRF captured signal. (19.2*8/5 = 30.72)
