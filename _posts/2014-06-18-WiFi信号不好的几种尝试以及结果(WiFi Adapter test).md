@@ -24,4 +24,4 @@ tags:  WiFi repeater High-Gain-Antenna Antenna Weak-Signal
 
 用了长天线，虽然不断线能用了，但下载速率还是有限，大概能到170kB吧。最近上某东买了最后一张图那个wifi中继的小东西，插在了一个我台式机和无线路由器都能看到的插座上，这下下载速度竟然提高到了900多kB，还是加中继釜底抽薪啊。 
 
-![](../wifi-relay.png)
+![](../media/wifi-relay.png)
