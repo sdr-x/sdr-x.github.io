@@ -1,7 +1,7 @@
 ---
 date: 2014-06-18 12:00:00
 layout: post
-title: WiFi信号不好的集中尝试以及结果(WiFi Adapter test)
+title: WiFi信号不好的几种尝试以及结果(WiFi Adapter test)
 thread: 8233
 categories: radio
 tags:  WiFi repeater High-Gain-Antenna Antenna Weak-Signal
