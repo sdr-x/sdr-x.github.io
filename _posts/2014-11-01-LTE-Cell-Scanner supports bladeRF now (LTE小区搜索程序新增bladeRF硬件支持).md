@@ -7,7 +7,7 @@ categories: LTE
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ bladeRF 1.92Msps MIB HACKRF
 ---
 
-After [LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner) support rtlsdr hackRF, not it support bladeRF!
+After [LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner) support rtlsdr hackRF, now it support bladeRF!
 
 Here is part of README:
 
@@ -38,5 +38,5 @@ See complete README here: [https://github.com/JiaoXianjun/LTE-Cell-Scanner](http
 
 See video in China: 
 
-See video outside China:
+See video outside China: [http://youtu.be/rg6ENh-tbJY](http://youtu.be/rg6ENh-tbJY)
 
