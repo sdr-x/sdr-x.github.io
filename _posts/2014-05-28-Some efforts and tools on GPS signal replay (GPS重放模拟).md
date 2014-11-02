@@ -13,9 +13,12 @@ Some efforts were put on replaying GPS signal, but it is only partially successf
 
 Get codes, program and sample GPS signals here: [https://github.com/JiaoXianjun/GNSS-GPS-SDR](https://github.com/JiaoXianjun/GNSS-GPS-SDR)
 
-To build the C program "gps_test" (front part of software GPS receiver) after you get the whole repo:
+To build the C program "gps_test" in "c" directory (front part of software GPS receiver) after you get the whole repo:
 
+    cd c
     make
+
+To let this make smooth, make sure you have fftw library installed correctly (sudo apt-get install ...). There should be /usr/lib/libfftw.a.
 
 # 1. offline GPS simulation method
 
