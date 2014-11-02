@@ -38,5 +38,5 @@ See complete README here: [https://github.com/JiaoXianjun/LTE-Cell-Scanner](http
 
 See video outside China: [http://youtu.be/rg6ENh-tbJY](http://youtu.be/rg6ENh-tbJY)
 
-See video in China: 
+See video in China: [http://v.youku.com/v_show/id_204158978.html](http://v.youku.com/v_show/id_204158978.html)
 
