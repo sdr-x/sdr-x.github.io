@@ -26,3 +26,17 @@ tags:  GPS Compass Beidou China Crack Grace-Gao
 因此总的说来公开的论文部分就是一项针对北斗系统的普通的学术界研究工作。（如果没有更多的未公开的工作的话）
 
 关于北斗导航系统的介绍，参见我的这篇[北斗卫星导航系统介绍(Introduction of Beidou/Compass China Satellite Navigation System)](http://sdr-x.github.io/Beidou-Compass-China-Satellite-Navigation-System/).
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jiaoxianjun'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
