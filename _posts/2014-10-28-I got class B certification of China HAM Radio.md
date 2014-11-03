@@ -28,3 +28,9 @@ Some milestones:
 Next step: Buy Yaesu FT-817 and wait for next round of equipment certification activity. Then after two years, I will have rights to take exam of class C (the highest class in China).
 
 ![](../media/FT-817_big.jpg)
+
+2014-10-31: Got my FT-817. Will take it to verification activity in 2014-11-16!
+
+![](../media/my_ft817_1.jpg)
+
+![](../media/my_ft817_2.jpg)
