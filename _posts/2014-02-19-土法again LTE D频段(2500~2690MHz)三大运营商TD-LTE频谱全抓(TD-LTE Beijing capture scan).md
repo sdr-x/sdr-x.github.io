@@ -67,3 +67,17 @@ LNB和它的电源模块都是英制F头外螺内孔（阴头）。
 如果你手头的电视棒是IEC天线接口，也就是那种较大的银色接头，你需要一根RF电缆：一头是英制F头内螺内针（阳头）连接电源模块转接出来的LNB信号（电源模块上写着电视的那个口），另一头是IEC阳头连接电视棒。
 
 good luck！
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jiaoxianjun'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
