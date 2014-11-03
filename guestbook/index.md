@@ -21,7 +21,7 @@ Say something to me:
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
-Or, leave comments to me by:
+Or, leave comments to me through:
 
 0x01. [putaoshu@gmail.com](mailto:putaoshu@gmail.com) (Linkedin also)
 
