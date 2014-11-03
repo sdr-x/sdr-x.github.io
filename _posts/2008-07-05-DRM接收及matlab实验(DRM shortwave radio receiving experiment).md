@@ -100,3 +100,17 @@ DRM变频器（用洞洞板做的，那些几千p的CBB电容个头真不小，�
 不知道这两天有人在什么频率上收到过DRM信号，大家交流一下。 
   
 改进：发现连接好之后，还是会对收音机灵敏度造成一些影响，有些时候连接好之后会使收音机噪声变大，初步估计是变频器的455kHz输入回路太简单，计算机干扰可能由此进入收音机，是不是输入回路用高输入阻抗的运放缓冲隔离一下比较好，比较有利于减小计算机对收音机的影响？
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jiaoxianjun'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
