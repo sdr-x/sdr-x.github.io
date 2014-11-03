@@ -72,3 +72,17 @@ OpenCL加速的 TDD/FDD LTE小区搜索与跟踪源代码：[https://github.com/
     FDD  86 2   1860M         24.5k -16.1 N 100 N one 1.0000131739724291702
     FDD 142 2   1860M         24.5k -17.1 N 100 N one 1.0000131692083715773
     FDD  48 2   1860M         24.5k -19.6 N 100 N one 1.0000131804116960677
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'jiaoxianjun'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
