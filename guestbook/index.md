@@ -23,15 +23,15 @@ Say something to me:
     
 Or, leave comments to me by:
 
-1. [putaoshu@gmail.com](mailto:putaoshu@gmail.com) (Linkedin also)
+0x01. [putaoshu@gmail.com](mailto:putaoshu@gmail.com) (Linkedin also)
 
-2. create issues to [https://github.com/JiaoXianjun](https://github.com/JiaoXianjun)
+0x02. create issues to [https://github.com/JiaoXianjun](https://github.com/JiaoXianjun)
 
-3. Chinese twitter: [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
+0x03. Chinese twitter: [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
 
-4. QQ: 19004528
+0x04. QQ: 19004528
 
-5. Wechat: spaceshuttle
+0x05. Wechat: spaceshuttle
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
