@@ -76,7 +76,7 @@ CellSearch and LTE-Tracker program will be generated in build/src. Use "--help" 
                                             <rach-ConfigCommon>
                                                 <preambleInfo>
                                                     <numberOfRA-Preambles><n52/></numberOfRA-Preambles>
-...
+    ...
 
 See complete README here: [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
