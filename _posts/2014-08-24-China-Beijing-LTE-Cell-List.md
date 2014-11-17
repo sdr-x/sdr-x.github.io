@@ -11,6 +11,13 @@ tags:  LTE Cell-Search Beijing China TD-LTE
 
 LTE-Cell-Scanner tool: [Whole 20MHz config LTE signal is decoded by HACKRF 19.2Msps with ASN1 SIB parsed](http://sdr-x.github.io/Whole%2020MHz%20config%20LTE%20signal%20is%20decoded%20by%20HACKRF%2019.2Msps%20with%20ASN1%20SIB%20parsed/). Find field samples in **regression_test_signal_file directory** at [https://github.com/JiaoXianjun/LTE-Cell-Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner)
 
+Freq plan according to [http://labs.chinamobile.com/news/101634_p2](http://labs.chinamobile.com/news/101634_p2)
+
+        | China Mobile  |  China Unicom  |  China Telecom
+--------|---------------|----------------|----------------
+TDD LTE | 1880-1900MHz, 1880-1900MHz, 2575-2635MHz  |  2300-2320MHz, 2555-2575MHz  |   2370-2390MHz, 2635-2655MHz
+FDD LTE | N/A           | 1955-1980MHz(UL), 2145-2170MHz(DL)  |   1755-1785MHZ(UL), 1850-1880MHz(DL)
+
 New deteced:
 
 China Telecomm:
