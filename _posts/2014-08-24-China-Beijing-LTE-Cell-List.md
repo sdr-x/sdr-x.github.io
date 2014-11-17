@@ -15,7 +15,7 @@ Freq plan according to [http://labs.chinamobile.com/news/101634_p2](http://labs.
 
         | China Mobile  |  China Unicom  |  China Telecom
 --------|---------------|----------------|----------------
-TDD LTE | 1880-1900MHz, 1880-1900MHz, 2575-2635MHz  |  2300-2320MHz, 2555-2575MHz  |   2370-2390MHz, 2635-2655MHz
+TDD LTE | 1880-1900MHz, 2320-2370MHz, 2575-2635MHz  |  2300-2320MHz, 2555-2575MHz  |   2370-2390MHz, 2635-2655MHz
 FDD LTE | N/A           | 1955-1980MHz(UL), 2145-2170MHz(DL)  |   1755-1785MHZ(UL), 1850-1880MHz(DL)
 
 New deteced:
