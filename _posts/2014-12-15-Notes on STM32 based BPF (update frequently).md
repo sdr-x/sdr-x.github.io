@@ -15,4 +15,4 @@ tags:  STM32 BPF STM32F4DISCOVERY STM32F4-DISCOVERY
 
 **0x03** CN3 disconnected mode is not for offboard USB-STLINK adapter programming discovery board via CN2! This mode turns discovery board to a BIG USB-STLINK adapter for you to develop your own or the third part STM MCU program!
 
-
+**0x04** [Using the STM32F4DISCOVERY on the Ubuntu 13.04 Command Line](https://www.alexwhittemore.com/stm32f4discovery-on-ubuntu-command-line/)
