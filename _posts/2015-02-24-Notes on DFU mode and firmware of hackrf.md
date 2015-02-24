@@ -1,5 +1,5 @@
 ---
-date: 2014-02-24 12:00:00
+date: 2015-02-24 12:00:00
 layout: post
 title: Notes on DFU mode and firmware of hackrf
 thread: 2015022413
