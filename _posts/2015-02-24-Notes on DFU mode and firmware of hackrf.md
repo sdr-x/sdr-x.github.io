@@ -30,6 +30,8 @@ tags:  HACKRF DFU firmware
 
 [git://gitorious.org/dfu-util/dfu-util.git](git://gitorious.org/dfu-util/dfu-util.git)
 
+**make sure you use dfu-util dfu-suffix and dfu-prefix of above source. DO NOT USE MIXTURE SOURCES OF THE THREE TOOLS**
+
 [git://git.openezx.org/dfu-util.git](git://git.openezx.org/dfu-util.git)
 
 [http://dfu-util.gnumonks.org/](http://dfu-util.gnumonks.org/)
@@ -38,6 +40,7 @@ and search dfu-util in [github.com](github.com)
 
 **dfu operation**
 
+    (ADD sudo IF NOT WORK)
     hackrf/firmware/hackrf_usb/build$ cmake .. -DBOARD=HACKRF_ONE -DRUN_FROM=RAM
     make
     dfu-util --device 1fc9:000c --alt 0 --download hackrf_usb.dfu
