@@ -42,8 +42,8 @@ and search dfu-util in [github.com](github.com)
 
     (ADD sudo IF NOT WORK)
     hackrf/firmware/hackrf_usb/build$ cmake .. -DBOARD=HACKRF_ONE -DRUN_FROM=RAM
-    make
-    dfu-util --device 1fc9:000c --alt 0 --download hackrf_usb.dfu
+    hackrf/firmware/hackrf_usb$ make
+    hackrf/firmware/hackrf_usb/hackrf_usb$ dfu-util --device 1fc9:000c --alt 0 --download hackrf_usb.dfu
     cmake .. -DBOARD=HACKRF_ONE
     make
     ~/git/hackrf/host/build/hackrf-tools/src/hackrf_spiflash -w hackrf_usb.bin
