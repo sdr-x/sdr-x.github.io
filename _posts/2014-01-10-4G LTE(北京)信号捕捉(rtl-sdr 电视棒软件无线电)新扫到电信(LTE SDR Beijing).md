@@ -151,7 +151,6 @@ CID|A |fc     |foff  |RXPWR|C |nRB|P |PR |CrystalCorrectionFactor
 地点39.951908,116.420465，近雍和宫，3层北向室内。
 联通2145-2170MHz，看起来像2个并行的5MHz信号，中心频率分别为2147.5MHz和2152.5MHz。由于工具的原因，未能解调，调试中。
 
-![](../media/yonghegong_auto_gain_2145_2170.png)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -166,3 +165,15 @@ CID|A |fc     |foff  |RXPWR|C |nRB|P |PR |CrystalCorrectionFactor
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56112029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
