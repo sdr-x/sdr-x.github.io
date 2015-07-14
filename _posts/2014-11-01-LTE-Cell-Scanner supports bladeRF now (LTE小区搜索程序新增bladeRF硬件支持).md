@@ -84,6 +84,7 @@ See video outside China: [http://youtu.be/rg6ENh-tbJY](http://youtu.be/rg6ENh-tb
 
 See video in China: [http://v.youku.com/v_show/id_204158978.html](http://v.youku.com/v_show/id_204158978.html)
 
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -97,3 +98,15 @@ See video in China: [http://v.youku.com/v_show/id_204158978.html](http://v.youku
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56112029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
