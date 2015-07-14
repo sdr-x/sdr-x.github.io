@@ -26,6 +26,7 @@ tags:  DRM shortwave Receiver Dream SDR SWL Short-Wave-Listening Mixer 455kHz-12
   
 刚才又听了一下，神秘的模拟“中文”广播又消失了，DRM信号依旧，难道是阿三DRM电台测试流程？插播一段模拟“中文”广播？ 
 
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -39,3 +40,15 @@ tags:  DRM shortwave Receiver Dream SDR SWL Short-Wave-Listening Mixer 455kHz-12
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56112029-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
