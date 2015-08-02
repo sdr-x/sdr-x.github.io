@@ -1,4 +1,4 @@
-This is Jiao Xianjun (Ryan)'s tech blog.
+This is Jiao Xianjun's tech blog.
 
 Visit his code at:    http://github.com/JiaoXianjun
 
