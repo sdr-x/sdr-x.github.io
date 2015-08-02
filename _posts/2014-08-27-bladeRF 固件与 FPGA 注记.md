@@ -7,6 +7,14 @@ categories: SDR
 tags:  SDR Software-Defined-Radio bladeRF hackRF rtl-sdr rtl2832
 ---
 
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, multilanguagePage: true, gaTrack: true, gaId: 'UA-56112029-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
 原始链接：[http://www.tuicool.com/articles/mIJVbq](http://www.tuicool.com/articles/mIJVbq)
 
 时间 2014-08-27 00:00:18 GAL(grep art life) 原文  [wp-awesome.rhcloud.com/2014/08/27/bladerf-firmware-fpga-notes/](wp-awesome.rhcloud.com/2014/08/27/bladerf-firmware-fpga-notes/)
