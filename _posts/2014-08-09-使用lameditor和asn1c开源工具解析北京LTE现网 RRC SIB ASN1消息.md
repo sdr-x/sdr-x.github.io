@@ -7,6 +7,13 @@ categories: LTE
 tags:  asn1c lameditor LTE RRC SIB ASN1 Beijing 4G HACKRF rtl-sdr LTE-Cell-Scanner
 ---
 
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, multilanguagePage: true, gaTrack: true, gaId: 'UA-56112029-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
 (原文刊于被sina关闭的我的sina博客)
 
 English version： [http://sdr-x.github.io/LTE-SIB-decoding-by-asn1c/](http://sdr-x.github.io/LTE-SIB-decoding-by-asn1c/)
