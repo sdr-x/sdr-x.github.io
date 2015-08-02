@@ -7,15 +7,6 @@ categories: Radio
 tags:  DRM shortwave Receiver Dream SDR SWL Short-Wave-Listening Mixer 455kHz-12kHz-Mixer
 ---
 
-
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, multilanguagePage: true, gaTrack: true, gaId: 'UA-56112029-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
-
 难得的不忙的日子，拿出我n年前那堆破烂听DRM。n年前是指这几篇blog：[1](http://sdr-x.github.io/%E7%BB%88%E4%BA%8E%E6%88%90%E5%8A%9F%E6%94%B6%E5%90%AC%E5%BE%B7%E5%B9%BF%E5%92%8C%E4%BF%84%E7%BD%97%E6%96%AF%E7%9A%84DRM%E7%9F%AD%E6%B3%A2%E5%B9%BF%E6%92%AD%28DRM%20shortwave%20radio%20receiving%20result%20-%20deutsche%20welle%20and%20Russia%29/), [2](http://sdr-x.github.io/DRM%E6%8E%A5%E6%94%B6%E5%8F%8Amatlab%E5%AE%9E%E9%AA%8C%28DRM%20shortwave%20radio%20receiving%20experiment%29/)
 
 扫了许多频点，发现一个信号较强和稳定的频率是15795kHz，根据drm的schedule应该是阿三从Bengaluru面向Asia进行的测试广播，从schedule里的信息来看竟然是中文广播。。。，时间是从UTC 1145到1315（北京时间晚上7点45到9点15），节目叫做AIR test。
