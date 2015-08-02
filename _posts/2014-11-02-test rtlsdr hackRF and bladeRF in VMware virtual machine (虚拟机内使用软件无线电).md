@@ -7,14 +7,6 @@ categories: SDR
 tags:  LTE TD-LTE SDR Cell-Search Cell-Scanner rtlsdr hackRF bladeRF VMware Virtual-Machine
 ---
 
-
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, multilanguagePage: true, gaTrack: true, gaId: 'UA-56112029-1'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
 test some cases to see if rtlsdr hackRF and bladeRF can work in virtual machine smoothly.
 
 rtlsdr dongle and bladeRF work well in virtual machine for this [LTE Cell Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner), 
