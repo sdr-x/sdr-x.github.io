@@ -3,7 +3,7 @@ date: 2010-10-02 12:00:00
 layout: post
 title: 关于清华留美学生高杏欣破解北斗扩频码事件(About Gao Xingxin crack compass codes)
 thread: 8420
-categories: satellite
+categories: gps
 tags:  GPS Compass Beidou China Crack Grace-Gao
 ---
 
