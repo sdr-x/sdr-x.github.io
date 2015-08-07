@@ -10,7 +10,6 @@ layout: page
 </div>
 
 <ul class="listing">
-  <li class="listing-seperator" id="gps">{{ cat[0] }}</li>
 {% for post in cat[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
