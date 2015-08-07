@@ -2,7 +2,7 @@ markdown: rdiscount
 permalink: /:title/
 url: http://sdr-x.github.io
 name: SDR-X
-author: "Jiao Xianjun (Ryan)"
+author: "Jiao Xianjun"
 qq: 
 email: putaoshu@gmail.com
 duoshuo: jxj
@@ -13,4 +13,4 @@ github: JiaoXianjun
 pygments: true
 safe: true
 paginate: 20
-about: "Jiao Xianjun (Ryan)'s tech blog."
+about: "Jiao Xianjun's tech blog."
