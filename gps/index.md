@@ -10,7 +10,7 @@ layout: page
 </div>
 
 <ul class="listing">
-{% cat in site.categories %}
+{% cat in site.categories.gps %}
   <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% for post in cat[1] %}
   <li class="listing-item">
