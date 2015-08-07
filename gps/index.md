@@ -10,7 +10,7 @@ layout: page
 </div>
 
 <ul class="listing">
-{% cat in site.categories.gps %}
+{% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% for post in cat[1] %}
   <li class="listing-item">
@@ -18,7 +18,7 @@ layout: page
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
-{% end %}
+{% endfor %}
 </ul>
 
 <script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
