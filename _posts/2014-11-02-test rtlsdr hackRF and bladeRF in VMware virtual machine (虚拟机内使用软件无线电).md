@@ -3,7 +3,7 @@ date: 2014-11-02 12:00:00
 layout: post
 title: test rtlsdr hackRF and bladeRF in VMware virtual machine (虚拟机内使用软件无线电)
 thread: 2014110223423
-categories: SDR
+categories: misc
 tags:  LTE TD-LTE SDR Cell-Search Cell-Scanner rtlsdr hackRF bladeRF VMware Virtual-Machine
 ---
 
