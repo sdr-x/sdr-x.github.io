@@ -3,7 +3,7 @@ date: 2014-12-15 12:00:00
 layout: post
 title: Notes on STM32 based BPF (update frequently)
 thread: 2014121523
-categories: STM32
+categories: misc
 tags:  STM32 BPF STM32F4DISCOVERY STM32F4-DISCOVERY
 ---
 
