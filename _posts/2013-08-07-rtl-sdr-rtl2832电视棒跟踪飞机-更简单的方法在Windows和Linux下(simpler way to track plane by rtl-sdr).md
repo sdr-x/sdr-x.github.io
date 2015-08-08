@@ -3,7 +3,7 @@ date: 2013-08-07 12:00:00
 layout: post
 title: rtl-sdr-rtl2832电视棒跟踪飞机-更简单的方法在Windows和Linux下(simpler way to track plane by rtl-sdr)
 thread: 78316
-categories: ADS-B
+categories: ads-b
 tags:  rtl-sdr rtl2832 SDR ADS-B plane-track aircraft-track gr-air-modes dump1090 rtl1090
 ---
 
