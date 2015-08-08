@@ -3,7 +3,7 @@ date: 2014-03-29 12:00:00
 layout: post
 title: OpenCL加速LTE小区搜索(rtl-sdr电视棒), 半秒扫一个频点(OpenCL accelerated LTE Cell Scanner)
 thread: 893
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner OpenCL acceleration rtl-sdr
 ---
 
