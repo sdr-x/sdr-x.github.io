@@ -3,7 +3,7 @@ date: 2014-05-29 12:00:00
 layout: post
 title: OpenCL acceleration is add to TDD FDD LTE-Cell-Scanner
 thread: 64653
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner OpenCL POCL Portable-OpenCL Intel AMD Nvidia GeForce
 ---
 
