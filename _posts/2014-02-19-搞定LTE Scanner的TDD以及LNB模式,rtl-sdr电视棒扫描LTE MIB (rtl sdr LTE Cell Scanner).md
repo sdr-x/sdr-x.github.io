@@ -3,7 +3,7 @@ date: 2014-02-19 12:00:00
 layout: post
 title: 搞定LTE Scanner的TDD以及LNB模式,rtl-sdr电视棒扫描LTE MIB (rtl sdr LTE Cell Scanner)
 thread: 956
-categories: LTE
+categories: lte
 tags:  LTE rtl-sdr SDR 4G Cell-Search Cell-Scanner Beijing MMDS-LNB LNB
 ---
 
