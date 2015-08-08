@@ -3,7 +3,7 @@ date: 2014-04-11 12:00:00
 layout: post
 title: LTE小区搜索软件加入对HACKRF的支持，有望将来解调LTE SIB信息(Add hackrf support to LTE Cell Scanner)
 thread: 993
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner HACKRF
 ---
 
