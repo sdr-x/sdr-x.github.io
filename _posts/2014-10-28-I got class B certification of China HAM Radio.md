@@ -3,7 +3,7 @@ date: 2014-10-28 12:00:00
 layout: post
 title: I got class B certification of China HAM Radio
 thread: 450234
-categories: Radio
+categories: radio
 tags:  China-HAM HAM-Radio Radio HAM UV-5R Baofeng  Class-A Class-B Class-C
 ---
 
