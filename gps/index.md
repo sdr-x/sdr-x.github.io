@@ -3,7 +3,7 @@ title: Jiao Xianjun (BH1RXH)'s tech blog - gps
 layout: page
 ---
 
-Useful Links: ------ <a href="https://github.com/JiaoXianjun">Coeds in github</a> ------ <a href="https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf">paper list</a> ------ <a href="mailto:putaoshu@gmail.com">email/linkedin</a>
+Useful Links: ------ <a href="https://github.com/JiaoXianjun">Coeds in github</a> ------ <a href="https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf">paper list</a> ------ <a href="mailto:putaoshu@gmail.com">email/linkedin(patent)</a>
 
 <ul class="listing">
 {% for post in site.categories.gps %}
