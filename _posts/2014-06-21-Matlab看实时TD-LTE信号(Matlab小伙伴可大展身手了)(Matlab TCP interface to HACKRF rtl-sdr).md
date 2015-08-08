@@ -3,7 +3,7 @@ date: 2014-06-21 12:00:00
 layout: post
 title: Matlab看实时TD-LTE信号(Matlab小伙伴可大展身手了)(Matlab TCP interface to HACKRF rtl-sdr)
 thread: 437
-categories: LTE
+categories: lte
 tags:  LTE rtl-sdr SDR Matlab TCP real-time spectrum time-domain interface
 ---
 
