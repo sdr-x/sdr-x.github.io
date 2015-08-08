@@ -3,7 +3,7 @@ date: 2014-04-11 12:00:00
 layout: post
 title: HACKRF support added to OpenCL TDD FDD LTE Cell Searcher Tracker
 thread: 2014864
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner HACKRF
 ---
 
