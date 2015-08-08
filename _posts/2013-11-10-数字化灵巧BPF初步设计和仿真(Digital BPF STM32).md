@@ -3,7 +3,7 @@ date: 2013-11-10 12:00:00
 layout: post
 title: 数字化灵巧BPF初步设计和仿真(Digital BPF STM32)
 thread: 745653
-categories: Radio
+categories: radio
 tags:  BPF SDR STM32F4 Cortex-M4 Band-Pass-Filter Narrow-Band
 ---
 
