@@ -3,7 +3,7 @@ date: 2014-06-02 12:00:00
 layout: post
 title: OpenCL LTE-Cell-Scanner appears in rtl-sdr - OsmoSDR
 thread: 35074
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner rtl2832 rtl-sdr OsmoSDR dongle LTE-Cell-Scanner OpenCL
 ---
 
