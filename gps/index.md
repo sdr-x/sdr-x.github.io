@@ -3,12 +3,6 @@ title: Jiao Xianjun (BH1RXH)'s tech blog - Categories/分类
 layout: page
 ---
 
-<div id='tag_cloud'>
-{% for cat in site.categories %}
-<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
-{% endfor %}
-</div>
-
 <ul class="listing">
 {% for post in site.categories.gps %}
   <li class="listing-item">
