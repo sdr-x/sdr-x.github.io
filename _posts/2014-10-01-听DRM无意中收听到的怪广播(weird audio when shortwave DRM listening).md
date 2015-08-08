@@ -3,7 +3,7 @@ date: 2014-10-01 12:00:00
 layout: post
 title: 听DRM无意中收听到的"怪"广播(weird audio when shortwave DRM listening)
 thread: 9156
-categories: Radio
+categories: radio
 tags:  DRM shortwave Receiver Dream SDR SWL Short-Wave-Listening Mixer 455kHz-12kHz-Mixer
 ---
 
