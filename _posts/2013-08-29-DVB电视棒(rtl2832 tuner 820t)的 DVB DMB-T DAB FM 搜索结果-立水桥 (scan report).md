@@ -3,7 +3,7 @@ date: 2013-08-29 12:00:00
 layout: post
 title: DVB电视棒(rtl2832 tuner 820t)的 DVB DMB-T DAB FM 搜索结果-立水桥 (scan report)
 thread: 6231
-categories: Radio
+categories: radio
 tags:  rtl-sdr rtl2832 scan-report DVB DMB-T DAB FM 1090MHz ADS-B Lishuiqiao Beijing
 ---
 
