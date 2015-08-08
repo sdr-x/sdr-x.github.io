@@ -3,7 +3,7 @@ date: 2014-08-05 12:00:00
 layout: post
 title: A BTLE (Bluetooth Low energy) BT4.0 radio packet sender (BladeRF, HACKRF)
 thread: 45318
-categories: BTLE
+categories: btle
 tags:  BTLE HACKRF BladeRF BT4.0 packet-sender packet-sniffer iBeacon
 ---
 
