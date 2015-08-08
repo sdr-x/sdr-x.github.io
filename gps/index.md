@@ -10,14 +10,11 @@ layout: page
 </div>
 
 <ul class="listing">
-{% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% for post in site.categories.gps %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
-{% endfor %}
 {% endfor %}
 </ul>
 
