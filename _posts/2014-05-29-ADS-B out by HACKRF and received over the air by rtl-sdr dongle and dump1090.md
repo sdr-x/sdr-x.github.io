@@ -3,7 +3,7 @@ date: 2014-05-29 12:00:00
 layout: post
 title: ADS-B out by HACKRF and received over the air by rtl-sdr dongle and dump1090
 thread: 564371
-categories: ADS-B
+categories: ads-b
 tags:  ADS-B ADSB-OUT HACKRF SDR Software-Defined-Radio Gnu-Radio GRC rtl-sdr dump1090
 ---
 
