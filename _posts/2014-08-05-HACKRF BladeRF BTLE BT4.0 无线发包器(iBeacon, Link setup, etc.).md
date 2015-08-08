@@ -3,7 +3,7 @@ date: 2014-08-05 12:00:00
 layout: post
 title: HACKRF BladeRF BTLE BT4.0 无线发包器(iBeacon, Link setup, etc.)
 thread: 7231
-categories: BTLE
+categories: btle
 tags:  BTLE HACKRF BT4.0 BladeRF packet-sender packet-sniffer iBeacon
 ---
 
