@@ -1,5 +1,5 @@
 ---
-title: Jiao Xianjun (BH1RXH)'s tech blog - gps
+title: Jiao Xianjun (BH1RXH)'s tech blog - GPS
 layout: page
 ---
 
