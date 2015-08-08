@@ -3,7 +3,7 @@ date: 2014-05-27 12:00:00
 layout: post
 title: Whole 20MHz config LTE signal is decoded by HACKRF 19.2Msps with ASN1 SIB parsed
 thread: 33653
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ HACKRF 20MHz 100RB 19.2Msps ASN1 SIB RRC-SIB
 ---
 
