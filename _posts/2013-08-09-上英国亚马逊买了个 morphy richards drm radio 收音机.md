@@ -3,7 +3,7 @@ date: 2013-08-09 12:00:00
 layout: post
 title: 上英国亚马逊买了个 morphy richards drm radio 收音机
 thread: 7386
-categories: Radio
+categories: radio
 tags:  DRM shortwave SWL Shortwave-Listener Morphy-Richards
 ---
 
