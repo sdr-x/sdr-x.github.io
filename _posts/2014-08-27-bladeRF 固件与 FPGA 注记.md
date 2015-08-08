@@ -3,7 +3,7 @@ date: 2014-08-27 12:00:00
 layout: post
 title: bladeRF 固件与 FPGA 注记
 thread: 2014082742
-categories: misc
+categories: hw-sw-fw
 tags:  SDR Software-Defined-Radio bladeRF hackRF rtl-sdr rtl2832
 ---
 
