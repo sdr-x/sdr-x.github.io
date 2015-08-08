@@ -3,7 +3,7 @@ date: 2014-04-12 12:00:00
 layout: post
 title: 使用C和C++直接调用HACKRF来支持LTE小区搜索(LTE Cell Scanner by HACKRF(C, C++))
 thread: 793
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ HACKRF
 ---
 
