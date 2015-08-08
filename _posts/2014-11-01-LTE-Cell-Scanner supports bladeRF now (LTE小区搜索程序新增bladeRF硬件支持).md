@@ -3,7 +3,7 @@ date: 2014-11-01 12:00:00
 layout: post
 title: LTE-Cell-Scanner supports bladeRF now (LTE小区搜索程序新增bladeRF硬件支持)
 thread: 2014110123423
-categories: LTE
+categories: lte
 tags:  LTE TD-LTE SDR 4G Beijing Cell-Search Cell-Scanner C C++ bladeRF 1.92Msps MIB HACKRF
 ---
 
