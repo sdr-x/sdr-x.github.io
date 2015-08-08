@@ -1,5 +1,5 @@
 ---
-title: Jiao Xianjun (BH1RXH)'s tech blog - gps
+title: Jiao Xianjun (BH1RXH)'s tech blog - BTLE
 layout: page
 ---
 
@@ -7,7 +7,7 @@ layout: page
 Useful Links: ------ <a href="https://github.com/JiaoXianjun">github code</a> ------ <a href="https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf">papers</a> ------ <a href="mailto:putaoshu@gmail.com">email me</a> ------ <a href="http://www.linkedin.com/profile/view?id=148004333">linkedin(patent)</a>
 
 <ul class="listing">
-{% for post in site.categories.gps %}
+{% for post in site.categories.btle %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
