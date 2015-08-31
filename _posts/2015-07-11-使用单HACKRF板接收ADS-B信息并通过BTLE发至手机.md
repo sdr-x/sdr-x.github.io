@@ -21,7 +21,7 @@ tags:  HACKRF DFU firmware ADS-B BTLE relay 1090MHz 2.4GHz TDD
 
 (hackrf掉电或者重启后会丢失此固件，因此不会影响原有固件)
 
-下载固件 [adsb-btle-air-relay.dfu](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/adsb-btle-air-relay.dfu) to local.
+下载固件 [adsb-btle-air-relay.dfu](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/adsb-btle-air-relay.dfu)
 
 下载和安装dfu-util:
 
@@ -29,7 +29,7 @@ tags:  HACKRF DFU firmware ADS-B BTLE relay 1090MHz 2.4GHz TDD
 
 也放了一个dfu-util在这里 [dfu-util.tar.gz](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/dfu-util.tar.gz)
 
-启动HackRF One 至 DFU 模式：在上电或者重启hackrf时按下 DFU键不放. 在 3V3 LED 亮起后释放DFU键. (See detailed info here [https://github.com/mossmann/hackrf](https://github.com/mossmann/hackrf))
+启动HackRF One 至 DFU 模式：在上电或者重启hackrf时按下 DFU键不放. 在 3V3 LED 亮起后释放DFU键. (详细介绍  [https://github.com/mossmann/hackrf](https://github.com/mossmann/hackrf))
 
 加载我的固件进RAM并且运行:
 
@@ -45,7 +45,7 @@ tags:  HACKRF DFU firmware ADS-B BTLE relay 1090MHz 2.4GHz TDD
 
 (掉电也不会丢失，但会冲到你原有的固件，所以你可能将来需要刷回原有固件)
 
-下载 [adsb-btle-air-relay.bin](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/adsb-btle-air-relay.bin) to local.
+下载 [adsb-btle-air-relay.bin](https://github.com/sdr-x/sdr-x.github.io/blob/master/_resource/adsb-btle-air-relay.bin).
 
 进行下一步之前，请确保你的hackrf正在跑原始固件（因为只有原始固件能和hackrf_spiflash通信）, 然后：
 
