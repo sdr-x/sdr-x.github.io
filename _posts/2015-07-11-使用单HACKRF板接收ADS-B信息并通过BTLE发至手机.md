@@ -7,6 +7,8 @@ categories: ads-b
 tags:  HACKRF DFU firmware ADS-B BTLE relay 1090MHz 2.4GHz TDD
 ---
 
+English version: [ADS-B BTLE air relay via single HACKRF TDD](http://sdr-x.github.io/abar/)
+
 (本文提到的固件也可以这里下载: [https://github.com/JiaoXianjun/ADS-B-BTLE-air-relay-HACKRF-firmware](https://github.com/JiaoXianjun/ADS-B-BTLE-air-relay-HACKRF-firmware) )
 
 (为了降低风险，转发至手机的的经纬度信息已经人为降级)
