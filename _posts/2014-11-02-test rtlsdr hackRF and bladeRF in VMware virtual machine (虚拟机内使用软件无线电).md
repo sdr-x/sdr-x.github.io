@@ -7,6 +7,8 @@ categories: hw-sw-fw
 tags:  LTE TD-LTE SDR Cell-Search Cell-Scanner rtlsdr hackRF bladeRF VMware Virtual-Machine
 ---
 
+(Latest update: hackrf can be used smoothly in Ubuntu VMware under Mac OS)
+
 test some cases to see if rtlsdr hackRF and bladeRF can work in virtual machine smoothly.
 
 rtlsdr dongle and bladeRF work well in virtual machine for this [LTE Cell Scanner](https://github.com/JiaoXianjun/LTE-Cell-Scanner), 
