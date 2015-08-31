@@ -11,7 +11,7 @@ tags:  HACKRF DFU firmware ADS-B BTLE relay 1090MHz 2.4GHz TDD
 
 (为了降低风险，转发至手机的的经纬度信息已经人为降级)
 
-写了一个hackrf固件，可以把接收的ADS-B (1090MHz) 包解析后，信息通过BTLE (2.4GHz) 链路广播. 这时你用手机就能查看飞机信息了. (比如用这个APP LightBlue。APP store下载). ([video inside CHN](http://v.youku.com/v_show/id_XMTI4MjY2NDc0OA==.html), [video on youtube](https://youtu.be/MqX74sk-sa4))
+写了一个hackrf固件，可以把接收的ADS-B (1090MHz) 包解析后，信息通过BTLE (2.4GHz) 链路广播. 这时你用手机就能查看飞机信息了. (比如用这个APP LightBlue。APP store下载). ([youku视频](http://v.youku.com/v_show/id_XMTI4MjY2NDc0OA==.html), [youtube视频](https://youtu.be/MqX74sk-sa4))
 
 ![](../media/adsb-btle-air-relay.png)
 
