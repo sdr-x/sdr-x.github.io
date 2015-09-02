@@ -4,9 +4,7 @@ layout: page
 comments: yes
 ---
 
-Coming soon.
-
-
+A friend: [Scateu Blog - S.B.](http://scateu.me/)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
