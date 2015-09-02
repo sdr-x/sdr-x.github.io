@@ -4,7 +4,7 @@ layout: page
 comments: yes
 ---
 
-A friend: [Scateu Blog - S.B.](http://scateu.me/)
+<a href="http://scateu.me/">A friend's blog: Scateu Blog - S.B.</a>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
