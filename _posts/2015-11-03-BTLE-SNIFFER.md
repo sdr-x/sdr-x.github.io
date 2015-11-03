@@ -15,6 +15,12 @@ tags:  HACKRF DFU firmware 1602 LCD UART
 
 [youku video in China](http://v.youku.com/v_show/id_XMTM3NzA0NjgyNA==.html)
 
+Snapshots of HACKRF BTLE packet sniffer VS TI's packet sniffer under fastest flow of continuous/non-gap BTLE packets sequence to demonstrate full real-time processing ability. They capture the same amount of packets and contents:
+
+![](../media/mine-btle-sniffer2.png)
+
+![](../media/TI3.png)
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
