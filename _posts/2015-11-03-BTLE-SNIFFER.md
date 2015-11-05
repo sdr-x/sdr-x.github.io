@@ -9,7 +9,7 @@ tags:  HACKRF DFU firmware 1602 LCD UART
 
 [Introduction source code and usage](https://github.com/JiaoXianjun/BTLE)
 
-[Release notes](https://github.com/JiaoXianjun/BTLE/releases/tag/v0.1)
+[Release notes](https://github.com/JiaoXianjun/BTLE/releases/tag/v0.1.1)
 
 [youtube video](https://youtu.be/9LDPhOF2yyw)
 
