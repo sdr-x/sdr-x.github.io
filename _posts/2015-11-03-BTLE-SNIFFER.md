@@ -17,11 +17,11 @@ New added options:
 
 This will turn on data channel tracking (frequency hopping) after link setup information is captured in ADV_CONNECT_REQ packet.
 
--f --freq_hz
+-f --freq_hz (need argument)
 
 This frequency (Hz) will override channel setting (In case someone want to work on freq other than BTLE. More general purpose).
 
--m --access_mask
+-m --access_mask (need argument)
 
 ========================================
 
