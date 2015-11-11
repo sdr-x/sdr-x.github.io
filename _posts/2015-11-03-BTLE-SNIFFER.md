@@ -9,6 +9,8 @@ tags:  HACKRF DFU firmware 1602 LCD UART
 
 Nov. 2015: So excited that the HACKRF BTLE packet sniffer/scanner can follow hopping data channels automatically now! Just like TI's sniffer.
 
+![](../media/cap-freq-hopping.png)
+
 New added options:
 
 -o --hop
