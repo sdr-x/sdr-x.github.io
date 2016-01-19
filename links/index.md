@@ -6,7 +6,7 @@ comments: yes
 
 <a href="http://scateu.me/">A friend's blog: Scateu Blog - S.B.</a>
 
-<a href="http://just4fun.cn">S friend's blog: Just For Fun!</a>
+<a href="http://just4fun.cn">A friend's blog: Just For Fun!</a>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
