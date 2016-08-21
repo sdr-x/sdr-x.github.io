@@ -1,3 +1,4 @@
+highlighter: rouge
 markdown: kramdown
 permalink: /:title/
 url: http://sdr-x.github.io
@@ -10,7 +11,6 @@ beian:
 cnzz: 
 weibo: spaceshuttle
 github: JiaoXianjun
-pygments: true
 safe: true
 paginate: 20
 about: "Jiao Xianjun's tech blog."
