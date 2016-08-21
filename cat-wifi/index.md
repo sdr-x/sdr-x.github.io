@@ -8,7 +8,7 @@ Useful Links: ------ <a href="https://github.com/JiaoXianjun">github code</a> --
 
 
 <ul class="listing">
-{% for post in site.categories.lte %}
+{% for post in site.categories.wifi %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
