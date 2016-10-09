@@ -14,9 +14,9 @@ Find my career track at Linkedin via [putaoshu@gmail.com](mailto:putaoshu@gmail.
 
 ###Contacts：
 
-Website：[{{ site.name }}]({{ site.url }})
+[{{ site.email }}](mailto:{{ site.email }}) @ facebook; -- jxjputaoshu @ twitter; -- jxj @ newsmth.net;
 
-[{{ site.email }}](mailto:{{ site.email }}) @ facebook;  jxjputaoshu @ twitter; jxj @ newsmth.net;
+Website：[{{ site.name }}]({{ site.url }})
 
 GitHub : [https://github.com/{{ site.github }}](https://github.com/{{ site.github }})
 
