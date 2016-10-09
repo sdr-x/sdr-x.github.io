@@ -7,6 +7,11 @@ categories: hw-sw-fw
 tags:  ZHIHU RFSW RF-Software Radio-Frequency-Software iPhone Cell-Phone Antenna-switch LNA PA Matrix
 ---
 
+作者：纸飞机
+链接：https://www.zhihu.com/question/20496717/answer/117644319
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。
+
 我曾经是Apple北京射频软件组工程师。现在已离开。干的时间不是很长，谈谈我对射频软件的一些粗浅理解。
 
 简而言之，射频软件是实时控制手机射频部分（由一些射频芯片元器件组成），使得射频部分实时的满足通信需求的软件。
