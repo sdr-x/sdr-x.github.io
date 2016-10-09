@@ -8,7 +8,7 @@ tags:  ZHIHU RFSW RF-Software Radio-Frequency-Software iPhone Cell-Phone Antenna
 ---
 
 作者：纸飞机
-链接：https://www.zhihu.com/question/20496717/answer/117644319
+链接：[https://www.zhihu.com/question/20496717/answer/117644319](https://www.zhihu.com/question/20496717/answer/117644319)
 来源：知乎
 著作权归作者所有，转载请联系作者获得授权。
 
