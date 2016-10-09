@@ -4,7 +4,7 @@ layout: post
 title: 比利时折腾网络记(兼亚马逊血泪教训)
 thread: 20160627
 categories: misc
-tags:  WiFi Belgium PROXIMUS FON PROXIMUS_FON home telenet
+tags:  WiFi Belgium PROXIMUS FON PROXIMUS_FON home telenet Gent GHent
 ---
 
 记录一下这一个多月折腾网络的历程和心得。 
