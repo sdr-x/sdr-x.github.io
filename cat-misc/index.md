@@ -1,5 +1,5 @@
 ---
-title: Jiao Xianjun (BH1RXH)'s tech blog - WIFI
+title: Jiao Xianjun (BH1RXH)'s tech blog - MISC
 layout: page
 ---
 
@@ -8,7 +8,7 @@ Useful Links: ------ <a href="https://github.com/JiaoXianjun">github code</a> --
 
 
 <ul class="listing">
-{% for post in site.categories.wifi %}
+{% for post in site.categories.misc %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
