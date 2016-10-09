@@ -14,19 +14,13 @@ Find my career track at Linkedin via [putaoshu@gmail.com](mailto:putaoshu@gmail.
 
 ###Contacts：
 
-{% if site.qq %}
-ＱＱ：[{{ site.qq }}](tencent://message/?uin={{ site.qq }})
-{% endif %}
 Website：[{{ site.name }}]({{ site.url }})
 
-Email：[{{ site.email }}](mailto:{{ site.email }})
+Email：[{{ site.email }}](mailto:{{ site.email }}) @ facebook;  jxjputaoshu @ twitter; jxj @ newsmth.net;
 
 GitHub : [https://github.com/{{ site.github }}](https://github.com/{{ site.github }})
 
 Chinese twitter (sina weibo): [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
-
-Wechat: spaceshuttle
-
 
 
 ----
