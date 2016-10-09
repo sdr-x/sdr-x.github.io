@@ -6,9 +6,9 @@ comments: no
 
 {{ site.about }}
 
-Find my paper track at: [https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf](https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf)
+Paper track: [https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf](https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf)
 
-Find my career track at Linkedin via [putaoshu@gmail.com](mailto:putaoshu@gmail.com)
+Career track Linkedin [putaoshu@gmail.com](mailto:putaoshu@gmail.com)
 
 ----
 
