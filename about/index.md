@@ -18,9 +18,6 @@ jxjputaoshu @ twitter;
 
 jxj @ newsmth.net;
 
-Chinese twitter (sina weibo): [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
-
-
 ----
 
 
