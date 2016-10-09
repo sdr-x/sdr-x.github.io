@@ -12,11 +12,11 @@ Find my career track at Linkedin via [putaoshu@gmail.com](mailto:putaoshu@gmail.
 
 ----
 
-Contacts：
+[{{ site.email }}](mailto:{{ site.email }}) @ facebook;
 
-[{{ site.email }}](mailto:{{ site.email }}) @ facebook;    jxjputaoshu @ twitter;    jxj @ newsmth.net;
+jxjputaoshu @ twitter;
 
-GitHub : [https://github.com/{{ site.github }}](https://github.com/{{ site.github }})
+jxj @ newsmth.net;
 
 Chinese twitter (sina weibo): [http://www.weibo.com/reentry](http://www.weibo.com/reentry)
 
