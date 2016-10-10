@@ -14,3 +14,5 @@ github: JiaoXianjun
 safe: true
 paginate: 20
 about: "Jiao Xianjun's tech blog."
+gems:
+  - jekyll-feed
