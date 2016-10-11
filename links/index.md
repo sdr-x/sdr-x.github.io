@@ -8,6 +8,8 @@ comments: yes
 
 <a href="http://just4fun.cn">A friend's blog: Just For Fun!</a>
 
+<a href="http://xbay.github.io/">http://xbay.github.io/</a>
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
