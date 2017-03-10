@@ -30,7 +30,7 @@ This frequency (Hz) will override channel setting (In case someone want to work 
 
 ========================================
 
-This is extended from my [btle_tx project](http://sdr-x.github.io/A%20BTLE%20%28Bluetooth%20Low%20energy%29%20BT4.0%20radio%20packet%20sender%20%28BladeRF,%20HACKRF%29/)
+This is extended from my [btle_tx project](https://goo.gl/LS6lKt)
 
 Now all BTLE channels (0~39, bothe ADV and DATA channels) are supported. You can use btle_tx and btle_rx to send or sniff on any BTLE channel.
 
