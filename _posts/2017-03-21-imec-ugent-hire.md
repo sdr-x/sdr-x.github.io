@@ -65,7 +65,7 @@ Working as a researcher within this technical environment in IDLab can be a trul
 
 **How to apply**
 
-- Send your motivation letter and CV to Ingrid.Moerman@imec.be, indicating “Application: HW/SW co-design” in the subject.
+- Send your motivation letter and CV to [Ingrid.Moerman@imec.be](mailto:Ingrid.Moerman@imec.be), indicating “Application: HW/SW co-design” in the subject.
 - Include a motivation letter explaining clearly the relevance of your skills for the position.
 - Include the name, email address, phone number and some recommendation letter of at least two persons that we can contact for references.
 
