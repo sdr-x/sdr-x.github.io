@@ -7,7 +7,7 @@ categories: misc
 tags:  imec Gent-university UGent SDR hiring PhD Researcher
 ---
 
-https://www.ugent.be/ea/idlab/en
+[https://www.ugent.be/ea/idlab/en](https://www.ugent.be/ea/idlab/en)
 
 Job description
 
@@ -31,7 +31,7 @@ The goal of this research position is to design, implement and validate flexible
 We offer a competitive salary with interesting social benefits and a challenging, stimulating and pleasant research environment, where you can contribute to the worldwide research for the Future Internet. During your research, the following activities will be part of your work:
 
 Analyse the current wireless network technologies thoroughly and will develop new HW/SW architectures, algorithms, protocols and concepts in one of the defined research areas.
-Build up hands-on experience by implementing these HW/SW concepts and by evaluating through experimental validation on a large-scale wireless testbed (more info, see http://ilabt.iminds.be) or through detailed simulations.
+Build up hands-on experience by implementing these HW/SW concepts and by evaluating through experimental validation on a large-scale wireless testbed (more info, see [http://ilabt.iminds.be](http://ilabt.iminds.be)) or through detailed simulations.
 Participate in the framework of European and national research projects (in collaboration with industry).
 Publish and present results both at international conferences and in scientific journals.
 Work towards realizing a PhD in about 4 years.
@@ -69,7 +69,7 @@ Working as a researcher within this technical environment in IDLab can be a trul
 - Include a motivation letter explaining clearly the relevance of your skills for the position.
 - Include the name, email address, phone number and some recommendation letter of at least two persons that we can contact for references.
 
-Professor Ingrid Moerman webpage: https://www.ugent.be/ea/idlab/en/members/ingrid-moerman.htm
+Professor Ingrid Moerman webpage: [https://www.ugent.be/ea/idlab/en/members/ingrid-moerman.htm](https://www.ugent.be/ea/idlab/en/members/ingrid-moerman.htm)
 
 
 
