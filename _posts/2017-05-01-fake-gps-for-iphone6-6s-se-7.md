@@ -19,15 +19,15 @@ GPS information of iPhone from internet:
 
 iPhone 6: [teardown](https://www.ifixit.com/Teardown/iPhone+6+Teardown/29213): Baseband chip [MDM9625](https://www.qualcomm.com/news/releases/2013/02/25/qualcomm-technologies-announces-first-4g-lte-advanced-embedded-connectivity) includes GPS
 
-iPhone 6s: [teardown](https://www.ifixit.com/Teardown/iPhone+6s+Teardown/48170): Transceiver chip [WTR3925](http://www.chipworks.com/sites/default/files/Apple_iPhone_6s_A1688_Smartphone_Chipworks_Teardown_Report_BPT-1509-801_with_Commentary.pdf) includes GPS
-
 iPhone SE: [teardown](https://www.ifixit.com/Teardown/iPhone+SE+Teardown/60902): Baseband chip [MDM9625](https://www.qualcomm.com/news/releases/2013/02/25/qualcomm-technologies-announces-first-4g-lte-advanced-embedded-connectivity) includes GPS
 
-iPhone 7: [teardown: Intel baseband](http://www.techinsights.com/about-techinsights/overview/blog/apple-iphone-7-teardown/): GPS chip [BCM47734](https://www.broadcom.com/products/wireless/gnss-gps-socs/bcm4774/)
+iPhone 6s: [teardown](https://www.ifixit.com/Teardown/iPhone+6s+Teardown/48170): Transceiver chip [WTR3925](http://www.chipworks.com/sites/default/files/Apple_iPhone_6s_A1688_Smartphone_Chipworks_Teardown_Report_BPT-1509-801_with_Commentary.pdf) includes GPS
 
 iPhone 7: [teardown: Qualcomm baseband](https://www.ifixit.com/Teardown/iPhone+7+Teardown/67382): Transceiver chip [WTR3925](http://www.chipworks.com/sites/default/files/Apple_iPhone_6s_A1688_Smartphone_Chipworks_Teardown_Report_BPT-1509-801_with_Commentary.pdf) includes GPS
 
-Now question is: Will Qualcomm baseband iPhone 7 be attracted by fake GPS signal as easy as iPhone 6/6s/SE or not?
+iPhone 7: [teardown: Intel baseband](http://www.techinsights.com/about-techinsights/overview/blog/apple-iphone-7-teardown/): GPS chip [BCM47734](https://www.broadcom.com/products/wireless/gnss-gps-socs/bcm4774/)
+
+Now question is: Will Qualcomm baseband iPhone 7 be attracted to fake GPS signal as easy as iPhone 6/6s/SE or not?
 
 Anyone has Qualcomm baseband iPhone 7?
 
