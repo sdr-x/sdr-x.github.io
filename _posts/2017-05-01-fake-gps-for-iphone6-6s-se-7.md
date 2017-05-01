@@ -13,7 +13,7 @@ via BladeRF playing Pokemon Go on predefined geography trace (You just sit in ro
 The script works quite well for iPhone 6, 6s, SE, but not for my iPhone 7 (My iPhone 7 has Intel baseband).
 
 Why it doesn't work for Intel baseband iPhone 7? I don't have conclusion yet, but some guess: Maybe it is 
-related to different iPhone GPS solution?
+related to different iPhone GPS solution? (Broadcomm GPS performs better than Qualcomm GPS in aspect of anti-fake-GPS?)
 
 GPS information of iPhone from internet:
 
