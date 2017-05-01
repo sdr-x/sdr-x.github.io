@@ -29,7 +29,7 @@ iPhone 7: [teardown: Intel baseband](http://www.techinsights.com/about-techinsig
 
 Now question is: Will Qualcomm baseband iPhone 7 be attracted to fake GPS signal as easy as iPhone 6/6s/SE or not?
 
-Anyone has Qualcomm baseband iPhone 7?
+Anyone has Qualcomm baseband iPhone 7 to verify this?
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
