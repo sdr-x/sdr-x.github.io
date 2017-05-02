@@ -15,6 +15,8 @@ The script works quite well for iPhone 6, 6s, SE, but not for my iPhone 7 (My iP
 Why it doesn't work for Intel baseband iPhone 7? I don't have conclusion yet, but some guess: Maybe it is 
 related to different iPhone GPS solution? (Broadcomm GPS performs better than Qualcomm GPS in aspect of anti-fake-GPS?)
 
+(Finally I most probably have conclusion now. See the end of the article.)
+
 GPS information of iPhone from internet:
 
 iPhone 6: [teardown](https://www.ifixit.com/Teardown/iPhone+6+Teardown/29213): Baseband chip [MDM9625](https://www.qualcomm.com/news/releases/2013/02/25/qualcomm-technologies-announces-first-4g-lte-advanced-embedded-connectivity) includes GPS
@@ -30,6 +32,10 @@ iPhone 7: [teardown: Intel baseband](http://www.techinsights.com/about-techinsig
 Now question is: Will Qualcomm baseband iPhone 7 be attracted to fake GPS signal as easy as iPhone 6/6s/SE or not?
 
 Anyone has Qualcomm baseband iPhone 7 to verify this?
+
+Update:
+
+Thanks to my friend @huanglin_bupt (twitter)'s experiment. She confirms that Qualcomm version iPhone 7 is still easy to be cheated as usual (6, 6s, SE). 
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
