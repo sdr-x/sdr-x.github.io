@@ -19,7 +19,7 @@ tags:  ursel flight PPL ULM
   
 教练还在空中故意减速演示了失速告警等功能，飞机还是很听话，当然不会拉到进入到抖动状态只是告警而已。 
 
-[](https://goo.gl/photos/YimfNT4Ywz569gRt9)
+![](https://goo.gl/photos/YimfNT4Ywz569gRt9)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
