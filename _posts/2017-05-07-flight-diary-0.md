@@ -1,7 +1,7 @@
 ---
 date: 2017-05-07 12:00:00
 layout: post
-title: 	飞行日记0
+title: 	飞行日记
 thread: 20170507
 categories: misc
 tags:  ursel flight PPL ULM
