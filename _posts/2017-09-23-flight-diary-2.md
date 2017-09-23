@@ -48,11 +48,11 @@ tags:  ursel flight PPL ULM
 10. 这里的小飞机用的大都是标号100的航空汽油，具体是100LL，LL意味着低铅。和汽车类似，加油可以加更高标号的，不能加低标号的。100LL航空汽油是蓝色的，
 颜色是故意加的染料，为了防止加错油。
 
-![](../media/ppl-2-5.JPG)
-![](../media/ppl-2-1.JPG)
-![](../media/ppl-2-2.JPG)
-![](../media/ppl-2-3.JPG)
-![](../media/ppl-2-4.JPG)
+![](../media/ppl-2-5.jpg)
+![](../media/ppl-2-1.jpg)
+![](../media/ppl-2-2.jpg)
+![](../media/ppl-2-3.jpg)
+![](../media/ppl-2-4.jpg)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
