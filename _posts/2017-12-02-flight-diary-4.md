@@ -74,7 +74,7 @@ question xxx:
 
 question 13 14
 
-![](../media/q113-14.jpg)
+![](../media/q13-14.jpg)
 
 凭感觉做对了。
 
