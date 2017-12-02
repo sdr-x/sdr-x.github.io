@@ -93,9 +93,9 @@ question 15
 
 网上有很多关于翼尖涡流(wingtip vortices)的视频，非常壮观。可以自行搜索。
 
-question 16
+question 18
 
-![](../media/q16.jpg)
+![](../media/q18.jpg)
 
 关于恒速系统CSU (constant speed unit)以及变距螺旋桨控制的。
 
