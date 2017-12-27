@@ -21,7 +21,9 @@ tags:  ursel flight PPL ULM
 体检证书与飞行执照对应，有三类：
 
     Class 1 - CPL， ATPL -- 相当于巴士司机，搞运输的，体检最为严格
+    
     Class 2 - PPL -- 相当于私家车司机，体检标准一般
+    
     Class 3 - LAPL -- 相当于三蹦子助力车或者卡丁车？总之要求最低了。目的就是纯玩玩。
 
 Class 1 体检证书只能欧洲航空安全局（EASA）认可的体检中心发放。Class 2 体检证书可以体检中心或者有EASA资质的医生发放。Class 3 除了体检中心和
