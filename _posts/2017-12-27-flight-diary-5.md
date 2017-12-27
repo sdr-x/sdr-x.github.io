@@ -27,8 +27,8 @@ tags:  ursel flight PPL ULM
 Class 1 体检证书只能欧洲航空安全局（EASA）认可的体检中心发放。Class 2 体检证书可以体检中心或者有EASA资质的医生发放。Class 3 除了体检中心和
 有资质的医生发放外，GMP也可以发放。（GMP我理解就是更普通一点的医生）。
 
-有资质体检机构可以查询这里：https://mobilit.belgium.be/nl/Resources/publicaties/luchtvaart/pub_vergunningen_medisch_aeromedical_centra 
- 有资质的医生可以查询这里：https://mobilit.belgium.be/nl/resource/aeromedical_examiners
+有资质体检机构可以查询这里：[https://mobilit.belgium.be/nl/Resources/publicaties/luchtvaart/pub_vergunningen_medisch_aeromedical_centra](https://mobilit.belgium.be/nl/Resources/publicaties/luchtvaart/pub_vergunningen_medisch_aeromedical_centra) 
+有资质的医生可以查询这里：[https://mobilit.belgium.be/nl/resource/aeromedical_examiners](https://mobilit.belgium.be/nl/resource/aeromedical_examiners)
 
 我拿到的是Class 2体检证书，因为申请的是PPL驾照。
 
