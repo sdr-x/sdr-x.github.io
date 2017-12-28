@@ -20,7 +20,7 @@ tags:  ursel flight PPL ULM
 
 体检证书与飞行执照对应，有三类：
 
-Class 1 - CPL， ATPL -- 相当于巴士司机，搞运输的，体检最为严格
+Class 1 - CPL， ATPL -- 相当于巴士司机或者大车司机，搞运输的，体检最为严格
     
 Class 2 - PPL -- 相当于私家车司机，体检标准一般
     
