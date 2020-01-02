@@ -42,7 +42,7 @@ Wi-Fi工作在共享频谱（比如免费的2.4GHz和5GHz ISM频段）。在这�
 * FPGA内发包队列的管理。因为Linux Driver把包交给FPGA后，FPGA需要等待合适的发送时机（CSMA/CA里的TXOP），因此必须先把包缓存到队列中。此队列需要被Linux Driver查询和操作。
 * Linux Driver和FPGA交互所需的各种信息（RSSI，timestamp，序列号等）的插入和提取，因为这些信息是Linux上层所需要的。有些信息跟随数据包，有些信息通过寄存器交换。
 * Linux Driver（驱动）的编写。驱动程序需要综合调用FPGA和射频前端的各种功能接口，实现Linux mac80211子系统预定义的ieee80211_ops API。
-基于nl80211的user space工具的编写（例如openwifi里的sdrctl）。如果你想从user space实时访问/配置一些driver/FPGA/射频底层功能的话，则需要通过nl80211接口与内核中的驱动程序通信。
+* 基于nl80211的user space工具的编写（例如openwifi里的sdrctl）。如果你想从user space实时访问/配置一些driver/FPGA/射频底层功能的话，则需要通过nl80211接口与内核中的驱动程序通信。
 
 从上面的介绍可以看到，看似简单的Wi-Fi芯片，”全栈”开发是必须的。在商业公司内部，Wi-Fi的实现需要一个工程团队密切分工合作，并假以年计来完成。但在研究领域，具有完整和丰富工程经验的学生和老师/研究员并不多，实现完整Wi-Fi对于大多数博士生来说是投入产出比太低的工作，这也是为何在研究领域鲜有完整Wi-Fi实现的原因。
 
@@ -51,11 +51,8 @@ openwifi项目的目标就是要为研究领域提供一个完整的Wi-Fi基带�
 需要说明的是，虽然openwifi实现了”全栈”，但它并不是每个部分都从头开始，比如OFDM接收机模块就是在openofdm开源项目之上修改，添补，整合而来。下面梳理一下社区多年来不同研究者在Wi-Fi实现上的各种尝试，以及openwifi与他们的异同。
 
 * WARP 802.11 design
-
 [https://warpproject.org/trac/wiki/802.11](https://warpproject.org/trac/wiki/802.11)
-
 [https://mangocomm.com/802.11-mac-phy/](https://mangocomm.com/802.11-mac-phy/)
-
 这是rice大学很早就发布的基于FPGA的Wi-Fi参考设计。需要购买license才可以使用，费用大约30k欧左右（根据需要哪部分），费用不包括自己购买板子（比如ADRV9361-z7035）的费用。从公开资料来看，它并没有使用Linux mac80211子系统，而是high MAC和low MAC用FPGA里的MicroBlaze软核处理器实现。
 
 * National Instruments Labview 802.11 framework
@@ -111,13 +108,9 @@ openwifi的Linux驱动部分当然也是参考了Linux 里面的各种Wi-Fi芯�
 回顾openwifi的诞生历程，有一点感到很自豪的是项目的主导和主要贡献来自中国开发者。
 
 * 我本人。两年多来几乎是120%的时间在投入。openwifi的主意诞生于这个欧盟H2020项目（ORCA）[https://www.orca-project.eu/](https://www.orca-project.eu/) 。主要动机是不希望项目结束仅仅给这个世界带来一些饱含高大上概念的报告，而是能给社区带来一些能够真正广为使用和流传的东西。当然也十分感谢公司（imec）支持开源。
-
 * 我的中国同事刘薇([https://telefoonboek.ugent.be/nl/people/802000881827](https://telefoonboek.ugent.be/nl/people/802000881827))。把openofdm从USRP N210平台移植到Zynq平台，并且配合我做了大量模块和系统级调试和测试工作。
-
 * openofdm的作者史经浩。看linkedin，这位同学毕业后去了Facebook而且貌似早就不搞Wi-Fi了。但他的openofdm开源实现，使得我们的openwifi在两年内做完成为可能，否则至少还需要额外的半年到一年。
-
 * 来自中国台湾的realtek公司的Wi-Fi芯片驱动是我学习Wi-Fi驱动的主要对象。大名鼎鼎的rtl-sdr电视棒也是这家公司的，堪称业界良心了。
-
 * 最后是一位开发者不是来自中国，但也必须提到：来自埃塞俄比亚的同事Michael Mehari ([https://biblio.ugent.be/person/802001220721](https://biblio.ugent.be/person/802001220721))。他在我们最初的Matlab仿真代码基础上开发出了ofdm tx FPGA模块。因为他没有看到过和参考过WARP 的PHY tx FPGA实现，所以我们的开源代码是”无污染”的。
 
 最后想说明的一点是：openwifi现阶段一定是在各方面会被商用芯片吊打，这一点毋庸置疑。现阶段它对标的对象也不是商用芯片，而是前面的对比表格中的其他项目。但就像当初Linus Torvalds发布Linux的时候，在强大的商用UNIX面前Linux也只是nothing，谁也不会想到后面Linux竟然变得如此强大。这其中的关键就在于你---广大开发者。感到欣喜的是，我前段时间发布openwifi项目的twitter在短时间内就获得了13万次展示和2万4千次播放量（demo视频），来自东西南北半球的人们纷纷表示“这下有得玩了”。
