@@ -79,9 +79,7 @@ openwifi项目的目标就是要为研究领域提供一个完整的Wi-Fi基带�
 
 * gnuradio/USRP/RFNoC社区
 
-[https://static1.squarespace.com/static/543ae9afe4b0c3b808d72acd/t/55f85aaee4b02e1b84d8ff51/1442339502956/7-pendlum_johathan-OFDM_RFNoC-2015-08-27.pdf](https://static1.squarespace.com/static/543ae9afe4b0c3b808d72acd/t/55f85aaee4b02e1b84d8ff51/1442339502956/7-pendlum_johathan-OFDM_RFNoC-2015-08-27.pdf)
-
-这是目前最大最活跃的SDR社区。但对于Wi-Fi大都是一些小模块实现或者为了写论文的一些快速原型，没有相对完整的模块级和系统级实现。在USRP的FPGA开发框架RFNoC（RF Network on Chip）提出的初期，曾经在一个ppt（见前面链接：Building an OFDM receiver with RFNoC）中提到过基于RFNoC框架在USRP的FPGA中实现Wi-Fi接收机，不过貌似始终没发布一个相对完整的RFNoC Wi-Fi接收机模块。而且RFNoC开发门槛还是略高，本来使用FPGA原厂工具链开发FPGA已经有一定门槛，使用RFNoC则还需要在FPGA基础架构上再多一层，涉及到和gnuradio companion的通信和控制接口，需要对整个USRP和gnuradio的概念有比较深入的了解。因此RFNoC框架中开发者贡献的IP core并不多，猜测RFNoC主要还是Ettus公司内部开发USRP上的FPGA用。
+这是目前最大最活跃的SDR社区。但对于Wi-Fi大都是一些小模块实现或者为了写论文的一些快速原型，没有相对完整的模块级和系统级实现。在USRP的FPGA开发框架RFNoC（RF Network on Chip）提出的初期，曾经在一个ppt [Building an OFDM receiver with RFNoC](https://static1.squarespace.com/static/543ae9afe4b0c3b808d72acd/t/55f85aaee4b02e1b84d8ff51/1442339502956/7-pendlum_johathan-OFDM_RFNoC-2015-08-27.pdf) 中提到过基于RFNoC框架在USRP的FPGA中实现Wi-Fi接收机，不过貌似始终没发布一个相对完整的RFNoC Wi-Fi接收机模块。而且RFNoC开发门槛还是略高，本来使用FPGA原厂工具链开发FPGA已经有一定门槛，使用RFNoC则还需要在FPGA基础架构上再多一层，涉及到和gnuradio companion的通信和控制接口，需要对整个USRP和gnuradio的概念有比较深入的了解。因此RFNoC框架中开发者贡献的IP core并不多，猜测RFNoC主要还是Ettus公司内部开发USRP上的FPGA用。
 
 * gr-ieee802-11项目
 
