@@ -51,22 +51,22 @@ openwifi项目的目标就是要为研究领域提供一个完整的Wi-Fi基带�
 需要说明的是，虽然openwifi实现了”全栈”，但它并不是每个部分都从头开始，比如OFDM接收机模块就是在openofdm开源项目之上修改，添补，整合而来。下面梳理一下社区多年来不同研究者在Wi-Fi实现上的各种尝试，以及openwifi与他们的异同。
 
 * WARP 802.11 design
-[https://warpproject.org/trac/wiki/802.11](https://warpproject.org/trac/wiki/802.11)
+
+[https://warpproject.org/trac/wiki/802.11](https://warpproject.org/trac/wiki/802.11), 
 [https://mangocomm.com/802.11-mac-phy/](https://mangocomm.com/802.11-mac-phy/)
+
 这是rice大学很早就发布的基于FPGA的Wi-Fi参考设计。需要购买license才可以使用，费用大约30k欧左右（根据需要哪部分），费用不包括自己购买板子（比如ADRV9361-z7035）的费用。从公开资料来看，它并没有使用Linux mac80211子系统，而是high MAC和low MAC用FPGA里的MicroBlaze软核处理器实现。
 
 * National Instruments Labview 802.11 framework
 
-[http://www.ni.com/product-documentation/53279/en/](http://www.ni.com/product-documentation/53279/en/)
-
+[http://www.ni.com/product-documentation/53279/en/](http://www.ni.com/product-documentation/53279/en/), 
 [http://www.ni.com/product-documentation/54094/en/](http://www.ni.com/product-documentation/54094/en/)
 
 来自大厂NI的基于FPGA的参考设计，除了这套集成在Labview的设计的license费用（6k欧左右）之外，你还需要购买9k欧左右的高端USRP-2944才能跑起来。从公开资料来看，它也没有使用Linux mac80211子系统，而是使用PC上的NS3网络仿真器作为high MAC，FPGA内实现low MAC。因为绑定Labview，所以开发环境必须Windows。
 
 * Microsoft SORA和ziria
 
-[https://github.com/microsoft/Sora](https://github.com/microsoft/Sora)
-
+[https://github.com/microsoft/Sora](https://github.com/microsoft/Sora), 
 [https://github.com/dimitriv/Ziria](https://github.com/dimitriv/Ziria)
 
 微软亚洲研究院n年前发布的一个Wi-Fi实现。物理层和MAC全部使用PC上的软件实现，他们在多年前就做到了我之前说的“几乎”不可能。他们设计了一块pcie的RCB（radio control board，FPGA实现低延迟pcie接口）卡和射频板相连，这说明pcie延迟实际上足够低。项目的水平的确逆天，至今无人超越。涉及大量PC架构下的优化技巧（查表替代计算，缓存替代计算等），以及如何在Windows操作系统下隔离出几个核专用于高实时处理。RCB板加射频板大约2.5k欧的样子。许多高校也在此架构基础上做了4G/5G实现。在项目创始人Kun Tan离开去了华为之际，SORA放到github上开源了。但貌似github上开发活动并不活跃也基本不再更新。后来微软的两个老外设计了一种DSL（Domain Specific Language），并用这种新语言重写了SORA架构下的Wi-Fi实现。但即使用了DSL，要想实现最严苛的SIFS延迟，还是需要用基于pcie的RCB卡，使用其他接口的射频前端（例如基于USB的BladeRF和USRP）满足不了SIFS反馈延迟。公开资料来看也并没有使用Linux mac80211子系统。（Windows实现可能用Linux内核里的子系统么？）
