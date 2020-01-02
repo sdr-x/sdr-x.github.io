@@ -105,7 +105,7 @@ openwifi的Linux驱动部分当然也是参考了Linux 里面的各种Wi-Fi芯�
 
 回顾openwifi的诞生历程，有一点感到很自豪的是项目的主导和主要贡献来自中国开发者。
 
-* 我本人。两年多来几乎是120%的时间在投入。openwifi的主意诞生于这个欧盟H2020项目（ORCA）[https://www.orca-project.eu/](https://www.orca-project.eu/) 。主要动机是不希望项目结束仅仅给这个世界带来一些饱含高大上概念的报告，而是能给社区带来一些能够真正广为使用和流传的东西。当然也十分感谢公司（imec）支持开源。
+* 我本人。两年多来几乎是120%的时间在投入。openwifi的主意诞生于这个欧盟H2020项目（ORCA）[https://www.orca-project.eu/](https://www.orca-project.eu/) 。主要动机是不希望项目结束仅仅给这个世界带来一些饱含高大上概念的报告，而是能给社区带来一些能够真正广为使用和流传的东西。当然也十分感谢公司[imec](https://www.imec-int.com/en/home)支持开源。
 * 我的中国同事刘薇([https://telefoonboek.ugent.be/nl/people/802000881827](https://telefoonboek.ugent.be/nl/people/802000881827))。把openofdm从USRP N210平台移植到Zynq平台，并且配合我做了大量模块和系统级调试和测试工作。
 * openofdm的作者史经浩。看linkedin，这位同学毕业后去了Facebook而且貌似早就不搞Wi-Fi了。但他的openofdm开源实现，使得我们的openwifi在两年内做完成为可能，否则至少还需要额外的半年到一年。
 * 来自中国台湾的realtek公司的Wi-Fi芯片驱动是我学习Wi-Fi驱动的主要对象。大名鼎鼎的rtl-sdr电视棒也是这家公司的，堪称业界良心了。
