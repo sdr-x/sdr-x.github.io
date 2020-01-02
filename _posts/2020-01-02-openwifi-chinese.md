@@ -4,7 +4,7 @@ layout: post
 title: 开源Wi-Fi芯片/FPGA设计以及背后的中国开发者
 thread: 20200102
 categories: wifi
-tags:  WIFI 802.11 SIFS openwifi mac80211 FPGA Zynq ARM CSMA
+tags:  SDR WIFI 802.11 SIFS openwifi mac80211 FPGA Zynq ARM CSMA Linux SoftMAC
 ---
 
 ”白菜价”的Wi-Fi芯片为何用软件无线电实现起来如此困难。openwifi项目为你揭秘。
