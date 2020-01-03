@@ -10,7 +10,7 @@ comments: yes
 
 <a href="http://xbay.github.io/">http://xbay.github.io/</a>
 
-<a href="https://dlyang.me/”> https://dlyang.me/ </a>
+<a href="https://dlyang.me/">https://dlyang.me/</a>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
