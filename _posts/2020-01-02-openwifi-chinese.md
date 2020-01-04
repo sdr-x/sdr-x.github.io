@@ -97,7 +97,7 @@ openwifi项目的目标就是要为研究领域提供一个完整的Wi-Fi基带�
 
 ![](../media/comparison.jpg)
 
-此外，openwifi在软件无线电平台（Zynq+AD9361）方面使用了Analog devices的HDL参考设计([https://github.com/analogdevicesinc/hdl](https://github.com/analogdevicesinc/hdl))和它的Linux kernel版本([https://github.com/analogdevicesinc/linux](https://github.com/analogdevicesinc/linux))，也使用了Xilinx的一些相关IP core和Xilinx AXI DMA Linux驱动例程，并根据Wi-Fi需求进行了必要的修改，这样可以省去大量的FPGA与射频前端和ARM的接口开发工作。openwifi对Analog devices和Xilinx相应的github资源进行了引用和说明。
+此外，openwifi在软件无线电平台（Zynq SoC+AD9361）方面使用了Analog devices的HDL参考设计([https://github.com/analogdevicesinc/hdl](https://github.com/analogdevicesinc/hdl))和它的Linux kernel版本([https://github.com/analogdevicesinc/linux](https://github.com/analogdevicesinc/linux))，也使用了Xilinx的一些相关IP core和Xilinx AXI DMA Linux驱动例程，并根据Wi-Fi需求进行了必要的修改，这样可以省去大量的FPGA与射频前端和ARM的接口开发工作。openwifi对Analog devices和Xilinx相应的github资源进行了引用和说明。
 
 openwifi的Linux驱动部分当然也是参考了Linux 里面的各种Wi-Fi芯片的驱动源代码。由于openwifi与Linux之间采用Xilinx AXI DMA接口（片内FPGA和ARM接口），而Linux内核代码中的Wi-Fi芯片大都是基于pcie和USB的，因此只能借鉴而无法直接移植。研究了Linux内核代码里的各种Wi-Fi芯片驱动后，发现台湾realtek公司的rtl8180/8187芯片驱动最为简单。我还专门淘到了一些古老的基于rtl8180/8187芯片的网卡，在Linux下通过学习和修改rtl8180/8187驱动学习真正的Wi-Fi网卡是如何工作的。参照这些芯片驱动，并结合Xilinx给的DMA驱动代码，成功实现了openwifi的mac80211子系统兼容驱动。
 
