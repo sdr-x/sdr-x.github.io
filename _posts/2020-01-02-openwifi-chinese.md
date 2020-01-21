@@ -11,7 +11,7 @@ tags:  SDR WIFI 802.11 SIFS openwifi mac80211 FPGA Zynq ARM CSMA Linux SoftMAC
 
 站在21世纪后4/5开始之际，回望前段时间发布的openwifi项目([https://github.com/open-sdr/openwifi](https://github.com/open-sdr/openwifi))，对个人而言，再一次提升了自己的能力边界。对社区而言，我想说这是中国开发者给Wi-Fi研究领域的一点点基础性贡献。
 
-[知乎链接查看更多文章](https://zhuanlan.zhihu.com/p/103585996)
+[知乎链接查看更多文章](https://zhuanlan.zhihu.com/p/100616192)
 
 正文：
 
