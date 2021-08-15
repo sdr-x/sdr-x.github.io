@@ -1,5 +1,4 @@
-gems:
-  - jekyll-feed
+
 markdown: kramdown
 permalink: /:title/
 url: http://sdr-x.github.io
