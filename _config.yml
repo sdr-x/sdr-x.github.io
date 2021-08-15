@@ -1,3 +1,6 @@
+gems:
+  - jekyll-feed
+highlighter: rouge
 markdown: kramdown
 permalink: /:title/
 url: http://sdr-x.github.io
