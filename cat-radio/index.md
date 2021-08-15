@@ -4,7 +4,15 @@ layout: page
 ---
 
 
-Useful Links: ------ <a href="https://github.com/JiaoXianjun">github code</a> ------ <a href="https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf">papers</a> ------ <a href="mailto:putaoshu@gmail.com">email me</a> ------ <a href="http://www.linkedin.com/profile/view?id=148004333">linkedin(patent)</a>
+goto: 
+<a href="https://github.com/open-sdr/openwifi">openwifi</a>
+||
+<a href="https://github.com/JiaoXianjun">github code</a>
+||
+<a href="https://scholar.google.com/citations?hl=en&user=DjJIdLYAAAAJ">publications</a>
+||
+<a href="mailto:putaoshu@msn.com">email me</a>
+
 
 
 <ul class="listing">
