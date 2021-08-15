@@ -1,6 +1,3 @@
-gems:
-  - jekyll-feed
-highlighter: rouge
 markdown: kramdown
 permalink: /:title/
 url: http://sdr-x.github.io
@@ -8,7 +5,6 @@ name: SDR-X
 author: "Jiao Xianjun"
 qq: 
 email: putaoshu@msn.com
-duoshuo: jxj
 beian: 
 cnzz: 
 weibo: spaceshuttle
