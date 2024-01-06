@@ -15,10 +15,11 @@ tags:  SDR DIY PWM RF AD9361 AD9371 ADRV ADI Analog-Devices LMS6002D LMS7002M Li
 
 这里的射频指广义的从天线到ADC、DAC这部分，包含了高频/射频，中频IF（如果有），零中频，模拟基带，相关的滤波以及混合信号ADC/DAC。之所以不以数字部分为线索，是因为数字部分的实现方案无外乎以下四种：
 
-基于FPGA（亦可接主机）。典型代表：USRP系列
-基于Xilinx Zynq SoC FPGA。典型代表：Xilinx开发板配合Analog Devices的射频板
-基于USB单片机/MCU。典型代表：HackRF+portapack（NXP LPC4320），孔雀石Malahit（STM32H7）
-基于主机或者SBC/单板计算机。典型代表：rtl-sdr电视棒、SDRPlay/RSP1、AIRSPY、RX888；KiwiSDR （采用BBB BeagleBone做主机），CaribouLite RPi HAT （采用树莓派做主机）
+- 基于FPGA（亦可接主机）。典型代表：USRP系列
+- 基于Xilinx Zynq SoC FPGA。典型代表：Xilinx开发板配合Analog Devices的射频板
+- 基于USB单片机/MCU。典型代表：HackRF+portapack（NXP LPC4320），孔雀石Malahit（STM32H7）
+- 基于主机或者SBC/单板计算机。典型代表：rtl-sdr电视棒、SDRPlay/RSP1、AIRSPY、RX888；KiwiSDR （采用BBB BeagleBone做主机），CaribouLite RPi HAT （采用树莓派做主机）
+
 不难看出，数字部分相对成熟且标准化程度高，这离不开芯片制程和计算机产业的高度发达。
 
 反观射频部分，由于包含高频以及模拟信号处理，数模混合电路ADC、DAC，结构复杂，较少受惠于高级数字电路制程的进步，往往成为各种SDR硬件性能的决定性因素。因此本文以射频方案为主线，介绍以下SDR射频方案：
