@@ -7,7 +7,7 @@ categories: btle
 tags:  Verilog Python BTLE HACKRF BladeRF BLE5.3 BLE-controller BLE-chip chip open-source Xilinx Vivado OpenLane SDR
 ---
 
-Original link: https://github.com/JiaoXianjun/BTLE/blob/master/open_btle_baseband_chip/open_btle_baseband_chip.md
+Original link: [https://github.com/JiaoXianjun/BTLE/blob/master/open_btle_baseband_chip/open_btle_baseband_chip.md](https://github.com/JiaoXianjun/BTLE/blob/master/open_btle_baseband_chip/open_btle_baseband_chip.md)
 
 # **The open-source BTLE (Bluetooth Low Energy) baseband chip design**
 
