@@ -143,3 +143,6 @@ openwifi的Linux驱动部分当然也是参考了Linux 里面的各种Wi-Fi芯�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>
