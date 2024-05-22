@@ -125,3 +125,6 @@ DRM变频器（用洞洞板做的，那些几千p的CBB电容个头真不小，�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>
