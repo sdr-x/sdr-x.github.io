@@ -6,9 +6,9 @@ comments: no
 
 {{ site.about }}
 
-Paper track: [https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf](https://www.researchgate.net/profile/Xianjun_Jiao?ev=hdr_xprf)
+Paper track: [https://scholar.google.com/citations?hl=en&user=DjJIdLYAAAAJ](https://scholar.google.com/citations?hl=en&user=DjJIdLYAAAAJ)
 
-Career track Linkedin [putaoshu@gmail.com](mailto:putaoshu@gmail.com)
+Career track Linkedin [putaoshu@msn.com](mailto:putaoshu@msn.com)
 
 ----
 
