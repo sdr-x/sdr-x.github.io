@@ -83,3 +83,6 @@ Class 1 体检证书只能欧洲航空安全局（EASA）认可的体检中心�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

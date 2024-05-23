@@ -150,3 +150,6 @@ recv_bit.per即收到的PDSCH上的SIB的原始bit存成的二进制文件。-p�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

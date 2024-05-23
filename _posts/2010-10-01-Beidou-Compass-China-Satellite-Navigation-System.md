@@ -189,3 +189,6 @@ Compass-IGSO1|2010年8月1日|长征3号甲|西昌|倾斜同步轨道，轨道�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>
