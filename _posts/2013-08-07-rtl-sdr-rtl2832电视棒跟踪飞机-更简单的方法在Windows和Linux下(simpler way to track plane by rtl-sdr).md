@@ -81,3 +81,6 @@ google map会自动打开, 右侧栏会看到目前地图上飞机的数量和�
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

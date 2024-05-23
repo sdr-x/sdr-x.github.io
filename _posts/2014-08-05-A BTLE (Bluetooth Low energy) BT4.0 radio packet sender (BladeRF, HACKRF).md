@@ -171,3 +171,6 @@ Time space between packets are 1s (1000ms). Tune TI's packet sniffer to channel 
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

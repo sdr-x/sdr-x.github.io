@@ -51,3 +51,6 @@ tags:  DRM shortwave Receiver Dream SDR SWL Short-Wave-Listening Mixer 455kHz-12
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

@@ -92,3 +92,6 @@ gr-air-modes    ADS-B RX    Nick Foster     [https://www.cgran.org/wiki/gr-air-m
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

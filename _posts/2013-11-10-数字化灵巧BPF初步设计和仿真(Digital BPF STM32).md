@@ -58,3 +58,6 @@ tags:  BPF SDR STM32F4 Cortex-M4 Band-Pass-Filter Narrow-Band
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>

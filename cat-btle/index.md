@@ -86,3 +86,7 @@ $(function () {
 
   gtag('config', 'G-01GGQ8JZW7');
 </script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542618827905251"
+     crossorigin="anonymous"></script>
