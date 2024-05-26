@@ -69,7 +69,7 @@ It shows the superposition of two sine waves with phase differences of 0 degrees
 
 Now, the question is: using the same radio wave beamforming code, if we set it to the parameters of double-slit interference in the case of light, can we reproduce the double-slit interference of light? Let's start experimenting.
 
-(To be continued ...)
+(To be continued ....)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
