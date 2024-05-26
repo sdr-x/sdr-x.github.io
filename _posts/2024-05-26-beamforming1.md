@@ -4,7 +4,7 @@ layout: post
 title: 	Wi-Fi beamforming explained 1 from single antenna to 2 antennas
 thread: 20240525
 categories: wifi
-tags:  beamforming Wi-Fi WiFi 802.11 DSP multi-antenna 5G
+tags:  beamforming Wi-Fi WiFi 802.11 DSP multi-antenna 5G double-slit double-slit-experiment phased-array 
 ---
 
 (Beamforming code download: [https://github.com/JiaoXianjun/sdrfun](https://github.com/JiaoXianjun/sdrfun))
