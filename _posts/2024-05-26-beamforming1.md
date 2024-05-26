@@ -1,8 +1,8 @@
 ---
-date: 2024-05-26 11:00:00
+date: 2024-05-25 12:00:00
 layout: post
 title: 	Wi-Fi beamforming explained 1 from single antenna to 2 antennas
-thread: 20240526
+thread: 20240525
 categories: wifi
 tags:  beamforming Wi-Fi WiFi 802.11 DSP multi-antenna 5G
 ---
