@@ -7,6 +7,8 @@ categories: wifi
 tags:  beamforming Wi-Fi WiFi 802.11 DSP multi-antenna 5G
 ---
 
+(Beamforming code download: [https://github.com/JiaoXianjun/sdrfun](https://github.com/JiaoXianjun/sdrfun))
+
 ![](../media/Double-slit-experiment.png)
 
 The image above shows the world-famous double-slit experiment, which has been known for over 200 years. It served as perfect proof that light is a wave, thoroughly refuting Newton's particle theory. Even today, many people still debate over its quantum mechanical explanations. Interestingly, this experiment has a close connection to the beamforming technology we use daily in Wi-Fi/4G/5G networks.
