@@ -9,6 +9,8 @@ tags:  HACKRF DFU firmware 1602 LCD UART
 
 Source code: [https://github.com/JiaoXianjun/BTLE](https://github.com/JiaoXianjun/BTLE)
 
+Verilog/FPGA implementation: [https://sdr-x.github.io/open_btle_baseband_chip/](https://sdr-x.github.io/open_btle_baseband_chip/)
+
 A introduction of principle how to capture and follow BTLE frequency hopping link:
 ![](../media/HACKRF-BTLE-sniffer.png)
 
