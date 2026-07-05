@@ -11,7 +11,9 @@ During the holiday, besides spending time with my family, I passed some spare ti
 
 Today I only read the first small section, but I already found two interesting points.
 
-1. A radical departure from the traditional satellite modem design philosophy
+1 . 
+
+A radical departure from the traditional satellite modem design philosophy
 
 In conventional satellite communication systems, the modem design differs significantly between the user terminal, the satellite payload, and the feeder link (the satellite-to-gateway link). This is because these links operate under substantially different conditions, including frequency band, bandwidth, data rate, operating environment (mobile vs. fixed, multipath characteristics, antenna capability, etc.). As a result, each modem is typically optimized specifically for its own role.
 
@@ -29,7 +31,9 @@ This is absolutely not the kind of design that would come from a traditional aer
 
 Only an outsider who is unconstrained by conventional thinking would be willing to attempt something like this.
 
-2. There appears to be an error in the patent’s Summary section
+2 . 
+
+There appears to be an error in the patent’s Summary section
 
 The patent states:
 
