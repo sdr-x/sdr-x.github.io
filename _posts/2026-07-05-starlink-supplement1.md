@@ -1,5 +1,5 @@
 ---
-date: 2026-07-05 05:05:00
+date: 2026-07-05 15:05:00
 layout: post
 title: "Starlink Analysis – Supplement (1): A Unique Modem Design Philosophy"
 thread: 2026070545
