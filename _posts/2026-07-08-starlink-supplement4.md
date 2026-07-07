@@ -1,5 +1,5 @@
 ---
-date: 2026-07-08 00:01:00
+date: 2026-07-07 17:01:00
 layout: post
 title: "Starlink Analysis – Supplement (4):Frame Structure"
 thread: 2026070845
