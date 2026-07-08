@@ -1,7 +1,7 @@
 ---
 date: 2026-07-08 00:01:00
 layout: post
-title: "Starlink Analysis – Supplement (5):Pilot Design for LEO Broadband Access Compared with Wi-Fi and Cellular Systems"
+title: "Starlink Analysis – Supplement(5):Pilot Design for LEO Broadband Access Compared with Wi-Fi and Cellular Systems"
 thread: 2026070801
 categories: starlink
 tags: OFDM Starlink modem burst radio-frame OFDM pilot-cluster pilot CFO SFO doppler LTF Wi-Fi LTE 4G 5G
