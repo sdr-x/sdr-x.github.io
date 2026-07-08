@@ -5,7 +5,7 @@ title: "Starlink Analysis – Supplement(5):Pilot Design for LEO Broadband Acces
 thread: 2026070801
 categories: starlink
 tags: OFDM Starlink modem burst radio-frame OFDM pilot-cluster pilot CFO SFO doppler LTF Wi-Fi LTE 4G 5G
---
+---
 
 Analysis of measured Starlink uplink signals and the Starlink patent US12003350 shows that the pilot structure is specifically designed for LEO satellite broadband access. Compared with terrestrial cellular systems and Wi-Fi, the similarities and differences are as follows.
 
