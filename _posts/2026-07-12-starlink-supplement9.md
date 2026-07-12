@@ -49,6 +49,8 @@ Each RF chain supports eight parallel frequency channels:
 * Ku uplink: 8 × 62.5 MHz = 500 MHz, with a total data rate of 2.5 Gbps
 * Ku downlink: 8 × 250 MHz = 2 GHz, with a total data rate of 10 Gbps
 
+32 chains in total offer 80Gbps UL and 320Gbps DL capacity.
+
 Each RF chain supports approximately 200 simultaneously active terminals. Each satellite supports approximately 6,400  (32 chains times 200 UT/chain) simultaneously active terminals.
 
 Assuming equal resource allocation:
