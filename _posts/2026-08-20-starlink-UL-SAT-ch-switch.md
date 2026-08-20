@@ -105,6 +105,10 @@ The corresponding raw RSSI measurements are shown below.
 
 ![](../media/starlink-ul-ch-switch-sat-no-rssi.png)
 
+The following figure shows obvious channel switching cases faster than 15s: around 1710s and 1740s.
+
+![](../media/starlink-ul-ch-switch-shorter-than-15s.png)
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
