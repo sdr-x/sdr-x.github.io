@@ -20,7 +20,7 @@ Measurement method
 
 The satellite to which the terminal is connected, and when it switches satellites, can be estimated using the open-source GitHub project LEOViz.
 
-Note that LEOViz does not directly get the connected satellite from Starlink system signaling. It estimates it using information obtained through gRPC together with satellite 
+Note that LEOViz does not directly get the connected satellite from Starlink system signaling or official terminal state informaion. It estimates it using information obtained through gRPC together with satellite 
 ephemeris data, so the result is not guaranteed to be absolutely true (But I believe it is almost true).
 
 The authors of LEOViz mentioned in their paper that the Starlink network updates its configuration every 15 seconds. My independent RF channel measurements also confirm this 
