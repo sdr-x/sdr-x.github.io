@@ -12,8 +12,7 @@ satellite switching.
 
 The main findings
 
-Satellite switching and channel switching are synchronized in most cases. The terminal usually switches both every 15 seconds. With such a high satellite density, 
-Starlink can really “do whatever it wants”! But it does happen:
+Satellite switching and channel switching are synchronized in most cases. The terminal usually switches both every 15 seconds. 15s! I have to say: "ONLY STARLINK CAN DO!" with such a high satellite density. But it does happen:
 - Sometimes the satellite switches but the channel does not.
 - Sometimes the channel switches but the satellite does not.
 
