@@ -92,7 +92,7 @@ The original RF RSSI measurements also confirm this behavior.
 
 ![](../media/starlink-ul-sat-switch-ch-no-rssi.png)
 
-In the figure, the short black vertical lines below −85 dBm indicate satellite-switching events. The region above −85 dBm shows the measured RSSI of the individual channels.
+In the figure, the short black vertical lines below −85 dBm indicate channel-switching events. The region above −85 dBm shows the measured RSSI of the individual channels.
 
 Channel switches without satellite switching
 
