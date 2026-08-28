@@ -69,7 +69,7 @@ Detailed Timing
 
 Why Is This 8-Channel Scan Probably Not Actual Satellite Communication?
 
-1. The timing is fixed relative to power-on
+- The timing is fixed relative to power-on
 
 The 8-channel scanning transmission always appears at approximately the same time after power-on.
 
@@ -80,7 +80,7 @@ If the terminal always transmitted at a fixed time after power-on, while power-o
 
 A fixed-time RF operation after power-on therefore looks much more like an inherent hardware/firmware procedure than actual satellite communication.
 
-2. The phased-array antenna requires self-calibration
+- The phased-array antenna requires self-calibration
 
 The Starlink phased-array antenna contains thousands of RF paths that need to be calibrated. Because: The temperature may be different every time the terminal starts. Hardware aging may also change the RF characteristics, 
 and the terminal may even have experienced mechanical shock.
@@ -89,13 +89,13 @@ Teardown reports of Starlink phased-array antennas have described a hardware-bas
 
 The 8-channel scanning signal, together with the multiple clusters within each channel, looks very much like the RF paths of the phased array being calibrated step by step using different frequency and phase settings.
 
-3. The signal power appears lower
+- The signal power appears lower
 
 The power of the 8-channel scanning signal appears to be lower than that of the actual satellite communication signals that follow.
 
 This is also consistent with a near-field self-calibration mechanism between antenna elements. Because the coupling distance is very short, the transmit power does not need to be high and may need to remain low to avoid receiver saturation.
 
-That's why I believe the 8 channel scanning emission is for self-calibration instead of actual satellite communication.
+That's WHY I believe the 8 channel scanning emission is for self-calibration instead of actual satellite communication.
 
 Identifying the Actual Initial Network Entry
 
