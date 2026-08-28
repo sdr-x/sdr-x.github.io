@@ -1,5 +1,5 @@
 ---
-date: 2026-08-29 03:05:00
+date: 2026-08-28 13:05:00
 layout: post
 title: "Starlink Terminal Cold-Start RF Emission Behavior Fingerprinting"
 thread: 2026082995
@@ -12,7 +12,7 @@ On each channel, the transmission consists of five clusters, each containing sev
 
 This fixed-time transmission pattern is highly likely to be an RF and phased-array self-calibration procedure.
 
-After some additional period of time, whose duration is uncertain and likely depends on the currently visible satellites, the terminal begins uplink transmissions for initial network entry and control-plane connection.
+After some additional (random) time, likely depends on the currently visible satellites, the terminal begins uplink transmissions for initial network entry and control-plane connection.
 
 Another interesting discovery/guess: The Starlink terminal firmware OS loading (Linux?) costs about 6s.
 
@@ -104,7 +104,7 @@ I also measured the time at which a large amount of transmission first appeared 
 Unlike the 8-channel scan, this time varies from one cold start to another. This strongly suggests that these transmissions are actual satellite communication signals synchronized to the network's time-frequency resources rather than to 
 the terminal's power-on time.
 
-After comparing the gRPC startup records from all eight cold starts, I found that these periods of heavy transmission correspond closely to the initial_network_entry state.
+After comparing the gRPC startup records from all eight cold starts, I found that these moments of heavy transmission correspond closely to the initial_network_entry state.
 
 I therefore suspect that they are part of the initial network entry procedure.
 
@@ -133,7 +133,7 @@ Therefore, the initial_network_entry time reported by gRPC as 25 seconds should 
 
 Using this time-offset compensation, I compared the RF channel measurements with the gRPC records from all eight cold starts.
 
-The results strongly support the conclusion that the period of heavy RF transmission following the 8-channel scan corresponds to the initial_network_entry stage.
+The results strongly support the conclusion that the moment of heavy RF transmission following the 8-channel scan corresponds to the initial_network_entry stage.
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
