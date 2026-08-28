@@ -37,13 +37,13 @@ Raw time-domain RSSI
 
 ![](../media/cold-start-td-rssi-zoom1-2026-08-26_21-38-25-868097.png)
 
-It is very clear that the terminal begins the channel-scanning transmissions at around 24 seconds after power-on, and ends the channel-scanning transmission at around 29 seconds.
+It is very clear that the terminal begins the channel-scanning (ch1~8) transmissions at around 24 seconds after power-on, and ends the channel-scanning transmission at around 29 seconds.
 
 Zoomed-in time-domain view:
 
 ![](../media/cold-start-td-rssi-zoom2-2026-08-26_21-38-25-868097.png)
 
-Five clusters are transmitted sequentially on each channel.
+In the Ku band (8*62.5MHz), channel 1 to 8 are transmitted sequentially. Five clusters are transmitted sequentially on each channel.
 
 Zooming in further to channel 1 shows the five clusters:
 
@@ -64,8 +64,8 @@ Detailed Timing
 - The complete 8-channel scan takes 4.7 seconds.
 - Transmission on each channel: 0.49 s
 - Channel switching time: 0.1134 s
-- Duration of each of the five burst groups on a channel: 0.046 s
-- Interval between burst groups: 0.06 s
+- Duration of each of the five clusters on a channel: 0.046 s
+- Interval between clusters: 0.06 s
 
 Why Is This 8-Channel Scan Probably Not Actual Satellite Communication?
 
@@ -125,7 +125,7 @@ For example, the following gRPC status corresponds to the RF capture shown above
 }
 ```
 
-An interesting detail is that the measured 8-channel scan ends at approximately 29 seconds, while gRPC consistently reports rf_ready at 23 seconds across many many gRPC logs from many many cold starts.
+An interesting detail is that the measured 8-channel scan ends at approximately 29 seconds after power on, while gRPC consistently reports rf_ready at 23 seconds across many many gRPC logs from many many cold starts.
 
 This 6-second difference may correspond to the startup time of Starlink's internal firmware/operating system (Linux?).
 
