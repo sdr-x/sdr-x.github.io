@@ -29,7 +29,7 @@ The measurement revealed some interesting Rx behavior.
 
 ![](../media/cold-start-td-rssi-dl-2026-09-06_23-59-05-306909.png)
 
-At around 24 seconds after cold start, we see our familiar behavior from the previous article: the 8-channel uplink scanning operation. (post: "Starlink Terminal Cold-Start RF Emission Behavior Fingerprinting")
+At around 24 seconds after cold start ("Tx scan" in the above figure), we see our familiar behavior from the previous article: the 8-channel uplink scanning operation. (post: "Starlink Terminal Cold-Start RF Emission Behavior Fingerprinting")
 
 After that, the receive-chain LO appears to turn on continuously while scanning the downlink channels in the following order:
 
