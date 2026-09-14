@@ -7,7 +7,7 @@ categories: starlink
 tags:  Starlink Terminal In-Flight Airline Satellite Phased-Array Aviation LNB SDR AD9361 FPGA Ku-band IPv6 MPLS PoP GeoIP Mobile-Network
 ---
 
-By identifying IPv6 addresses from publicly known Starlink address pools that remain online for a period of time while their access point (PoP) and MPLS information changes over time, 
+By identifying some static IPv6 addresses from publicly known Starlink address pools that remain online for a period of time while their access point (PoP) and MPLS information changes over time, 
 and cross-referencing these observations with flight data (ADS-B), it is possible to identify Starlink routers installed on aircraft and subsequently measure in-flight Starlink performance from ground!
 
 Well-known Starlink researcher Professor Jianping Pan from the University of Victoria, Canada, recently presented a paper titled Measuring Starlink Aviation Around the World at the IMC'26 conference in Germany. 
