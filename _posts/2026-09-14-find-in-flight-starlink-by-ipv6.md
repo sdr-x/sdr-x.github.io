@@ -25,22 +25,21 @@ This information can be used to obtain a large number of Starlink IPv6 prefixes.
 
 2. Send packets to these addresses from a computer or ordinary ground-based server
 
-There is no need to be on a Starlink-equipped aircraft and connected to its in-flight Wi-Fi. Researchers can probe candidate addresses from a home IPv6 network, a university network, cloud servers, or other Internet-connected locations using tools such as ping6 and traceroute6 to 
-determine which addresses are actually online.
+There is no need to be on a Starlink-equipped aircraft and connected to its in-flight Wi-Fi. Researchers can probe candidate addresses from a home IPv6 network, a university network, cloud servers, or other Internet-connected locations using tools such as ping6 and traceroute6 to determine which addresses are actually online.
 
 3. Look for IPv6 addresses that "move"
 
 A typical Starlink residential user is associated with a relatively stable network region. But an aircraft-based Starlink user has a distinctive property: the IPv6 address of the aircraft's Starlink router remains unchanged, while the Starlink PoP it connects through changes as the aircraft flies.
 
 For example:
-
+```
 IPv6: 2605:xxxx:xxxx::1
         ↓
 Doha PoP (Starlink Network to Internet interface in Doha, Qatar)
         ↓ aircraft in flight
         ↓
 New York PoP (Starlink Network to Internet interface in New York)
-
+```
 The IPv6 address stays the same, but the network access point changes.
 
 This PoP information can be observed from information returned by tools such as traceroute.
@@ -62,7 +61,7 @@ then it is very likely to belong to a Starlink router installed on an aircraft.
 5. Finally, match the observations with flight data
 
 The activity period, PoP changes, and latency variations of the IPv6 address can then be compared with ADS-B data and flight trajectories to further determine:
-
+```
 IPv6 address
       ↓
 a specific aircraft
@@ -70,7 +69,7 @@ a specific aircraft
 an airline
       ↓
 a specific flight
-
+```
 The paper calls this Starlink aviation measurement technique "outside-in": instead of measuring from inside the aircraft toward the Internet, measurements are performed from Internet-connected ground nodes toward the aircraft.
 
 Most previous research has used an "inside-out" approach, in which researchers or users must actually board a Starlink-equipped aircraft and measure and record Starlink performance through the in-flight Wi-Fi network. 
