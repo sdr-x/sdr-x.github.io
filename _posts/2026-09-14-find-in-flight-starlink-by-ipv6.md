@@ -15,7 +15,7 @@ The first page of the paper has been made public, although the full paper is not
 
 Based on the publicly available first page of the paper, the basic principle appears to be roughly as follows (confidence: 90%):
 
-1. First, build a list of candidate addresses
+ 1 . First, build a list of candidate addresses
 
 Starlink publicly provides IPv6/GeoIP information:
 
@@ -23,11 +23,11 @@ https://www.ietf.org/slides/slides-ipgeows-paper-position-paper-starlink-00.pdf
 
 This information can be used to obtain a large number of Starlink IPv6 prefixes. Based on Starlink's address allocation patterns, researchers can then generate possible customer-router addresses, such as ::1 within a /56 prefix.
 
-2. Send packets to these addresses from a computer or ordinary ground-based server
+ 2 . Send packets to these addresses from a computer or ordinary ground-based server
 
 There is no need to be on a Starlink-equipped aircraft and connected to its in-flight Wi-Fi. Researchers can probe candidate addresses from a home IPv6 network, a university network, cloud servers, or other Internet-connected locations using tools such as ping6 and traceroute6 to determine which addresses are actually online.
 
-3. Look for IPv6 addresses that "move"
+ 3 . Look for IPv6 addresses that "move"
 
 A typical Starlink residential user is associated with a relatively stable network region. But an aircraft-based Starlink user has a distinctive property: the IPv6 address of the aircraft's Starlink router remains unchanged, while the Starlink PoP it connects through changes as the aircraft flies.
 
@@ -44,7 +44,7 @@ The IPv6 address stays the same, but the network access point changes.
 
 This PoP information can be observed from information returned by tools such as traceroute.
 
-4. Continuously record path changes
+ 4 . Continuously record path changes
 
 Run traceroute measurements every few minutes from multiple locations and record:
 
@@ -58,7 +58,7 @@ If a particular IPv6 address is found to:
 
 then it is very likely to belong to a Starlink router installed on an aircraft.
 
-5. Finally, match the observations with flight data
+ 5 . Finally, match the observations with flight data
 
 The activity period, PoP changes, and latency variations of the IPv6 address can then be compared with ADS-B data and flight trajectories to further determine:
 ```
