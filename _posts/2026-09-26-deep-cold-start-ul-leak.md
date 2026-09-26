@@ -27,7 +27,7 @@ after downconversion by a Ku-band LNB with a 12.8 GHz local oscillator.
 
 The phenomenon has been verified with two different SDRs, which largely rules out the possibility that it is caused by the SDR hardware. It has also been observed in two deep cold-start experiments.
 
-Below are more screenshots and videos (). They show that the starting and ending frequencies of this drifting signal can appear at either lower or higher than the center frequency.
+Below are more screenshots and videos (https://x.com/jxjputaoshu/status/2103834385359454399?s=20). They show that the starting and ending frequencies of this drifting signal can appear at either lower or higher than the center frequency.
 
 ![](../media/starlink-deep-cold-start-ul-ch3-leak-3.png)
 
