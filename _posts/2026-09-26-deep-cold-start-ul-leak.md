@@ -1,7 +1,7 @@
 ---
 date: 2026-09-26 00:01:00
 layout: post
-title: "Tracking In-Flight Starlink Routers Worldwide from the Ground Using IPv6"
+title: "The Mysterious Leakage During a Starlink Terminal Deep Cold Start"
 thread: 2026092695
 categories: starlink
 tags:  Starlink Cold-Start Leakage Lo-Leakage Uplink Signal Finger-Print Software-Defined-Radio SDR FPGA AD9361
