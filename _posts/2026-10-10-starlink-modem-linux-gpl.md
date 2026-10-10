@@ -15,7 +15,7 @@ So, does Starlink comply with GPLv2 and responsibly release its Linux source cod
 
 The answer is yes. However, the publicly released version lags significantly behind the versions used in widely deployed Starlink terminals.
 
-1. What has SpaceX open-sourced?
+1 . What has SpaceX open-sourced?
 
 On its official website, Starlink states on the Software License & Usage Terms page that its terminals contain open-source software. The page includes the following statement:
 
@@ -25,19 +25,14 @@ In addition to allowing Starlink customers to request source code, SpaceX has pu
 
 Its public repositories include:
 
-OpenWRT: Code for two generations of Starlink Wi-Fi routers.
+- OpenWRT: Code for two generations of Starlink Wi-Fi routers.
+- U-Boot: The Linux bootloader, licensed under GPLv2.
+- enterprise-api: API interfaces for enterprise customers, such as maritime and aviation customers, etc.
+- sssd: A Linux device management and configuration component, authored by Chadwick Banning and licensed under Apache 2.0.
+- linuxptp: Software for high-precision time synchronization, licensed under GPLv2. Time synchronization is particularly important because Starlink terminals and the network reportedly change configurations approximately every 15 seconds.
+- Linux kernel: A version of the Linux kernel used by the Starlink modem (confidense 98.1%), licensed under GPLv2.
 
-U-Boot: The Linux bootloader, licensed under GPLv2.
-
-enterprise-api: API interfaces for enterprise customers, such as maritime and aviation customers, etc.
-
-sssd: A Linux device management and configuration component, authored by Chadwick Banning and licensed under Apache 2.0.
-
-linuxptp: Software for high-precision time synchronization, licensed under GPLv2. Time synchronization is particularly important because Starlink terminals and the network reportedly change configurations approximately every 15 seconds.
-
-Linux kernel: A version of the Linux kernel used by the Starlink modem (confidense 98.1%), licensed under GPLv2.
-
-2. Which Linux kernel is relevant to the Starlink modem?
+2 . Which Linux kernel is relevant to the Starlink modem?
 
 The Starlink terminal, also known as Dishy, can be compared to a portable 5G Wi-Fi hotspot. The main difference is that the 5G cellular modem connecting to terrestrial base stations is replaced by a phased-array antenna and modem that communicate with Starlink satellites.
 
@@ -47,27 +42,25 @@ The key component is the satellite modem, which runs Linux. The kernel source co
 
 SpaceX has published two versions of its modem Linux kernel modifications that can be found on their github linux repository:
 
-sx_2022_04_29
-
-sx_2020_11_25
+- sx_2022_04_29
+- sx_2020_11_25
 
 The sx prefix presumably stands for SpaceX, while the suffix indicates the release date.
 
 The corresponding U-Boot releases have similar dates:
 
-sx_2022_05_03
-
-sx_2020_11_25
+- sx_2022_05_03
+- sx_2020_11_25
 
 The linuxptp repository also has a release named sx_v2020_08_06, dated close to the earlier releases above.
 
 Analysis of the newer kernel release, sx_2022_04_29, indicates that the modem is named Catson, and SpaceX's modifications are based on Linux kernel version 5.10.90.
 
-3. What have reverse engineers discovered?
+3 . What have reverse engineers discovered?
 
 There have been three notable rounds of publicly available reverse engineering of the firmware  running on Starlink terminals.
 
-3.1 KU Leuven researchers, 2021
+3 . 1 KU Leuven researchers, 2021
 
 In 2021, researchers at KU Leuven in Belgium published reverse-engineering findings for the U-Boot bootloader and Linux in the first- or second-generation circular Starlink terminal.
 
@@ -83,7 +76,7 @@ The Linux kernel image was created on:
 
 This timestamp falls between the two SpaceX kernel releases, sx_2020_11_25 and sx_2022_04_29. The exact kernel version was not identified.
 
-3.2 Quarkslab, 2023
+3 . 2 Quarkslab, 2023
 
 In 2023, Quarkslab published firmware reverse-engineering findings covering the V2 circular terminal and the V3 rectangular terminal.
 
@@ -91,7 +84,7 @@ Their analysis identified the Linux kernel in the firmware as version 5.15.55, w
 
 This shows that by 2023, researchers had already identified a substantial gap between SpaceX's publicly released kernel source and the newer kernel version found in actual terminal firmware.
 
-3.3 Starlink-Research, late 2024
+3 . 3 Starlink-Research, late 2024
 
 The most recent firmware reverse-engineering findings discussed here were published by the GitHub account Starlink-Research in late 2024. They targeted the V4 terminal.
 
@@ -113,7 +106,7 @@ The Starlink V4 kernel was built in June 2024, before Linux 6.12 was released. I
 
 If future Starlink terminals use Linux 6.12 or a newer kernel, they may no longer need a separate PREEMPT_RT patch set to obtain the functionality incorporated into the mainline kernel. Because the exact configuration and enabled features will be in the kernel natively.
 
-4. An interesting detail: Catapult
+4 . An interesting detail: Catapult
 
 By the way, the well-known engineer Oleg discovered a modem named Catapult in the Starlink firmware. It appears to be a newer modem generation than Catson.
 
