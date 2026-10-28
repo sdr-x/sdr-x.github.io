@@ -188,7 +188,7 @@ The aircraft’s IP address changes during flight. Some higher-layer network app
 
 The external internet independently determines the route to the PoP. Because traffic travels through networks outside Starlink’s control, Starlink has less control over the resulting latency and quality of service.
 
-8. Third Generation: Fixed IP, Efficient Routing
+8 . Third Generation: Fixed IP, Efficient Routing
 
 The third-generation solution retains the second generation’s main advantage—avoiding unnecessary detours—while addressing both of its major drawbacks.
 
