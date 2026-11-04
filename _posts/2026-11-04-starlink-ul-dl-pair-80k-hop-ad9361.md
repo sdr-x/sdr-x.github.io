@@ -67,13 +67,15 @@ During ten minutes of visual observation, I did not observe a single instance in
 
 ![](../media/starlink-ul-dl-pair-log5.png)
 
-[1] https://sdr-x.github.io/starlink-UL-channel-switch/
+[1] [Measure Starlink Channel Switching: 10,000-Hop/s Fast-Frequency Measurements by AD9361](https://sdr-x.github.io/starlink-UL-channel-switch/)
 
-[2] https://sdr-x.github.io/starlink-UL-cold-start/
+[2] [Starlink Terminal Cold-Start RF Emission Behavior Fingerprinting](https://sdr-x.github.io/starlink-UL-cold-start/)
 
-[3] https://sdr-x.github.io/starlink-rx-lo-scan-leakage/
+[Faster Than You Think! Starlink Channel and Satellite Switching](https://sdr-x.github.io/starlink-UL-SAT-ch-switch/)
 
-[4] https://sdr-x.github.io/starlink-dl-scan-reboot/
+[3] [Starlink Terminal Local Oscillator Leakage Reveals Rx Scanning and Further RF Calibration Discussion](https://sdr-x.github.io/starlink-rx-lo-scan-leakage/)
+
+[4] [With Satellites Blocked, the Starlink Terminal Keeps Searching for the Network and Reboots Periodically](https://sdr-x.github.io/starlink-dl-scan-reboot/)
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
