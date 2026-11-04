@@ -7,6 +7,19 @@ categories: starlink
 tags:  Starlink Leakage Lo-Leakage Uplink Signal Finger-Print Software-Defined-Radio SDR FPGA AD9361 Fast-Frequency-Hopping LNB Satellite-TV
 ---
 
+80,000 channel hops per second with hardware-controlled AD9361 frequency hopping
+
+I replaced the previous software-controlled AD9361 frequency-hopping implementation, which achieved 10,000 hops per second [1,2], with hardware-controlled hopping, enabling measurements 
+at 80,000 hops per second.
+
+The AD9361 measurement system channel is switched every 12.5 µs, allowing all eight Starlink channels to be scanned in just 100 µs.
+
+Although the AD9361 datasheet specifies a channel-switching settling time of 20–30 µs, my measurements show that 10 µs is sufficient for stable in-band energy measurements (not checking the 
+signal quality, EVM, SNR etc.). The remaining 2.5 µs is used for energy integration.
+
+The new hardware-controlled frequency-hopping system successfully reproduced the RF behavior previously observed using software-controlled hopping [1,2,3,4], 
+further strengthening confidence in the validity of these Starlink terminal measurement experiments.
+
 Using two SDRs and two LNBs to simultaneously measure Starlink terminal transmissions [1,2] and receiver LO leakage [3,4], I confirmed that, during normal operation, 
 the terminal consistently selects the same channel number for both uplink and downlink. In other words, the uplink and downlink channels are paired via choosing the same channel number 
 (TDD switching between UL and DL), even though their center frequencies are different (FDD).
@@ -27,19 +40,6 @@ Such a narrow beam should, in principle, have a low probability of interception.
 in multiple directions (side lobe or Spurious emission?), including behind the antenna, at distances of several meters, using nothing more than an ordinary satellite TV LNB.
 
 These observations may provide a basis for estimating the off-axis RF (Tx signal and Rx LO Leakage) power level of an ordinary consumer Starlink terminal through link-budget calculations.
-
-80,000 channel hops per second with hardware-controlled AD9361 frequency hopping
-
-I replaced the previous software-controlled AD9361 frequency-hopping implementation, which achieved 10,000 hops per second [1,2], with hardware-controlled hopping, enabling measurements 
-at 80,000 hops per second.
-
-The AD9361 measurement system channel is switched every 12.5 µs, allowing all eight Starlink channels to be scanned in just 100 µs.
-
-Although the AD9361 datasheet specifies a channel-switching settling time of 20–30 µs, my measurements show that 10 µs is sufficient for stable in-band energy measurements (not checking the 
-signal quality, EVM, SNR etc.). The remaining 2.5 µs is used for energy integration.
-
-The new hardware-controlled frequency-hopping system successfully reproduced the RF behavior previously observed using software-controlled hopping [1,2,3,4], 
-further strengthening confidence in the validity of these Starlink terminal measurement experiments.
 
 Real-time visualization
 
