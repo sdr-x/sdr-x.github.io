@@ -21,7 +21,7 @@ The new hardware-controlled frequency-hopping system successfully reproduced the
 further strengthening confidence in the validity of these Starlink terminal measurement experiments.
 
 Using two SDRs and two LNBs to simultaneously measure Starlink terminal transmissions [1,2] and receiver LO leakage [3,4], I confirmed that, during normal operation, 
-the terminal consistently selects the same channel number for both uplink and downlink. In other words, the uplink and downlink channels are paired via choosing the same channel number 
+the terminal consistently selects the same channel number for both uplink and downlink. After channel switching (like every N*15s), UL and DL choose the (new) same channel number together. In other words, the uplink and downlink channels are paired via choosing the same channel number 
 (TDD switching between UL and DL), even though their center frequencies are different (FDD).
 
 Starlink downlink channel numbers 0–7 correspond to eight 500 MHz channels spanning 10.7–12.7 GHz. 
