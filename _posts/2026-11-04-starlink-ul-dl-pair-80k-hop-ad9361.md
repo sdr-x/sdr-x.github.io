@@ -1,7 +1,7 @@
 ---
 date: 2026-11-04 00:04:00
 layout: post
-title: "Starlink Terminal Uplink/Downlink Channel Pairing Confirmed (80,000 Hops per Second Using AD9361) — and Surprisingly Big RF Radiation"
+title: "80,000 Hops per Second AD9361 Measurement Confirm Starlink Terminal Uplink/Downlink Channel Pairing — and Surprisingly Big RF Radiation"
 thread: 2026110485
 categories: starlink
 tags:  Starlink Leakage Lo-Leakage Uplink Signal Finger-Print Software-Defined-Radio SDR FPGA AD9361 Fast-Frequency-Hopping LNB Satellite-TV
