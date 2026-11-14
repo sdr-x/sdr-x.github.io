@@ -77,9 +77,7 @@ The patent includes the following architecture diagrams.
 ![](../media/starlink-nzif-patent-3.png)
 
 Interestingly, while studying the Starlink terminal's uplink signals, I also observed that the DC spikes near the carrier frequency do not overlap:
-"DC spikes appear at slightly different locations in the figure."
-
-Reference: https://sdr-x.github.io/starlink4/
+"DC spikes appear at slightly different locations in the figure." (https://sdr-x.github.io/starlink4/)
 
 This gives us reason to suspect that Starlink user terminals employ a similar design.
 
